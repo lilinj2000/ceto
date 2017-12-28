@@ -1,0 +1,33 @@
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ mkdir -p build
++ cd build
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
++ cmake -DCMAKE_INSTALL_PREFIX=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson ..
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+-- No Doxygen found. Documentation won't be built
+-- Could NOT find GTestSrc (missing:  GTEST_SOURCE_DIR GTEST_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/jenkins/data/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ/build
++ make
+[  5%] Built target capitalize
+[ 11%] Built target condense
+[ 17%] Built target tutorial
+[ 23%] Built target filterkeydom
+[ 29%] Built target jsonx
+[ 35%] Built target filterkey
+[ 41%] Built target lookaheadparser
+[ 47%] Built target messagereader
+[ 52%] Built target parsebyparts
+[ 58%] Built target pretty
+[ 64%] Built target prettyauto
+[ 70%] Built target schemavalidator
+[ 76%] Built target serialize
+[ 82%] Built target simpledom
+[ 88%] Built target simplereader
+[ 94%] Built target simplepullreader
+[100%] Built target simplewriter
+[100%] Built target examples

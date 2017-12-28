@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  sonarqube:
+     image: sonarqube:6.7
+     ports:
+      - "32772:9000"
+     environment:
+      - SONARQUBE_JDBC_USERNAME=sonar
+      - SONARQUBE_JDBC_PASSWORD=sonar
+      - SONARQUBE_JDBC_URL=jdbc:mysql://db:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance&useSSL=false
+     volumes:
+      - ./sonarqube/data:/opt/sonarqube/data
+      - ./sonarqube/plugins:/opt/sonarqube/extensions/plugins
+      - ./sonarqube/temp:/opt/sonarqube/temp
+     links:
+      - db
+
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=sonar
+      - TZ=Asia/Shanghai
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+  jenkins:
+    image: lilinj2000/dev:centos6
+    volumes:
+      - ./jenkins:/opt/jenkins/data
+    ports:
+      - "32770:8080"
+    command: java -jar /opt/jenkins/jenkins.war
+    links:
+      - sonarqube
+
+
+
+
+

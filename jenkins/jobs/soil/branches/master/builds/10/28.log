@@ -1,0 +1,33 @@
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
++ make check
+Making check in soil
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+Making check in libs
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+Making check in utest
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  unittest
+make[2]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: `unittest' is up to date.
+make[2]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  check-TESTS
+make[2]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/.libs/lt-unittest: error while loading shared libraries: libboost_filesystem.so.1.58.0: cannot open shared object file: No such file or directory
+FAIL: unittest.sh
+=====================================
+1 of 1 test failed
+Please report to lilinj2000@gmail.com
+=====================================
+make[2]: *** [check-TESTS] Error 1
+make[2]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[1]: *** [check-am] Error 2
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make: *** [check-recursive] Error 1

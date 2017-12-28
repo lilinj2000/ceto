@@ -1,0 +1,171 @@
+[boost_1_58_0_master-7LKKWBGSO4USJ7QUMH3ECSJUSX6OGASR7HC47BL6SVNRCSTZZBIA] Running shell script
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ ./bootstrap.sh --prefix=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/boost
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr/local
+Unicode/ICU support for Boost.Regex?... not found.
+Backing up existing Boost.Build configuration in project-config.jam.1
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
++ ./b2 cxxflags=-std=c++11
+Performing configuration checks
+
+    - 32-bit                   : no  (cached)
+    - 64-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+
+Building the Boost C++ Libraries.
+
+
+    - lockfree boost::atomic_flag : yes (cached)
+    - has_icu builds           : no  (cached)
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : yes (cached)
+    - iconv (libc)             : yes (cached)
+    - icu                      : no  (cached)
+    - icu (lib64)              : no  (cached)
+    - compiler-supports-ssse3  : yes (cached)
+    - compiler-supports-avx2   : yes (cached)
+    - gcc visibility           : yes (cached)
+    - long double support      : yes (cached)
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - zlib                     : yes (cached)
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - signals                  : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 11830 targets...
+...updating 11 targets...
+gcc.compile.c++ bin.v2/libs/context/build/gcc-4.8.2/release/threading-multi/execution_context.o
+In file included from libs/context/src/execution_context.cpp:11:0:
+./boost/context/execution_context.hpp:202:52: error: 'std::index_sequence' has not been declared
+                                               std::index_sequence< I ... >) {
+                                                    ^
+./boost/context/execution_context.hpp:202:66: error: expected ',' or '...' before '<' token
+                                               std::index_sequence< I ... >) {
+                                                                  ^
+./boost/context/execution_context.hpp:219:52: error: 'std::index_sequence' has not been declared
+                                               std::index_sequence< I ... >) {
+                                                    ^
+./boost/context/execution_context.hpp:219:66: error: expected ',' or '...' before '<' token
+                                               std::index_sequence< I ... >) {
+                                                                  ^
+./boost/context/execution_context.hpp: In constructor 'boost::context::execution_context::execution_context(StackAlloc, Fn&&, Args&& ...)':
+./boost/context/execution_context.hpp:267:39: error: 'index_sequence_for' is not a member of 'std'
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                       ^
+./boost/context/execution_context.hpp:267:69: error: expected primary-expression before '...' token
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                                                     ^
+./boost/context/execution_context.hpp: In constructor 'boost::context::execution_context::execution_context(boost::context::preallocated, StackAlloc, Fn&&, Args&& ...)':
+./boost/context/execution_context.hpp:275:39: error: 'index_sequence_for' is not a member of 'std'
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                       ^
+./boost/context/execution_context.hpp:275:69: error: expected primary-expression before '...' token
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                                                     ^
+
+    "g++"  -ftemplate-depth-128 -O3 -finline-functions -Wno-inline -Wall -pthread -fPIC -m64 -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_CHRONO_DYN_LINK=1 -DBOOST_CONTEXT_DYN_LINK=1 -DBOOST_CONTEXT_SOURCE -DBOOST_SYSTEM_DYN_LINK=1 -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_THREAD_BUILD_DLL=1 -DBOOST_THREAD_POSIX -DBOOST_THREAD_USE_DLL=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/context/build/gcc-4.8.2/release/threading-multi/execution_context.o" "libs/context/src/execution_context.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/context/build/gcc-4.8.2/release/threading-multi/execution_context.o...
+...skipped <pbin.v2/libs/context/build/gcc-4.8.2/release/threading-multi>libboost_context.so.1.58.0 for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/threading-multi>execution_context.o...
+...skipped <pstage/lib>libboost_context.so.1.58.0 for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/threading-multi>libboost_context.so.1.58.0...
+...skipped <pstage/lib>libboost_context.so for lack of <pstage/lib>libboost_context.so.1.58.0...
+...skipped <pbin.v2/libs/coroutine/build/gcc-4.8.2/release/threading-multi>libboost_coroutine.so.1.58.0 for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/threading-multi>libboost_context.so.1.58.0...
+...skipped <pstage/lib>libboost_coroutine.so.1.58.0 for lack of <pbin.v2/libs/coroutine/build/gcc-4.8.2/release/threading-multi>libboost_coroutine.so.1.58.0...
+...skipped <pstage/lib>libboost_coroutine.so for lack of <pstage/lib>libboost_coroutine.so.1.58.0...
+gcc.compile.c++ bin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi/execution_context.o
+In file included from libs/context/src/execution_context.cpp:11:0:
+./boost/context/execution_context.hpp:202:52: error: 'std::index_sequence' has not been declared
+                                               std::index_sequence< I ... >) {
+                                                    ^
+./boost/context/execution_context.hpp:202:66: error: expected ',' or '...' before '<' token
+                                               std::index_sequence< I ... >) {
+                                                                  ^
+./boost/context/execution_context.hpp:219:52: error: 'std::index_sequence' has not been declared
+                                               std::index_sequence< I ... >) {
+                                                    ^
+./boost/context/execution_context.hpp:219:66: error: expected ',' or '...' before '<' token
+                                               std::index_sequence< I ... >) {
+                                                                  ^
+./boost/context/execution_context.hpp: In constructor 'boost::context::execution_context::execution_context(StackAlloc, Fn&&, Args&& ...)':
+./boost/context/execution_context.hpp:267:39: error: 'index_sequence_for' is not a member of 'std'
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                       ^
+./boost/context/execution_context.hpp:267:69: error: expected primary-expression before '...' token
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                                                     ^
+./boost/context/execution_context.hpp: In constructor 'boost::context::execution_context::execution_context(boost::context::preallocated, StackAlloc, Fn&&, Args&& ...)':
+./boost/context/execution_context.hpp:275:39: error: 'index_sequence_for' is not a member of 'std'
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                       ^
+./boost/context/execution_context.hpp:275:69: error: expected primary-expression before '...' token
+                                       std::index_sequence_for< Args ... >() ) ) {
+                                                                     ^
+
+    "g++"  -ftemplate-depth-128 -O3 -finline-functions -Wno-inline -Wall -pthread -m64 -std=c++11 -DBOOST_ALL_NO_LIB=1 -DBOOST_CHRONO_STATIC_LINK=1 -DBOOST_CONTEXT_SOURCE -DBOOST_SYSTEM_NO_DEPRECATED -DBOOST_SYSTEM_STATIC_LINK=1 -DBOOST_THREAD_BUILD_LIB=1 -DBOOST_THREAD_POSIX -DBOOST_THREAD_USE_LIB=1 -DNDEBUG  -I"." -c -o "bin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi/execution_context.o" "libs/context/src/execution_context.cpp"
+
+...failed gcc.compile.c++ bin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi/execution_context.o...
+...skipped <pbin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi>libboost_context.a(clean) for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi>execution_context.o...
+...skipped <pbin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi>libboost_context.a for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi>execution_context.o...
+...skipped <pstage/lib>libboost_context.a for lack of <pbin.v2/libs/context/build/gcc-4.8.2/release/link-static/threading-multi>libboost_context.a...
+...failed updating 2 targets...
+...skipped 9 targets...

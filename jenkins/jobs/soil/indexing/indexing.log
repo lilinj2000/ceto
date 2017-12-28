@@ -1,0 +1,23 @@
+Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[Tue Dec 26 17:09:05 CST 2017] Starting branch indexing...
+[8mha:////4EpZs//lm2PSgTSA3G/xbaSm7D1ESM7Q3N5y9oebriFIAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCJFGlKAC84rGZjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[8mha:////4CO19P/ecrh5od+3euqBrtLQJKw+nw5fSFJwi4Rs6juAAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCJFHVCQDVX0GtjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Examining [8mha:////4CEGbjx07ULlU9kDTii/ifVN2jplHUWxAjPKITP3UOwPAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+cn5kDAFsQruSnAAAA[0mlilinj2000/soil
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4FuLl9hxTDHn+5nqLU5Hhz7hFQ82wnyWkSIOzLRlv4aUAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQyygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+cn5mjX1KUmqqfm1hckloEAMq4gkizAAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Takeover for [8mha:////4KeSsTnljcA0TNDaIWGugvNUFJyEv4RYeQSl3JWojrd8AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZR/az8JP3i/MwcMCM3sbgktUgfAA9r6zfKAAAA[0msoil » master by source #1 from source that no longer exists
+Branch reopened: master (39627a06692da9d496c3f7afa18c348d3d55c8c1)
+Scheduled build for branch: master
+
+  1 branches were processed
+
+Finished examining lilinj2000/soil
+
+[Tue Dec 26 17:09:08 CST 2017] Finished branch indexing. Indexing took 3 sec
+Finished: SUCCESS

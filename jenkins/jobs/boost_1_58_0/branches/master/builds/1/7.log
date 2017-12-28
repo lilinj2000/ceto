@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/boost_1_58_0.git
+ > git init /opt/jenkins/data/workspace/boost_1_58_0_master-7LKKWBGSO4USJ7QUMH3ECSJUSX6OGASR7HC47BL6SVNRCSTZZBIA # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/boost_1_58_0.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/boost_1_58_0.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/boost_1_58_0.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/boost_1_58_0.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/boost_1_58_0.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/boost_1_58_0.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 98b1b9c5e8b08ca20fcf42fc14cf55c09e4258e8 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 98b1b9c5e8b08ca20fcf42fc14cf55c09e4258e8
+Commit message: "Added Jenkinsfile"
+First time build. Skipping changelog.

@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/fmt.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/fmt.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision b9de9ccb408a580e78d7ad19ce9376df447e706d (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b9de9ccb408a580e78d7ad19ce9376df447e706d
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 25030110a02d14a771495bb5d3b9eb9bfedd83ba # timeout=10

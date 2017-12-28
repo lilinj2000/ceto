@@ -1,0 +1,51 @@
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ mkdir -p build
++ cd build
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
++ cmake -DCMAKE_INSTALL_PREFIX=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/googletest ..
+-- The C compiler identification is GNU 4.8.2
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working C compiler: /opt/rh/devtoolset-2/root/usr/bin/cc
+-- Check for working C compiler: /opt/rh/devtoolset-2/root/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /opt/rh/devtoolset-2/root/usr/bin/c++
+-- Check for working CXX compiler: /opt/rh/devtoolset-2/root/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Found PythonInterp: /usr/local/bin/python (found version "2.7.14") 
+-- Looking for include file pthread.h
+-- Looking for include file pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /opt/jenkins/data/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ/build
++ make
+Scanning dependencies of target gmock
+[ 14%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+[ 28%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+Linking CXX static library libgmock.a
+[ 28%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 42%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+[ 57%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+[ 71%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+Linking CXX static library libgmock_main.a
+[ 71%] Built target gmock_main
+Scanning dependencies of target gtest
+[ 85%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Linking CXX static library libgtest.a
+[ 85%] Built target gtest
+Scanning dependencies of target gtest_main
+[100%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Linking CXX static library libgtest_main.a
+[100%] Built target gtest_main

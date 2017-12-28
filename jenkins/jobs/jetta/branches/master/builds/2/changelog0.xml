@@ -1,0 +1,11 @@
+commit bdd6660382ce8715d5c64769a3dc63d139b8f985
+tree 5ecd658b501e0cbf1af13cc28ccd259935767026
+parent 267c4046a1a9c2eacd0bef219ee1827f73e70bd7
+author lilinj2000 <lilinj2000@gmail.com> 2017-12-27 14:05:05 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2017-12-27 14:05:05 +0800
+
+    Added Jenkinsfile
+
+
+
+:100644 100644 3f9d61d42f4f2b7dd386275a770364507f3aaccf f41ec61f2d45517a83a05a66af01f10461019db1 M	Jenkinsfile

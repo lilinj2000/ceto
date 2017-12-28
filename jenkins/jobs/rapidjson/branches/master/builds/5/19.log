@@ -1,0 +1,3 @@
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ make install
+make: *** No rule to make target `install'.  Stop.

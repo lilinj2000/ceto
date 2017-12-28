@@ -1,0 +1,48 @@
+[boost_1_58_0_master-7LKKWBGSO4USJ7QUMH3ECSJUSX6OGASR7HC47BL6SVNRCSTZZBIA] Running shell script
+++ uname -sr
+++ sed '--e=s/ /\//'
++ kernel=Linux/3.10.0-327.el7.x86_64
++ ./bootstrap.sh --prefix=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/boost
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr/local
+Unicode/ICU support for Boost.Regex?... not found.
+Backing up existing Boost.Build configuration in project-config.jam.2
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
++ ./b2 cxxflags=-std=c++11 -DBOOST_NO_CXX14_INTEGER_SEQUENCE
+Invalid option: -D
+
+usage: ./b2 [ options ] targets...
+
+-a      Build all targets, even if they are current.
+-dx     Set the debug level to x (0-9).
+-fx     Read x instead of Jambase.
+-jx     Run up to x shell commands concurrently.
+-lx     Limit actions to x number of seconds after which they are stopped.
+-mx     Maximum target output saved (kb), default is to save all output.
+-n      Don't actually execute the updating actions.
+-ox     Write the updating actions to file x.
+-px     x=0, pipes action stdout and stderr merged into action output.
+-q      Quit quickly as soon as a target fails.
+-sx=y   Set variable x=y, overriding environment.
+-tx     Rebuild x, even if it is up-to-date.
+-v      Print the version of jam and exit.
+--x     Option is ignored.
+

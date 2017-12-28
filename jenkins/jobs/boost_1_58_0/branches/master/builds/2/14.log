@@ -1,0 +1,6 @@
+[boost_1_58_0_master-7LKKWBGSO4USJ7QUMH3ECSJUSX6OGASR7HC47BL6SVNRCSTZZBIA] Running shell script
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ echo Linux/3.10.0-327.el7.x86_64
+Linux/3.10.0-327.el7.x86_64

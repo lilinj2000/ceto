@@ -1,0 +1,26 @@
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ make check
+Making check in soil
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+Making check in libs
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+Making check in utest
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  unittest
+make[2]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: `unittest' is up to date.
+make[2]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  check-TESTS
+make[2]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+==================
+All 0 tests passed
+==================
+make[2]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[1]: Entering directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[1]: Nothing to be done for `check-am'.
+make[1]: Leaving directory `/opt/jenkins/data/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'

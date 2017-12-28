@@ -1,0 +1,33 @@
+Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[Tue Dec 26 13:10:53 CST 2017] Starting branch indexing...
+[8mha:////4NHReIn4eg6SuvvbU90aq9Fetelrnc3u6GBUXN3NGdYuAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCRGvuLwC8N//MjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[8mha:////4Jb83wbEM6bMDCi1ecbPklQLm43QjF6+ZTLWd98QQnBgAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCRGt+UQBWIJ5/jgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Examining [8mha:////4J5EDfUTRD7J2I5OMn8uVtdP9Fj3sa7RvVW0Z9OdZK2VAAAAqB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQK2HQzCgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+SWVxUWlCSX6SrCwAbUZesrgAAAA==[0mlilinj2000/disruptor--
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4DdwmJBlOeOAyC0UHLjbxXI9Ufulhp/+dBlx9pHID1NdAAAAtx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLGGwyCgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+SWVxUWlCSX6Srq19SlJqqn5ybmJ0abxRvAQDgaPQDvQAAAA==[0mcmake_2_8
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PSbp4/ABId5+0G9AiVZC1388ZPle9P3Q+JQ/E8Ft/8hAAAAsx+LCAAAAAAAAP9djbENwjAQRY8goKdErJBcRJEClIoGpIiGCQKxYgdjW+dzFNZgDWgYgnHYgaB0/Ob/5r3//MDEEyxlqLw1ydkab7VIdjcnSCtzOVgWWf545Xf3jiDaw1QLU7MsYBxIM8yLpmxL1KWp8cikTL3pCBZ/uu3QPxkMGUUAnevHjCGTzM6vEWvFMpx66opa9e/NKk1TrJSn4NhSHCOTEFiJVmjrvkp8FFe7AAAA[0mdevelop
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4FW09sGFq1GnSZQahO+7g7VWbBiaGMreakxt5xwOCZaVAAAAsx+LCAAAAAAAAP9djbENwjAURD9BZABKxAqJIyQoQKloQIpomMAQy3ZwbOv7G4U1WAMahmAcdiAoHdfcNe/d8wOTgDBXsQ7O5mdngzMi3928QKPt5eBIrMrHq7z7dwLJHlIjrCRVwTiiIZhWDb9yZriV7Eiordx0CLM/3XbonwyGjBKAzvcjJVgqIh/WjElNKp56qmVG9+/NoigKVuuA0ZPDLGOEQrCWBxL4BXEuliO6AAAA[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+    Checking branch [8mha:////4J+camneUVNrCuyl3COD/34StPT1HvNGPRmxmwHqF9t0AAAAtx+LCAAAAAAAAP9djbENwjAQRY8gaOgoESskF1FQBKWiASmiYYIAVuzE2Nb5DGEN1oCGIRiHHQhKx2/+b977zw+MPMFchpO3Jjla460WyebmBGllmp1lscwfr/zu3hFEWxhrYSqWBQwDaYZpUZeXEnVpKtwzKVOtWoLZn27d908GfQYRQOu6MWHIJLPzGWKlWIZDR51Rq+69XqRpiiflKTi2FMfIJAReLTWCYmet/gLzFMbYvwAAAA==[0mworker-pool
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  4 branches were processed
+
+Finished examining lilinj2000/disruptor--
+
+[Tue Dec 26 13:10:56 CST 2017] Finished branch indexing. Indexing took 3.1 sec
+Finished: SUCCESS

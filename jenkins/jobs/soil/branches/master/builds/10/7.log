@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/soil.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/soil.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/soil.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 6ca2ccc53e2d43743e90dd3d4cbb11d4be11cf31 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6ca2ccc53e2d43743e90dd3d4cbb11d4be11cf31
+Commit message: "Added Jenkinsfile"
+ > git rev-list --no-walk 33560f30da6c661ff3ba3ee0d38f0957afe400b3 # timeout=10

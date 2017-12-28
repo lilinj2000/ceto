@@ -1,0 +1,10 @@
+[readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
+++ sed '--e=s/ /\//'
+++ uname -sr
++ kernel=Linux/3.10.0-327.el7.x86_64
++ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
++ readerwriterqueue_include=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include
++ mkdir -p /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include
++ cp -av atomicops.h readerwriterqueue.h /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include
+`atomicops.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/atomicops.h'
+`readerwriterqueue.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue.h'

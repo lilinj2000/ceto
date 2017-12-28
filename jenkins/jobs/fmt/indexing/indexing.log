@@ -1,0 +1,54 @@
+Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[Mon Dec 25 18:19:30 CST 2017] Starting branch indexing...
+[8mha:////4LSW2Q7oHXBqGRpL3/xJbxMs8W4pDH7QVfX5QI4FUcipAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRCr75NFQAk2hhXjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+[8mha:////4E2i2Pc1jum+vqVCowv8LF0zukds74rt3LMNoJdDRt4VAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRCr779agCla+GNjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
+Examining [8mha:////4J3acT23FfM6GSFlbsDLzm/AON0Z8AsqKDY06cDArXbwAAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgK2FQzCgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WWwIAQ6seCaYAAAA=[0mlilinj2000/fmt
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4G3p0hb+79mgbesAcccd4X0OpOA++WG1gU6+Jo1YVc4QAAAAqx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLWHQySgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaqp+Yk5OfDABnlhIDsQAAAA==[0malloc
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4DlG2r5KSwD+kQ5XVDwMLUh0chqCjf5oLUewsSKdYq1KAAAArh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGHQzygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaqp+cX5ZalFlSCQAHTtXFtAAAAA==[0mcoverity
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4CNwDgeRKFbO+tXD0bT5+AMxTZwJOSfIaAL9SzZEyW1uAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmHQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaqp9aUQIAyWZaaK8AAAA=[0mext
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4PCgwUgP02GPuOfrA2ntQOqZdgcvX/R7RtoFKV+YJg0RAAAArB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaqp+bWFySWgQAA12NS7IAAAA=[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (25030110a02d14a771495bb5d3b9eb9bfedd83ba → b9de9ccb408a580e78d7ad19ce9376df447e706d)
+Scheduled build for branch: master
+
+    Checking branch [8mha:////4GNYR18dVmKY9wOZ//6PRS+kY8m+M+sT72zinvmPI05SAAAAsh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWEwySgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaql8ANL5ENzk/J78oNQUAJi/O17kAAAA=[0mprint-colored
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4CnJ3IT7oBALS9+47xXymBeDQ6Z9n5lpQNlMxYwPjiRIAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgL2HQyygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaql+UmpOaWJwKAOalIlezAAAA[0mrelease
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4DWKyUgGGKnvhf7neApml8daV6fA5dmnAkW+0lFxbd12AAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmEwyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaql+UmpOaWJyqa6xnAAAuYuFhtwAAAA==[0mrelease-3.0
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4I2nRrNAXandX0fW3bsKMgyUDLLBGjz8jPOdN7A4poijAAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLmEwyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaql+UmpOaWJyqa6JnAACrdK5ktwAAAA==[0mrelease-4.0
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+    Checking branch [8mha:////4HS9yjUcWvhf1RJ3jCQq/LHX1bk+VJ+ZmOEotsqlkzFrAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgLmHQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+WW6JfUpSaql9ckgIAY+bzwa8AAAA=[0mstd
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+
+  9 branches were processed
+
+Finished examining lilinj2000/fmt
+
+[Mon Dec 25 18:19:35 CST 2017] Finished branch indexing. Indexing took 5 sec
+Finished: SUCCESS

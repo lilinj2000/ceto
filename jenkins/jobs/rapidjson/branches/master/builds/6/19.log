@@ -1,0 +1,103 @@
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ cd build
++ make install
+[  5%] Built target capitalize
+[ 11%] Built target condense
+[ 17%] Built target tutorial
+[ 23%] Built target filterkeydom
+[ 29%] Built target filterkey
+[ 35%] Built target jsonx
+[ 41%] Built target lookaheadparser
+[ 47%] Built target messagereader
+[ 52%] Built target parsebyparts
+[ 58%] Built target pretty
+[ 64%] Built target prettyauto
+[ 70%] Built target schemavalidator
+[ 76%] Built target serialize
+[ 82%] Built target simpledom
+[ 88%] Built target simplereader
+[ 94%] Built target simplepullreader
+[100%] Built target simplewriter
+[100%] Built target examples
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /usr/local/lib/pkgconfig/RapidJSON.pc
+-- Up-to-date: /usr/local/share/doc/RapidJSON/readme.md
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/allocators.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/document.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/encodedstream.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/encodings.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/error
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/error/en.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/error/error.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/filereadstream.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/filewritestream.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/fwd.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/biginteger.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/diyfp.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/dtoa.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/ieee754.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/itoa.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/meta.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/pow10.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/regex.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/stack.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/strfunc.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/strtod.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/internal/swap.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/istreamwrapper.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/memorybuffer.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/memorystream.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/msinttypes
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/msinttypes/inttypes.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/msinttypes/stdint.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/ostreamwrapper.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/pointer.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/prettywriter.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/rapidjson.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/reader.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/schema.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/stream.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/stringbuffer.h
+-- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/rapidjson/rapidjson/writer.h
+-- Installing: /usr/local/share/doc/RapidJSON/examples
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/CMakeLists.txt
+-- Installing: /usr/local/share/doc/RapidJSON/examples/capitalize
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/capitalize/capitalize.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/condense
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/condense/condense.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkey
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/filterkey/filterkey.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkeydom
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/filterkeydom/filterkeydom.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/jsonx
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/jsonx/jsonx.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/lookaheadparser
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/lookaheadparser/lookaheadparser.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/messagereader
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/messagereader/messagereader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/parsebyparts
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/parsebyparts/parsebyparts.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/pretty
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/pretty/pretty.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/prettyauto
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/prettyauto/prettyauto.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/schemavalidator
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/schemavalidator/schemavalidator.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/serialize
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/serialize/serialize.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simpledom
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/simpledom/simpledom.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplepullreader
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/simplepullreader/simplepullreader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplereader
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/simplereader/simplereader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplewriter
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/simplewriter/simplewriter.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/tutorial
+-- Up-to-date: /usr/local/share/doc/RapidJSON/examples/tutorial/tutorial.cpp
+-- Installing: /tmp/lib/cmake/RapidJSON/RapidJSONConfig.cmake
+-- Up-to-date: /usr/local/lib/cmake/RapidJSON/RapidJSONConfig.cmake
+-- Up-to-date: /usr/local/lib/cmake/RapidJSON/RapidJSONConfigVersion.cmake

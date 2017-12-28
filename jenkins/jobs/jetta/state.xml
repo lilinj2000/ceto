@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.16">
+  <sourceActions>
+    <entry>
+      <string>a09fa896-0634-4fd1-90c3-42d90f83e887</string>
+      <list>
+        <org.jenkinsci.plugins.github__branch__source.GitHubRepoMetadataAction plugin="github-branch-source@2.3.2"/>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.6">
+          <objectDescription>the example and demo for jenkins</objectDescription>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.3.2">
+          <iconClassName>icon-github-repo</iconClassName>
+          <url>https://github.com/lilinj2000/jetta</url>
+        </org.jenkinsci.plugins.github__branch__source.GitHubLink>
+        <org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch plugin="github-branch-source@2.3.2">
+          <repoOwner>lilinj2000</repoOwner>
+          <repository>jetta</repository>
+          <defaultBranch>master</defaultBranch>
+        </org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>
