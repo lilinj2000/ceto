@@ -1,16 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.42">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepStartNode" plugin="workflow-cps@2.42">
     <parentIds>
       <string>19</string>
     </parentIds>
     <id>20</id>
-    <startId>18</startId>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>home_libs=/var/jenkins_home/dist_pkg/libs/centos6</string>
+            <string>home_app=/var/jenkins_home/dist_pkg/app/centos6</string>
+            <string>home_3rd=/var/jenkins_home/dist_pkg/3rd/centos6</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514265385660</startTime>
+      <startTime>1514544159892</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

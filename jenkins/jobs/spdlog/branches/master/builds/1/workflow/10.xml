@@ -9,7 +9,7 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
@@ -17,7 +17,7 @@
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=master</string>
-            <string>GIT_COMMIT=604ddd2d2edaf3006bc9cadd1722cc23f660f61d</string>
+            <string>GIT_COMMIT=73d4ab4b2dc36d1dd3f8c8d959f05c922e25805f</string>
             <string>GIT_URL=https://github.com/lilinj2000/spdlog.git</string>
           </list>
         </entry>
@@ -25,7 +25,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514264667153</startTime>
+      <startTime>1514544265254</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

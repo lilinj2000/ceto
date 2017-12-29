@@ -9,7 +9,7 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
@@ -21,15 +21,15 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl plugin="workflow-durable-task-step@2.17">
-      <id>6</id>
+      <id>43</id>
     </org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueItemActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
+      <startTime>1514544258615</startTime>
+    </org.jenkinsci.plugins.workflow.actions.TimingAction>
     <org.jenkinsci.plugins.workflow.support.actions.WorkspaceActionImpl>
       <node></node>
-      <path>/opt/jenkins/data/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</path>
+      <path>/var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</path>
       <labels class="sorted-set"/>
     </org.jenkinsci.plugins.workflow.support.actions.WorkspaceActionImpl>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514264660485</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

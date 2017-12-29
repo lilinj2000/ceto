@@ -1,0 +1,21 @@
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[Fri Dec 29 18:01:34 CST 2017] Starting branch indexing...
+[8mha:////4OpS8Zakne9syZRxk4tu2J4UUqOgD7eemBjq9RY2R/BeAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwh0O/gAOlpmQjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4D+vb9MWPi3835atCAgrci+CFjtdTHbohOliYPiDaxKHAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwh3O8wEZF2c9jgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Examining [8mha:////4HMYxVRkuQMZWDnjUbbfz4qI6EZ2dga5YP0FzBIj6/8pAAAAqR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQL2HQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+Un19cEm8Yb2YWbwAAuelp968AAAA=[0mlilinj2000/boost_1_66_0
+
+  Checking branches...
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4L8deWMVRl+BQSCOlt+QBZZh8CU1D8+AavUAORApW2XfAAAAtB+LCAAAAAAAAP9djbENwjAURD9BZABKxAz5hiIFKBUNSBENA0QOWLaDY1v2DwprsAY0DME47EAQHdfcNe/d4w2TGGCuulN0Njs6G50R2fbqRTDanveORF7cn8XNvxJIdpAaYSWpEsZdMATTsuEXjoZbiQcK2sp1H2D2p9v8+iuDX0YJQO+HkRLkisjHFaLUpLp6oFo0enhvlowxrJ2LVC2qPK8YUhACWx5JhA/fIvffuwAAAA==[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+  1 branches were processed
+
+Finished examining lilinj2000/boost_1_66_0
+
+[Fri Dec 29 18:01:36 CST 2017] Finished branch indexing. Indexing took 2.2 sec
+Finished: SUCCESS

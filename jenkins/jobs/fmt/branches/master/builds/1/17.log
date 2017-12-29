@@ -1,0 +1,3 @@
+[fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.

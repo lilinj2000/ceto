@@ -1,0 +1,2001 @@
+[boost_1_66_0_master-OFIYRAACKBC5HUMCQWTLXA264DUPYVW5HCJ3FMF7UPCUQ2LE2RAQ] Running shell script
++ ./bootstrap.sh --prefix=/var/jenkins_home/dist_pkg/3rd/centos6/boost
+Building Boost.Build engine with toolset gcc... tools/build/src/engine/bin.linuxx86_64/b2
+Detecting Python version... 2.7
+Detecting Python root... /usr/local
+Unicode/ICU support for Boost.Regex?... not found.
+Generating Boost.Build configuration in project-config.jam...
+
+Bootstrapping is done. To build, run:
+
+    ./b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+   - Command line help:
+     ./b2 --help
+     
+   - Getting started guide: 
+     http://www.boost.org/more/getting_started/unix-variants.html
+     
+   - Boost.Build documentation:
+     http://www.boost.org/build/doc/html/index.html
+
++ ./b2 cxxflags=-std=c++11
+Performing configuration checks
+
+    - 32-bit                   : no
+    - 64-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : yes
+    - C++11 mutex              : yes
+    - lockfree boost::atomic_flag : yes
+    - Boost.Config Feature Check: cxx11_auto_declarations : yes
+    - Boost.Config Feature Check: cxx11_constexpr : yes
+    - Boost.Config Feature Check: cxx11_defaulted_functions : yes
+    - Boost.Config Feature Check: cxx11_final : yes
+    - Boost.Config Feature Check: cxx11_hdr_mutex : yes
+    - Boost.Config Feature Check: cxx11_hdr_regex : no
+    - Boost.Config Feature Check: cxx11_hdr_tuple : yes
+    - Boost.Config Feature Check: cxx11_lambdas : yes
+    - Boost.Config Feature Check: cxx11_noexcept : yes
+    - Boost.Config Feature Check: cxx11_nullptr : yes
+    - Boost.Config Feature Check: cxx11_rvalue_references : yes
+    - Boost.Config Feature Check: cxx11_template_aliases : yes
+    - Boost.Config Feature Check: cxx11_thread_local : yes
+    - Boost.Config Feature Check: cxx11_variadic_templates : yes
+    - has_icu builds           : no
+warning: Graph library does not contain MPI-based parallel components.
+note: to enable them, add "using mpi ;" to your user-config.jam
+    - zlib                     : yes
+    - bzip2                    : yes
+    - lzma                     : no
+    - iconv (libc)             : yes
+    - icu                      : no
+    - icu (lib64)              : no
+    - native-atomic-int32-supported : yes
+    - native-syslog-supported  : yes
+    - pthread-supports-robust-mutexes : yes
+    - compiler-supports-visibility : yes
+    - compiler-supports-ssse3  : yes
+    - compiler-supports-avx2   : yes
+    - gcc visibility           : yes
+    - long double support      : yes
+warning: skipping optional Message Passing Interface (MPI) library.
+note: to enable MPI support, add "using mpi ;" to user-config.jam.
+note: to suppress this message, pass "--without-mpi" to bjam.
+note: otherwise, you can safely ignore this message.
+    - libbacktrace builds      : no
+    - addr2line builds         : yes
+    - WinDbg builds            : no
+    - WinDbgCached builds      : no
+    - zlib                     : yes
+    - bzip2                    : yes
+    - lzma                     : no
+
+Component configuration:
+
+    - atomic                   : building
+    - chrono                   : building
+    - container                : building
+    - context                  : building
+    - coroutine                : building
+    - date_time                : building
+    - exception                : building
+    - fiber                    : building
+    - filesystem               : building
+    - graph                    : building
+    - graph_parallel           : building
+    - iostreams                : building
+    - locale                   : building
+    - log                      : building
+    - math                     : building
+    - mpi                      : building
+    - program_options          : building
+    - python                   : building
+    - random                   : building
+    - regex                    : building
+    - serialization            : building
+    - signals                  : building
+    - stacktrace               : building
+    - system                   : building
+    - test                     : building
+    - thread                   : building
+    - timer                    : building
+    - type_erasure             : building
+    - wave                     : building
+
+...patience...
+...patience...
+...patience...
+...patience...
+...patience...
+...found 13247 targets...
+...updating 1222 targets...
+gcc.compile.c++ bin.v2/libs/atomic/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lockpool.o
+gcc.link.dll bin.v2/libs/atomic/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_atomic.so.1.66.0
+common.copy stage/lib/libboost_atomic.so.1.66.0
+ln-UNIX stage/lib/libboost_atomic.so
+gcc.compile.c++ bin.v2/libs/system/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/error_code.o
+gcc.link.dll bin.v2/libs/system/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_system.so.1.66.0
+common.copy stage/lib/libboost_system.so.1.66.0
+ln-UNIX stage/lib/libboost_system.so
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/chrono.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/thread_clock.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/process_cpu_clocks.o
+gcc.link.dll bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_chrono.so.1.66.0
+common.copy stage/lib/libboost_chrono.so.1.66.0
+ln-UNIX stage/lib/libboost_chrono.so
+gcc.compile.c bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/alloc_lib.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dlmalloc.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/global_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/monotonic_buffer_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/synchronized_pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unsynchronized_pool_resource.o
+gcc.link.dll bin.v2/libs/container/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_container.so.1.66.0
+common.copy stage/lib/libboost_container.so.1.66.0
+ln-UNIX stage/lib/libboost_container.so
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asm/make_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asm/jump_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asm/ontop_x86_64_sysv_elf_gas.o
+gcc.compile.c++ bin.v2/libs/context/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/stack_traits.o
+gcc.link.dll bin.v2/libs/context/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_context.so.1.66.0
+common.copy stage/lib/libboost_context.so.1.66.0
+ln-UNIX stage/lib/libboost_context.so
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/pthread/thread.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/pthread/once.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/future.o
+gcc.link.dll bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_thread.so.1.66.0
+common.copy stage/lib/libboost_thread.so.1.66.0
+ln-UNIX stage/lib/libboost_thread.so
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/detail/coroutine_context.o
+In file included from ./boost/coroutine/detail/coroutine_context.hpp:16:0,
+                 from libs/coroutine/src/detail/coroutine_context.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/exceptions.o
+In file included from ./boost/coroutine/exceptions.hpp:19:0,
+                 from libs/coroutine/src/exceptions.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/stack_traits.o
+In file included from ./boost/coroutine/stack_traits.hpp:14:0,
+                 from libs/coroutine/src/posix/stack_traits.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.link.dll bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_coroutine.so.1.66.0
+common.copy stage/lib/libboost_coroutine.so.1.66.0
+ln-UNIX stage/lib/libboost_coroutine.so
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/gregorian/greg_month.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/gregorian/greg_weekday.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/gregorian/date_generators.o
+gcc.link.dll bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_date_time.so.1.66.0
+common.copy stage/lib/libboost_date_time.so.1.66.0
+ln-UNIX stage/lib/libboost_date_time.so
+...on 100th target...
+gcc.compile.c++ bin.v2/libs/exception/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/clone_current_exception_non_intrusive.o
+gcc.archive bin.v2/libs/exception/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_exception.a
+common.copy stage/lib/libboost_exception.a
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/codecvt_error_category.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/operations.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/path_traits.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/portability.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unique_path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/windows_file_codecvt.o
+gcc.link.dll bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_filesystem.so.1.66.0
+common.copy stage/lib/libboost_filesystem.so.1.66.0
+ln-UNIX stage/lib/libboost_filesystem.so
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/c_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cpp_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cregex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fileiter.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/icu.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/regex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/regex_debug.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/regex_raw_buffer.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/regex_traits_defaults.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/static_mutex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/w32_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/wc_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/wide_posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/winstances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/usinstances.o
+gcc.link.dll bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_regex.so.1.66.0
+common.copy stage/lib/libboost_regex.so.1.66.0
+ln-UNIX stage/lib/libboost_regex.so
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/read_graphviz_new.o
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/graphml.o
+gcc.link.dll bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_graph.so.1.66.0
+common.copy stage/lib/libboost_graph.so.1.66.0
+ln-UNIX stage/lib/libboost_graph.so
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/file_descriptor.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/mapped_file.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/bzip2.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/gzip.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/zlib.o
+gcc.link.dll bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_iostreams.so.1.66.0
+common.copy stage/lib/libboost_iostreams.so.1.66.0
+ln-UNIX stage/lib/libboost_iostreams.so
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/encoding/codepage.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/date_time.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/format.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/formatting.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/generator.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/ids.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/localization_backend.o
+libs/locale/src/shared/localization_backend.cpp: In member function 'std::auto_ptr<boost::locale::localization_backend> boost::locale::localization_backend_manager::impl::get() const':
+libs/locale/src/shared/localization_backend.cpp:54:56: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                 std::auto_ptr<localization_backend> res(new actual_backend(backends,default_backends_));
+                                                        ^
+libs/locale/src/shared/localization_backend.cpp: At global scope:
+libs/locale/src/shared/localization_backend.cpp:181:81: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<localization_backend> localization_backend_manager::get() const
+                                                                                 ^
+libs/locale/src/shared/localization_backend.cpp:186:123: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         void localization_backend_manager::add_backend(std::string const &name,std::auto_ptr<localization_backend> backend)
+                                                                                                                           ^
+libs/locale/src/shared/localization_backend.cpp: In constructor 'boost::locale::{anonymous}::init::init()':
+libs/locale/src/shared/localization_backend.cpp:220:57: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                     std::auto_ptr<localization_backend> backend;
+                                                         ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/message.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/shared/mo_lambda.o
+libs/locale/src/shared/mo_lambda.cpp:42:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         binary(plural_ptr p1,plural_ptr p2) :
+                                           ^
+libs/locale/src/shared/mo_lambda.cpp:42:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:128:5: note: in expansion of macro 'UNOP'
+     UNOP(l_not,!)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:129:5: note: in expansion of macro 'UNOP'
+     UNOP(minus,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:130:5: note: in expansion of macro 'UNOP'
+     UNOP(bin_not,~)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:132:5: note: in expansion of macro 'BINOP'
+     BINOP(mul,*)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:132:5: note: in expansion of macro 'BINOP'
+     BINOP(mul,*)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:133:5: note: in expansion of macro 'BINOPD'
+     BINOPD(div,/)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:133:5: note: in expansion of macro 'BINOPD'
+     BINOPD(div,/)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:134:5: note: in expansion of macro 'BINOPD'
+     BINOPD(mod,%)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:134:5: note: in expansion of macro 'BINOPD'
+     BINOPD(mod,%)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:137:5: note: in expansion of macro 'BINOP'
+     BINOP(add,+)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:137:5: note: in expansion of macro 'BINOP'
+     BINOP(add,+)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:138:5: note: in expansion of macro 'BINOP'
+     BINOP(sub,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:138:5: note: in expansion of macro 'BINOP'
+     BINOP(sub,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:141:5: note: in expansion of macro 'BINOP'
+     BINOP(shl,<<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:141:5: note: in expansion of macro 'BINOP'
+     BINOP(shl,<<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:142:5: note: in expansion of macro 'BINOP'
+     BINOP(shr,>>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:142:5: note: in expansion of macro 'BINOP'
+     BINOP(shr,>>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:145:5: note: in expansion of macro 'BINOP'
+     BINOP(gt,>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:145:5: note: in expansion of macro 'BINOP'
+     BINOP(gt,>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:146:5: note: in expansion of macro 'BINOP'
+     BINOP(lt,<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:146:5: note: in expansion of macro 'BINOP'
+     BINOP(lt,<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:147:5: note: in expansion of macro 'BINOP'
+     BINOP(gte,>=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:147:5: note: in expansion of macro 'BINOP'
+     BINOP(gte,>=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:148:5: note: in expansion of macro 'BINOP'
+     BINOP(lte,<=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:148:5: note: in expansion of macro 'BINOP'
+     BINOP(lte,<=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:151:5: note: in expansion of macro 'BINOP'
+     BINOP(eq,==)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:151:5: note: in expansion of macro 'BINOP'
+     BINOP(eq,==)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:152:5: note: in expansion of macro 'BINOP'
+     BINOP(neq,!=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:152:5: note: in expansion of macro 'BINOP'
+     BINOP(neq,!=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:155:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_and,&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:155:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_and,&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:158:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_xor,^)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:158:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_xor,^)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:161:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_or,|)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:161:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_or,|)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:164:5: note: in expansion of macro 'BINOP'
+     BINOP(l_and,&&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:164:5: note: in expansion of macro 'BINOP'
+     BINOP(l_and,&&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:167:5: note: in expansion of macro 'BINOP'
+     BINOP(l_or,||)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:167:5: note: in expansion of macro 'BINOP'
+     BINOP(l_or,||)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         conditional(plural_ptr p1,plural_ptr p2,plural_ptr p3) :
+                                                              ^
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:193:70: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     plural_ptr bin_factory(int value,plural_ptr left,plural_ptr right)
+                                                                      ^
+libs/locale/src/shared/mo_lambda.cpp:193:70: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:220:50: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     plural_ptr un_factory(int value,plural_ptr op)
+                                                  ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/util/codecvt_converter.o
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_simple_converter(const string&)':
+libs/locale/src/util/codecvt_converter.cpp:274:39: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res;
+                                       ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:280:57: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     std::auto_ptr<base_converter> create_utf8_converter()
+                                                         ^
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_utf8_converter()':
+libs/locale/src/util/codecvt_converter.cpp:282:42: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res(new utf8_converter());
+                                          ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:290:73: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         code_converter(std::auto_ptr<base_converter> cvt,size_t refs = 0) : 
+                                                                         ^
+libs/locale/src/util/codecvt_converter.cpp:298:47: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         typedef std::auto_ptr<base_converter> state_type;
+                                               ^
+libs/locale/src/util/codecvt_converter.cpp:305:114: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> initial_state(generic_codecvt_base::initial_convertion_state /* unused */) const
+                                                                                                                  ^
+libs/locale/src/util/codecvt_converter.cpp:313:107: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         utf::code_point to_unicode(std::auto_ptr<base_converter> &ptr,char const *&begin,char const *end) const 
+                                                                                                           ^
+libs/locale/src/util/codecvt_converter.cpp:321:120: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         utf::code_point from_unicode(std::auto_ptr<base_converter> &ptr,utf::code_point u,char *begin,char const *end) const
+                                                                                                                        ^
+libs/locale/src/util/codecvt_converter.cpp:330:39: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> cvt_;
+                                       ^
+libs/locale/src/util/codecvt_converter.cpp: In member function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::code_converter<CharType>::initial_state(boost::locale::generic_codecvt_base::initial_convertion_state) const':
+libs/locale/src/util/codecvt_converter.cpp:307:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+             std::auto_ptr<base_converter> r;
+                                           ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:336:113: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type)
+                                                                                                                 ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/util/default_locale.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/util/info.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/util/locale_data.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/codecvt.o
+libs/locale/src/posix/codecvt.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::impl_posix::create_iconv_converter(const string&)':
+libs/locale/src/posix/codecvt.cpp:216:45: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<util::base_converter> cvt;
+                                             ^
+libs/locale/src/posix/codecvt.cpp: In function 'std::locale boost::locale::impl_posix::create_codecvt(const std::locale&, const string&, boost::locale::character_facet_type)':
+libs/locale/src/posix/codecvt.cpp:243:49: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+             std::auto_ptr<util::base_converter> cvt;
+                                                 ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/collate.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/converter.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/numeric.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/posix_backend.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/std/codecvt.o
+...on 200th target...
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/std/collate.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/std/converter.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/std/numeric.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/std/std_backend.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/util/gregorian.o
+libs/locale/src/util/gregorian.cpp: In member function 'virtual int boost::locale::util::gregorian_calendar::difference(const boost::locale::abstract_calendar*, boost::locale::period::marks::period_mark) const':
+libs/locale/src/util/gregorian.cpp:695:51: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                 std::auto_ptr<gregorian_calendar> keeper;
+                                                   ^
+gcc.link.dll bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_locale.so.1.66.0
+common.copy stage/lib/libboost_locale.so.1.66.0
+ln-UNIX stage/lib/libboost_locale.so
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/attribute_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/attribute_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/attribute_value_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/code_conversion.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/core.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/record_ostream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/severity_level.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/global_logger_storage.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/named_scope.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/process_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/process_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/thread_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/timer.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/exceptions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/default_attribute_names.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/default_sink.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_ostream_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_file_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_multifile_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/thread_specific.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/once_block.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/timestamp.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/threadsafe_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/event.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/trivial.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/spirit_encoding.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/date_time_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/named_scope_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unhandled_exception_count.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/permissions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dump.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dump_avx2.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dump_ssse3.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/ipc_reliable_message_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/posix/object_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/syslog_backend.o
+gcc.link.dll bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_log.so.1.66.0
+common.copy stage/lib/libboost_log.so.1.66.0
+ln-UNIX stage/lib/libboost_log.so
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/parser_utils.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/init_from_stream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/init_from_settings.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/settings_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/filter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/formatter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/default_filter_factory.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/matches_relation_factory.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/setup/default_formatter_factory.o
+gcc.link.dll bin.v2/libs/log/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_log_setup.so.1.66.0
+common.copy stage/lib/libboost_log_setup.so.1.66.0
+ln-UNIX stage/lib/libboost_log_setup.so
+gcc.compile.c++.pch bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/../src/tr1/pch.hpp.gch
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/beta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_i.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_j.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_k.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_neumann.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expint.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hermite.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/riemann_zeta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_bessel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_neumann.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_tr1.so.1.66.0
+common.copy stage/lib/libboost_math_tr1.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1.so
+...on 300th target...
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/betaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_if.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_jf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_kf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_neumannf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expintf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hermitef.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/riemann_zetaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_besself.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'T boost::math::detail::cyl_bessel_j_imp(T, T, const bessel_no_int_tag&, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; boost::math::detail::bessel_no_int_tag = mpl_::int_<0>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_neumannf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_tr1f.so.1.66.0
+common.copy stage/lib/libboost_math_tr1f.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1f.so
+gcc.compile.c++ bin.v2/libs/math/config/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/has_long_double_support.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/assoc_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/betal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/comp_ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_il.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_jl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_bessel_kl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cyl_neumannl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expintl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hermitel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/riemann_zetal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_bessell.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/sph_neumannl.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_tr1l.so.1.66.0
+common.copy stage/lib/libboost_math_tr1l.so.1.66.0
+ln-UNIX stage/lib/libboost_math_tr1l.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/acosh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asinh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/atanh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cbrt.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/copysign.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erfc.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expm1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fmax.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fmin.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fpclassify.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hypot.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/llround.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/log1p.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lround.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nextafter.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nexttoward.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/round.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/tgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/trunc.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_c99.so.1.66.0
+common.copy stage/lib/libboost_math_c99.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99.so
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/acoshf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asinhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/atanhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cbrtf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/copysignf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erfcf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erff.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expm1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fmaxf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fminf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fpclassifyf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hypotf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/llroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/log1pf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nextafterf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nexttowardf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/roundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/tgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/truncf.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_c99f.so.1.66.0
+common.copy stage/lib/libboost_math_c99f.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99f.so
+...on 400th target...
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/acoshl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/asinhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/atanhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cbrtl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/copysignl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erfcl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/erfl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/expm1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fmaxl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fminl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/fpclassifyl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/hypotl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/llroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/log1pl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/lroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nextafterl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/nexttowardl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/roundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/tgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/truncl.o
+gcc.link.dll bin.v2/libs/math/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_math_c99l.so.1.66.0
+common.copy stage/lib/libboost_math_c99l.so.1.66.0
+ln-UNIX stage/lib/libboost_math_c99l.so
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/split.o
+gcc.link.dll bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_program_options.so.1.66.0
+common.copy stage/lib/libboost_program_options.so.1.66.0
+ln-UNIX stage/lib/libboost_program_options.so
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/list.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/long.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dict.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/tuple.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/str.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/slice.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/converter/from_python.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/converter/registry.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/converter/type_id.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/enum.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object_core.hpp:10,
+                 from ./boost/python/object/enum_base.hpp:8,
+                 from libs/python/src/object/enum.cpp:6:
+libs/python/src/object/enum.cpp: In function 'boost::python::api::object boost::python::objects::{anonymous}::new_enum_type(const char*, const char*)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/enum.cpp:156:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&enum_type_object) = incref(&PyType_Type);
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/class.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from libs/python/src/object/class.cpp:6:
+libs/python/src/object/class.cpp: In function 'PyObject* boost::python::objects::static_data()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:211:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&static_data_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_metatype()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:319:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_metatype_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_type()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:473:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_type_object) = incref(class_metatype().get());
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/function.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/function.hpp:8,
+                 from ./boost/python/docstring_options.hpp:8,
+                 from libs/python/src/object/function.cpp:6:
+libs/python/src/object/function.cpp: In constructor 'boost::python::objects::function::function(const boost::python::objects::py_function&, const boost::python::detail::keyword*, unsigned int)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:108:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&function_type) == 0)
+         ^
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:110:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&function_type) = &PyType_Type;
+         ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/inheritance.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/life_support.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/life_support.hpp:7,
+                 from libs/python/src/object/life_support.cpp:5:
+libs/python/src/object/life_support.cpp: In function 'PyObject* boost::python::objects::make_nurse_and_patient(PyObject*, PyObject*)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:94:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&life_support_type) == 0)
+         ^
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:96:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&life_support_type) = &PyType_Type;
+         ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/pickle_support.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/errors.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/module.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/converter/builtin_converters.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/converter/arg_to_python_base.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/iterator.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/stl_iterator.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object_protocol.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object_operators.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/wrapper.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/import.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/exec.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/object/function_doc_signature.o
+gcc.link.dll bin.v2/libs/python/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_python.so.1.66.0
+common.copy stage/lib/libboost_python.so.1.66.0
+ln-UNIX stage/lib/libboost_python.so
+gcc.compile.c++ bin.v2/libs/random/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/random_device.o
+gcc.link.dll bin.v2/libs/random/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_random.so.1.66.0
+common.copy stage/lib/libboost_random.so.1.66.0
+ln-UNIX stage/lib/libboost_random.so
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_iarchive.o
+...on 500th target...
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_pointer_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_pointer_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_serializer_map.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_text_iprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_text_oprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_xml_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/binary_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/binary_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/extended_type_info.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/extended_type_info_typeid.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/extended_type_info_no_rtti.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/polymorphic_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/polymorphic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/stl_port.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/void_cast.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_grammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/codecvt_null.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.link.dll bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_serialization.so.1.66.0
+common.copy stage/lib/libboost_serialization.so.1.66.0
+ln-UNIX stage/lib/libboost_serialization.so
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_text_wiprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic_text_woprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/text_woarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_wgrammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_woarchive.o
+In file included from ./boost/archive/impl/xml_woarchive_impl.ipp:41:0,
+                 from libs/serialization/src/xml_woarchive.cpp:28:
+./boost/archive/iterators/wchar_from_mb.hpp: In instantiation of 'void boost::archive::iterators::wchar_from_mb<Base>::drain() [with Base = boost::archive::iterators::xml_escape<const char*>]':
+./boost/archive/iterators/wchar_from_mb.hpp:133:15:   required from 'boost::archive::iterators::wchar_from_mb<Base>::wchar_from_mb(T) [with T = const char*; Base = boost::archive::iterators::xml_escape<const char*>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:61:5:   required from 'void boost::archive::save_iterator(std::wostream&, InputIterator, InputIterator) [with InputIterator = const char*; std::wostream = std::basic_ostream<wchar_t>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:99:43:   required from 'void boost::archive::xml_woarchive_impl<Archive>::save(const char*) [with Archive = boost::archive::xml_woarchive]'
+libs/serialization/src/xml_woarchive.cpp:35:16:   required from here
+./boost/archive/iterators/wchar_from_mb.hpp:168:31: warning: unused variable 'r' [-Wunused-variable]
+     std::codecvt_base::result r = m_codecvt_facet.in(
+                               ^
+gcc.link.dll bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_wserialization.so.1.66.0
+common.copy stage/lib/libboost_wserialization.so.1.66.0
+ln-UNIX stage/lib/libboost_wserialization.so
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/trackable.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/connection.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/named_slot_map.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/signal_base.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/slot.o
+gcc.link.dll bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_signals.so.1.66.0
+common.copy stage/lib/libboost_signals.so.1.66.0
+ln-UNIX stage/lib/libboost_signals.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/noop.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_stacktrace_noop.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_noop.so.1.66.0
+ln-UNIX stage/lib/libboost_stacktrace_noop.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/addr2line.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_stacktrace_addr2line.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_addr2line.so.1.66.0
+ln-UNIX stage/lib/libboost_stacktrace_addr2line.so
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/basic.o
+gcc.link.dll bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_stacktrace_basic.so.1.66.0
+common.copy stage/lib/libboost_stacktrace_basic.so.1.66.0
+ln-UNIX stage/lib/libboost_stacktrace_basic.so
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/auto_timers_construction.o
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cpu_timer.o
+gcc.link.dll bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_timer.so.1.66.0
+common.copy stage/lib/libboost_timer.so.1.66.0
+ln-UNIX stage/lib/libboost_timer.so
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/execution_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/debug.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cpp_main.o
+gcc.link.dll bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_prg_exec_monitor.so.1.66.0
+common.copy stage/lib/libboost_prg_exec_monitor.so.1.66.0
+ln-UNIX stage/lib/libboost_prg_exec_monitor.so
+gcc.compile.c++ bin.v2/libs/system/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/error_code.o
+gcc.archive bin.v2/libs/system/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_system.a
+common.copy stage/lib/libboost_system.a
+...on 600th target...
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/chrono.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/thread_clock.o
+gcc.compile.c++ bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/process_cpu_clocks.o
+gcc.archive bin.v2/libs/chrono/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_chrono.a
+common.copy stage/lib/libboost_chrono.a
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/auto_timers_construction.o
+gcc.compile.c++ bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cpu_timer.o
+gcc.archive bin.v2/libs/timer/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_timer.a
+common.copy stage/lib/libboost_timer.a
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/compiler_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/debug.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/decorator.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/execution_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/framework.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/plain_report_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/progress_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/results_collector.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/results_reporter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/test_framework_init_observer.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/test_tools.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/test_tree.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unit_test_log.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unit_test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unit_test_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unit_test_parameters.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/junit_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_report_formatter.o
+gcc.archive bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_test_exec_monitor.a
+common.copy stage/lib/libboost_test_exec_monitor.a
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/compiler_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/decorator.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/framework.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/plain_report_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/progress_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/results_collector.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/results_reporter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/test_framework_init_observer.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/test_tools.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/test_tree.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unit_test_log.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unit_test_main.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unit_test_monitor.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/unit_test_parameters.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/junit_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_log_formatter.o
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/xml_report_formatter.o
+gcc.link.dll bin.v2/libs/test/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_unit_test_framework.so.1.66.0
+common.copy stage/lib/libboost_unit_test_framework.so.1.66.0
+ln-UNIX stage/lib/libboost_unit_test_framework.so
+gcc.compile.c++ bin.v2/libs/type_erasure/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/dynamic_binding.o
+gcc.link.dll bin.v2/libs/type_erasure/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_type_erasure.so.1.66.0
+common.copy stage/lib/libboost_type_erasure.so.1.66.0
+ln-UNIX stage/lib/libboost_type_erasure.so
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_cpp_exprgrammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_cpp_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_cpp_literalgrs.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_defined_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_predef_macros.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_re2c_lexer.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/instantiate_re2c_lexer_str.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/token_ids.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/wave_config_constant.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cpplexer/re2clex/aq.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/cpplexer/re2clex/cpp_re.o
+gcc.link.dll bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/threadapi-pthread/threading-multi/libboost_wave.so.1.66.0
+common.copy stage/lib/libboost_wave.so.1.66.0
+ln-UNIX stage/lib/libboost_wave.so
+gcc.compile.c++ bin.v2/libs/atomic/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lockpool.o
+gcc.archive bin.v2/libs/atomic/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_atomic.a
+...on 700th target...
+common.copy stage/lib/libboost_atomic.a
+gcc.compile.c bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/alloc_lib.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dlmalloc.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/global_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/monotonic_buffer_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/synchronized_pool_resource.o
+gcc.compile.c++ bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unsynchronized_pool_resource.o
+gcc.archive bin.v2/libs/container/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_container.a
+common.copy stage/lib/libboost_container.a
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asm/make_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asm/jump_x86_64_sysv_elf_gas.o
+gcc.compile.asm bin.v2/libs/context/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asm/ontop_x86_64_sysv_elf_gas.o
+gcc.compile.c++ bin.v2/libs/context/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/stack_traits.o
+gcc.archive bin.v2/libs/context/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_context.a
+common.copy stage/lib/libboost_context.a
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/pthread/thread.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/pthread/once.o
+gcc.compile.c++ bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/future.o
+gcc.archive bin.v2/libs/thread/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_thread.a
+common.copy stage/lib/libboost_thread.a
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/detail/coroutine_context.o
+In file included from ./boost/coroutine/detail/coroutine_context.hpp:16:0,
+                 from libs/coroutine/src/detail/coroutine_context.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/exceptions.o
+In file included from ./boost/coroutine/exceptions.hpp:19:0,
+                 from libs/coroutine/src/exceptions.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.compile.c++ bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/stack_traits.o
+In file included from ./boost/coroutine/stack_traits.hpp:14:0,
+                 from libs/coroutine/src/posix/stack_traits.cpp:7:
+./boost/coroutine/detail/config.hpp:17:4: warning: #warning "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING." [-Wcpp]
+ #  warning                  "Boost.Coroutine is now deprecated. Please switch to Boost.Coroutine2. To disable this warning message, define BOOST_COROUTINES_NO_DEPRECATION_WARNING."
+    ^
+gcc.archive bin.v2/libs/coroutine/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_coroutine.a
+common.copy stage/lib/libboost_coroutine.a
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/gregorian/greg_month.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/gregorian/greg_weekday.o
+gcc.compile.c++ bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/gregorian/date_generators.o
+gcc.archive bin.v2/libs/date_time/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_date_time.a
+common.copy stage/lib/libboost_date_time.a
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/codecvt_error_category.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/operations.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/path_traits.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/portability.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unique_path.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/windows_file_codecvt.o
+gcc.archive bin.v2/libs/filesystem/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_filesystem.a
+common.copy stage/lib/libboost_filesystem.a
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/c_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cpp_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cregex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fileiter.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/icu.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/regex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/regex_debug.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/regex_raw_buffer.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/regex_traits_defaults.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/static_mutex.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/w32_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/wc_regex_traits.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/wide_posix_api.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/winstances.o
+gcc.compile.c++ bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/usinstances.o
+gcc.archive bin.v2/libs/regex/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_regex.a
+common.copy stage/lib/libboost_regex.a
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/read_graphviz_new.o
+gcc.compile.c++ bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/graphml.o
+...on 800th target...
+gcc.archive bin.v2/libs/graph/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_graph.a
+common.copy stage/lib/libboost_graph.a
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/file_descriptor.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/mapped_file.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/bzip2.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/gzip.o
+gcc.compile.c++ bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/zlib.o
+gcc.archive bin.v2/libs/iostreams/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_iostreams.a
+common.copy stage/lib/libboost_iostreams.a
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/encoding/codepage.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/date_time.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/format.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/formatting.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/generator.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/ids.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/localization_backend.o
+libs/locale/src/shared/localization_backend.cpp: In member function 'std::auto_ptr<boost::locale::localization_backend> boost::locale::localization_backend_manager::impl::get() const':
+libs/locale/src/shared/localization_backend.cpp:54:56: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                 std::auto_ptr<localization_backend> res(new actual_backend(backends,default_backends_));
+                                                        ^
+libs/locale/src/shared/localization_backend.cpp: At global scope:
+libs/locale/src/shared/localization_backend.cpp:181:81: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<localization_backend> localization_backend_manager::get() const
+                                                                                 ^
+libs/locale/src/shared/localization_backend.cpp:186:123: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         void localization_backend_manager::add_backend(std::string const &name,std::auto_ptr<localization_backend> backend)
+                                                                                                                           ^
+libs/locale/src/shared/localization_backend.cpp: In constructor 'boost::locale::{anonymous}::init::init()':
+libs/locale/src/shared/localization_backend.cpp:220:57: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                     std::auto_ptr<localization_backend> backend;
+                                                         ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/message.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/shared/mo_lambda.o
+libs/locale/src/shared/mo_lambda.cpp:42:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         binary(plural_ptr p1,plural_ptr p2) :
+                                           ^
+libs/locale/src/shared/mo_lambda.cpp:42:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:128:5: note: in expansion of macro 'UNOP'
+     UNOP(l_not,!)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:129:5: note: in expansion of macro 'UNOP'
+     UNOP(minus,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:72:27: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr op) : unary(op)             \
+                           ^
+libs/locale/src/shared/mo_lambda.cpp:130:5: note: in expansion of macro 'UNOP'
+     UNOP(bin_not,~)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:132:5: note: in expansion of macro 'BINOP'
+     BINOP(mul,*)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:132:5: note: in expansion of macro 'BINOP'
+     BINOP(mul,*)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:133:5: note: in expansion of macro 'BINOPD'
+     BINOPD(div,/)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:133:5: note: in expansion of macro 'BINOPD'
+     BINOPD(div,/)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:134:5: note: in expansion of macro 'BINOPD'
+     BINOPD(mod,%)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:108:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:134:5: note: in expansion of macro 'BINOPD'
+     BINOPD(mod,%)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:137:5: note: in expansion of macro 'BINOP'
+     BINOP(add,+)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:137:5: note: in expansion of macro 'BINOP'
+     BINOP(add,+)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:138:5: note: in expansion of macro 'BINOP'
+     BINOP(sub,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:138:5: note: in expansion of macro 'BINOP'
+     BINOP(sub,-)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:141:5: note: in expansion of macro 'BINOP'
+     BINOP(shl,<<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:141:5: note: in expansion of macro 'BINOP'
+     BINOP(shl,<<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:142:5: note: in expansion of macro 'BINOP'
+     BINOP(shr,>>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:142:5: note: in expansion of macro 'BINOP'
+     BINOP(shr,>>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:145:5: note: in expansion of macro 'BINOP'
+     BINOP(gt,>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:145:5: note: in expansion of macro 'BINOP'
+     BINOP(gt,>)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:146:5: note: in expansion of macro 'BINOP'
+     BINOP(lt,<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:146:5: note: in expansion of macro 'BINOP'
+     BINOP(lt,<)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:147:5: note: in expansion of macro 'BINOP'
+     BINOP(gte,>=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:147:5: note: in expansion of macro 'BINOP'
+     BINOP(gte,>=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:148:5: note: in expansion of macro 'BINOP'
+     BINOP(lte,<=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:148:5: note: in expansion of macro 'BINOP'
+     BINOP(lte,<=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:151:5: note: in expansion of macro 'BINOP'
+     BINOP(eq,==)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:151:5: note: in expansion of macro 'BINOP'
+     BINOP(eq,==)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:152:5: note: in expansion of macro 'BINOP'
+     BINOP(neq,!=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:152:5: note: in expansion of macro 'BINOP'
+     BINOP(neq,!=)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:155:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_and,&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:155:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_and,&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:158:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_xor,^)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:158:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_xor,^)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:161:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_or,|)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:161:5: note: in expansion of macro 'BINOP'
+     BINOP(bin_or,|)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:164:5: note: in expansion of macro 'BINOP'
+     BINOP(l_and,&&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:164:5: note: in expansion of macro 'BINOP'
+     BINOP(l_and,&&)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:167:5: note: in expansion of macro 'BINOP'
+     BINOP(l_or,||)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:89:41: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         name(plural_ptr p1,plural_ptr p2) :         \
+                                         ^
+libs/locale/src/shared/mo_lambda.cpp:167:5: note: in expansion of macro 'BINOP'
+     BINOP(l_or,||)
+     ^
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         conditional(plural_ptr p1,plural_ptr p2,plural_ptr p3) :
+                                                              ^
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:171:62: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:193:70: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     plural_ptr bin_factory(int value,plural_ptr left,plural_ptr right)
+                                                                      ^
+libs/locale/src/shared/mo_lambda.cpp:193:70: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+libs/locale/src/shared/mo_lambda.cpp:220:50: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     plural_ptr un_factory(int value,plural_ptr op)
+                                                  ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/util/codecvt_converter.o
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_simple_converter(const string&)':
+libs/locale/src/util/codecvt_converter.cpp:274:39: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res;
+                                       ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:280:57: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     std::auto_ptr<base_converter> create_utf8_converter()
+                                                         ^
+libs/locale/src/util/codecvt_converter.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::create_utf8_converter()':
+libs/locale/src/util/codecvt_converter.cpp:282:42: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> res(new utf8_converter());
+                                          ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:290:73: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         code_converter(std::auto_ptr<base_converter> cvt,size_t refs = 0) : 
+                                                                         ^
+libs/locale/src/util/codecvt_converter.cpp:298:47: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         typedef std::auto_ptr<base_converter> state_type;
+                                               ^
+libs/locale/src/util/codecvt_converter.cpp:305:114: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> initial_state(generic_codecvt_base::initial_convertion_state /* unused */) const
+                                                                                                                  ^
+libs/locale/src/util/codecvt_converter.cpp:313:107: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         utf::code_point to_unicode(std::auto_ptr<base_converter> &ptr,char const *&begin,char const *end) const 
+                                                                                                           ^
+libs/locale/src/util/codecvt_converter.cpp:321:120: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         utf::code_point from_unicode(std::auto_ptr<base_converter> &ptr,utf::code_point u,char *begin,char const *end) const
+                                                                                                                        ^
+libs/locale/src/util/codecvt_converter.cpp:330:39: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<base_converter> cvt_;
+                                       ^
+libs/locale/src/util/codecvt_converter.cpp: In member function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::util::code_converter<CharType>::initial_state(boost::locale::generic_codecvt_base::initial_convertion_state) const':
+libs/locale/src/util/codecvt_converter.cpp:307:43: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+             std::auto_ptr<base_converter> r;
+                                           ^
+libs/locale/src/util/codecvt_converter.cpp: At global scope:
+libs/locale/src/util/codecvt_converter.cpp:336:113: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+     std::locale create_codecvt(std::locale const &in,std::auto_ptr<base_converter> cvt,character_facet_type type)
+                                                                                                                 ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/util/default_locale.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/util/info.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/util/locale_data.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/codecvt.o
+libs/locale/src/posix/codecvt.cpp: In function 'std::auto_ptr<boost::locale::util::base_converter> boost::locale::impl_posix::create_iconv_converter(const string&)':
+libs/locale/src/posix/codecvt.cpp:216:45: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+         std::auto_ptr<util::base_converter> cvt;
+                                             ^
+libs/locale/src/posix/codecvt.cpp: In function 'std::locale boost::locale::impl_posix::create_codecvt(const std::locale&, const string&, boost::locale::character_facet_type)':
+libs/locale/src/posix/codecvt.cpp:243:49: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+             std::auto_ptr<util::base_converter> cvt;
+                                                 ^
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/collate.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/converter.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/numeric.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/posix_backend.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/std/codecvt.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/std/collate.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/std/converter.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/std/numeric.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/std/std_backend.o
+gcc.compile.c++ bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/util/gregorian.o
+libs/locale/src/util/gregorian.cpp: In member function 'virtual int boost::locale::util::gregorian_calendar::difference(const boost::locale::abstract_calendar*, boost::locale::period::marks::period_mark) const':
+libs/locale/src/util/gregorian.cpp:695:51: warning: 'auto_ptr' is deprecated (declared at /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/backward/auto_ptr.h:87) [-Wdeprecated-declarations]
+                 std::auto_ptr<gregorian_calendar> keeper;
+                                                   ^
+gcc.archive bin.v2/libs/locale/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_locale.a
+common.copy stage/lib/libboost_locale.a
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/attribute_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/attribute_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/attribute_value_set.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/code_conversion.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/core.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/record_ostream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/severity_level.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/global_logger_storage.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/named_scope.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/process_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/process_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/thread_id.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/timer.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/exceptions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/default_attribute_names.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/default_sink.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_ostream_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_file_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_multifile_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/thread_specific.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/once_block.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/timestamp.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/threadsafe_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/event.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/trivial.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/spirit_encoding.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/date_time_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/named_scope_format_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/unhandled_exception_count.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/permissions.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dump.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/ipc_reliable_message_queue.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/posix/object_name.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/syslog_backend.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dump_avx2.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dump_ssse3.o
+gcc.archive bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_log.a
+common.copy stage/lib/libboost_log.a
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/parser_utils.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/init_from_stream.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/init_from_settings.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/settings_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/filter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/formatter_parser.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/default_filter_factory.o
+...on 900th target...
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/matches_relation_factory.o
+gcc.compile.c++ bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/setup/default_formatter_factory.o
+gcc.archive bin.v2/libs/log/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_log_setup.a
+common.copy stage/lib/libboost_log_setup.a
+gcc.compile.c++.pch bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/../src/tr1/pch.hpp.gch
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/beta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_i.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_j.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_k.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_neumann.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_2.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_3.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expint.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hermite.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/laguerre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/riemann_zeta.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_bessel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_legendre.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_neumann.o
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_tr1.a
+common.copy stage/lib/libboost_math_tr1.a
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/betaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_if.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_jf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_kf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_neumannf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_2f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_3f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expintf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hermitef.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/laguerref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/riemann_zetaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_besself.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'T boost::math::detail::cyl_bessel_j_imp(T, T, const bessel_no_int_tag&, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>; boost::math::detail::bessel_no_int_tag = mpl_::int_<0>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_legendref.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_neumannf.o
+In file included from ./boost/math/special_functions/detail/bessel_jy.hpp:20:0,
+                 from ./boost/math/special_functions/bessel.hpp:20,
+                 from ./boost/math/special_functions/airy.hpp:12,
+                 from ./boost/math/special_functions.hpp:15,
+                 from libs/math/build/../src/tr1/pch.hpp:9:
+./boost/math/special_functions/detail/bessel_jy_series.hpp: In function 'int boost::math::detail::bessel_jy(T, T, T*, T*, int, const Policy&) [with T = double; Policy = boost::math::policies::policy<boost::math::policies::domain_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::pole_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::overflow_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::evaluation_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::rounding_error<(boost::math::policies::error_policy_type)1u>, boost::math::policies::promote_float<false>, boost::math::policies::promote_double<false>, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy, boost::math::policies::default_policy>]':
+./boost/math/special_functions/detail/bessel_jy_series.hpp:199:7: warning: 'sgn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+       prefix = exp(prefix) * sgn / constants::pi<T>();
+       ^
+./boost/math/special_functions/detail/bessel_jy_series.hpp:197:11: note: 'sgn' was declared here
+       int sgn;
+           ^
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_tr1f.a
+common.copy stage/lib/libboost_math_tr1f.a
+gcc.compile.c++ bin.v2/libs/math/config/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/has_long_double_support.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/assoc_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/betal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/comp_ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_il.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_jl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_bessel_kl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cyl_neumannl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_2l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/ellint_3l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expintl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hermitel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/laguerrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/riemann_zetal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_bessell.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_legendrel.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/sph_neumannl.o
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_tr1l.a
+common.copy stage/lib/libboost_math_tr1l.a
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/acosh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asinh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/atanh.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cbrt.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/copysign.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erfc.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expm1.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fmax.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fmin.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fpclassify.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hypot.o
+...on 1000th target...
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/llround.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/log1p.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lround.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nextafter.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nexttoward.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/round.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/tgamma.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/trunc.o
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_c99.a
+common.copy stage/lib/libboost_math_c99.a
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/acoshf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asinhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/atanhf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cbrtf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/copysignf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erfcf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erff.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expm1f.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fmaxf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fminf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fpclassifyf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hypotf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/llroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/log1pf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lroundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nextafterf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nexttowardf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/roundf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/tgammaf.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/truncf.o
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_c99f.a
+common.copy stage/lib/libboost_math_c99f.a
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/acoshl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/asinhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/atanhl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cbrtl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/copysignl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erfcl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/erfl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/expm1l.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fmaxl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fminl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/fpclassifyl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/hypotl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/llroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/log1pl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/lroundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nextafterl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/nexttowardl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/roundl.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/tgammal.o
+gcc.compile.c++ bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/truncl.o
+gcc.archive bin.v2/libs/math/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_math_c99l.a
+common.copy stage/lib/libboost_math_c99l.a
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cmdline.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/config_file.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/options_description.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/parsers.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/variables_map.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/value_semantic.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/positional_options.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/convert.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/winmain.o
+gcc.compile.c++ bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/split.o
+gcc.archive bin.v2/libs/program_options/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_program_options.a
+common.copy stage/lib/libboost_program_options.a
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/list.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/long.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dict.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/tuple.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/str.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/slice.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/converter/from_python.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/converter/registry.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/converter/type_id.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/enum.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object_core.hpp:10,
+                 from ./boost/python/object/enum_base.hpp:8,
+                 from libs/python/src/object/enum.cpp:6:
+libs/python/src/object/enum.cpp: In function 'boost::python::api::object boost::python::objects::{anonymous}::new_enum_type(const char*, const char*)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/enum.cpp:156:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&enum_type_object) = incref(&PyType_Type);
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/class.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from libs/python/src/object/class.cpp:6:
+libs/python/src/object/class.cpp: In function 'PyObject* boost::python::objects::static_data()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:211:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&static_data_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_metatype()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:319:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_metatype_object) = &PyType_Type;
+           ^
+libs/python/src/object/class.cpp: In function 'boost::python::type_handle boost::python::objects::class_type()':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/class.cpp:473:11: note: in expansion of macro 'Py_TYPE'
+           Py_TYPE(&class_type_object) = incref(class_metatype().get());
+           ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/function.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/function.hpp:8,
+                 from ./boost/python/docstring_options.hpp:8,
+                 from libs/python/src/object/function.cpp:6:
+libs/python/src/object/function.cpp: In constructor 'boost::python::objects::function::function(const boost::python::objects::py_function&, const boost::python::detail::keyword*, unsigned int)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:108:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&function_type) == 0)
+         ^
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/function.cpp:110:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&function_type) = &PyType_Type;
+         ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/inheritance.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/life_support.o
+In file included from /usr/local/include/python2.7/Python.h:80:0,
+                 from ./boost/python/detail/wrap_python.hpp:151,
+                 from ./boost/python/detail/prefix.hpp:13,
+                 from ./boost/python/object/life_support.hpp:7,
+                 from libs/python/src/object/life_support.cpp:5:
+libs/python/src/object/life_support.cpp: In function 'PyObject* boost::python::objects::make_nurse_and_patient(PyObject*, PyObject*)':
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:94:9: note: in expansion of macro 'Py_TYPE'
+     if (Py_TYPE(&life_support_type) == 0)
+         ^
+/usr/local/include/python2.7/object.h:115:51: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ #define Py_TYPE(ob)             (((PyObject*)(ob))->ob_type)
+                                                   ^
+libs/python/src/object/life_support.cpp:96:9: note: in expansion of macro 'Py_TYPE'
+         Py_TYPE(&life_support_type) = &PyType_Type;
+         ^
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/pickle_support.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/errors.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/module.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/converter/builtin_converters.o
+...on 1100th target...
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/converter/arg_to_python_base.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/iterator.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/stl_iterator.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object_protocol.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object_operators.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/wrapper.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/import.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/exec.o
+gcc.compile.c++ bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/object/function_doc_signature.o
+gcc.archive bin.v2/libs/python/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_python.a
+common.copy stage/lib/libboost_python.a
+gcc.compile.c++ bin.v2/libs/random/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/random_device.o
+gcc.archive bin.v2/libs/random/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_random.a
+common.copy stage/lib/libboost_random.a
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_pointer_iserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_pointer_oserializer.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_serializer_map.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_text_iprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_text_oprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_xml_archive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/binary_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/binary_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/extended_type_info.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/extended_type_info_typeid.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/extended_type_info_no_rtti.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/polymorphic_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/polymorphic_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/stl_port.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/void_cast.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_grammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_iarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_oarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_archive_exception.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/codecvt_null.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/utf8_codecvt_facet.o
+gcc.archive bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_serialization.a
+common.copy stage/lib/libboost_serialization.a
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_text_wiprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic_text_woprimitive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/text_woarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_wgrammar.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_wiarchive.o
+gcc.compile.c++ bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/xml_woarchive.o
+In file included from ./boost/archive/impl/xml_woarchive_impl.ipp:41:0,
+                 from libs/serialization/src/xml_woarchive.cpp:28:
+./boost/archive/iterators/wchar_from_mb.hpp: In instantiation of 'void boost::archive::iterators::wchar_from_mb<Base>::drain() [with Base = boost::archive::iterators::xml_escape<const char*>]':
+./boost/archive/iterators/wchar_from_mb.hpp:133:15:   required from 'boost::archive::iterators::wchar_from_mb<Base>::wchar_from_mb(T) [with T = const char*; Base = boost::archive::iterators::xml_escape<const char*>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:61:5:   required from 'void boost::archive::save_iterator(std::wostream&, InputIterator, InputIterator) [with InputIterator = const char*; std::wostream = std::basic_ostream<wchar_t>]'
+./boost/archive/impl/xml_woarchive_impl.ipp:99:43:   required from 'void boost::archive::xml_woarchive_impl<Archive>::save(const char*) [with Archive = boost::archive::xml_woarchive]'
+libs/serialization/src/xml_woarchive.cpp:35:16:   required from here
+./boost/archive/iterators/wchar_from_mb.hpp:168:31: warning: unused variable 'r' [-Wunused-variable]
+     std::codecvt_base::result r = m_codecvt_facet.in(
+                               ^
+gcc.archive bin.v2/libs/serialization/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_wserialization.a
+common.copy stage/lib/libboost_wserialization.a
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/trackable.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/connection.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/named_slot_map.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/signal_base.o
+gcc.compile.c++ bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/slot.o
+gcc.archive bin.v2/libs/signals/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_signals.a
+common.copy stage/lib/libboost_signals.a
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/noop.o
+gcc.archive bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_stacktrace_noop.a
+common.copy stage/lib/libboost_stacktrace_noop.a
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/addr2line.o
+gcc.archive bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_stacktrace_addr2line.a
+common.copy stage/lib/libboost_stacktrace_addr2line.a
+gcc.compile.c++ bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/basic.o
+gcc.archive bin.v2/libs/stacktrace/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_stacktrace_basic.a
+common.copy stage/lib/libboost_stacktrace_basic.a
+gcc.compile.c++ bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cpp_main.o
+gcc.archive bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_prg_exec_monitor.a
+common.copy stage/lib/libboost_prg_exec_monitor.a
+gcc.archive bin.v2/libs/test/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_unit_test_framework.a
+common.copy stage/lib/libboost_unit_test_framework.a
+...on 1200th target...
+gcc.compile.c++ bin.v2/libs/type_erasure/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/dynamic_binding.o
+gcc.archive bin.v2/libs/type_erasure/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_type_erasure.a
+common.copy stage/lib/libboost_type_erasure.a
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_cpp_exprgrammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_cpp_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_cpp_literalgrs.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_defined_grammar.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_predef_macros.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_re2c_lexer.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/instantiate_re2c_lexer_str.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/token_ids.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/wave_config_constant.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cpplexer/re2clex/aq.o
+gcc.compile.c++ bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/cpplexer/re2clex/cpp_re.o
+gcc.archive bin.v2/libs/wave/build/gcc-gnu-4.8.2/release/link-static/threadapi-pthread/threading-multi/libboost_wave.a
+common.copy stage/lib/libboost_wave.a
+...updated 1222 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    /var/jenkins_home/workspace/boost_1_66_0_master-OFIYRAACKBC5HUMCQWTLXA264DUPYVW5HCJ3FMF7UPCUQ2LE2RAQ
+
+The following directory should be added to linker library paths:
+
+    /var/jenkins_home/workspace/boost_1_66_0_master-OFIYRAACKBC5HUMCQWTLXA264DUPYVW5HCJ3FMF7UPCUQ2LE2RAQ/stage/lib
+

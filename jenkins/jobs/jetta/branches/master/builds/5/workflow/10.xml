@@ -9,7 +9,7 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
@@ -17,9 +17,9 @@
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=master</string>
-            <string>GIT_COMMIT=ec4b048b5aae6aa609db7f36e71893bababd575e</string>
-            <string>GIT_PREVIOUS_COMMIT=bdd6660382ce8715d5c64769a3dc63d139b8f985</string>
-            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=bdd6660382ce8715d5c64769a3dc63d139b8f985</string>
+            <string>GIT_COMMIT=f998cec1eb14a33ea7387fa46cb09018e64c0743</string>
+            <string>GIT_PREVIOUS_COMMIT=32654ad62d133714087ae19643c8fbf612f8aa83</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=32654ad62d133714087ae19643c8fbf612f8aa83</string>
             <string>GIT_URL=https://github.com/lilinj2000/jetta.git</string>
           </list>
         </entry>
@@ -27,7 +27,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514356462199</startTime>
+      <startTime>1514528750311</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

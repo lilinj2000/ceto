@@ -1,23 +1,23 @@
-Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[Tue Dec 26 13:04:13 CST 2017] Starting branch indexing...
-[8mha:////4LdbmWfkqu8lP+IjcpAtc+s7R/vmceXQHD3mt2al2MEtAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCRJNPGgCKtLiNjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-[8mha:////4MaiKLymPo+JUebNqmoxqbIF2o2ekQtZgyCYj5PhFnvHAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCRJOvKwH7kUZYjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-Examining [8mha:////4PhRV10CYcz1QrQu5j6r6sdiQPmi4tr7yerGQL2H2jbAAAAAox+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF9ckJKTnw4AZqRnS6kAAAA=[0mlilinj2000/spdlog
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[Fri Dec 29 18:44:12 CST 2017] Starting branch indexing...
+[8mha:////4BNr/DrpFRpU4pluD0YeFmgc/qABXfQ9iGFMBh8UQKQOAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwvueqgCkeKShjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4IAv9v+K9cUrzSPqcCYvT1Yy4dMZ5u1iteSFwQ2OfRptAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwvs+xgCwOQcojgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Examining [8mha:////4JBJJO5OoSzEopyiDZK0Sjx9YXZdxOrzBbfhgMI0GclbAAAAox+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQLGFQySgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF9ckJKTnw4AZqRnS6kAAAA=[0mlilinj2000/spdlog
 
   Checking branches...
 
   Getting remote branches...
 
-    Checking branch [8mha:////4DdQQnSoRLyOUFa1P7Z9P1CWu2WnyE60pSkD+aebx7RvAAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF9ckJKTn65fUpSaqp+eoVuQmJ5aDAD/LUNQtwAAAA==[0mgh-pages
+    Checking branch [8mha:////4PyV6OhEhTM2VMX3toBdOf9o4M5GrjJvsKgdO9Nyum7GAAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF9ckJKTn65fUpSaqp+eoVuQmJ5aDAD/LUNQtwAAAA==[0mgh-pages
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4IRShISjhH2bDR8vunrC+6MIJsLZYXrikEK4gbSbBqqLAAAArh+LCAAAAAAAAP9djbENwjAQRY8gMgAlYoacRUEBSkUDUkTDBAYs28GxrfMFhTVYAxqGYBx2ICgdv/m/ee8/PzBJBHPTnlPwxSn4FJwqtreoyFl/2QdWy/LxKu/xnUG2g9wpr9lUMG7JMUyrWl4lOuk1Hpis1+uOYPan2wz9k8GQUQbQxX7kDMIwx7RC1JZNe+ypBp3t3+uFEAJTPLugkUkpbGRiRV/yEuBLtQAAAA==[0mmaster
+    Checking branch [8mha:////4EvLawx5vj34hHR/SZ0A0jSuZrPCXtsLEg0xFayNEclqAAAArh+LCAAAAAAAAP9djbENwjAQRY8gMgAlYoacRUEBSkUDUkTDBAYs28GxrfMFhTVYAxqGYBx2ICgdv/m/ee8/PzBJBHPTnlPwxSn4FJwqtreoyFl/2QdWy/LxKu/xnUG2g9wpr9lUMG7JMUyrWl4lOuk1Hpis1+uOYPan2wz9k8GQUQbQxX7kDMIwx7RC1JZNe+ypBp3t3+uFEAJTPLugkUkpbGRiRV/yEuBLtQAAAA==[0mmaster
       ‘Jenkinsfile’ found
     Met criteria
 Scheduled build for branch: master
 
-    Checking branch [8mha:////4AYEEODoIL7j4oAZle1ClNR5hCgXwcVVqVtoEMwaXp4cAAAAuB+LCAAAAAAAAP9djrENwjAURD9BMEBKxAxxREEBpKIBKaJhgCgQy3b42Jb9HYU1WAMahmAcdsAoHdfcNffunh+YeAdzGRpvdHY22hvk2e5muUOlLwdDfFk8XsXdvhNI9jBFrgXJEsbBIUFatnVXM6y1YEdySot172D2h9sO/oPBoFEC0NsYUoKNJLJ+xZhQJMMptq4MVVxvF3meM28bNIKR45z5eKlC3nGsfLDWOPoCyrqwVsEAAAA=[0msink_level_support
+    Checking branch [8mha:////4AFzLLDqVuqHSJl0UUXPla2dbSF+jvpDgWotYj3ArL1JAAAAuB+LCAAAAAAAAP9djrENwjAURD9BMEBKxAxxREEBpKIBKaJhgCgQy3b42Jb9HYU1WAMahmAcdsAoHdfcNffunh+YeAdzGRpvdHY22hvk2e5muUOlLwdDfFk8XsXdvhNI9jBFrgXJEsbBIUFatnVXM6y1YEdySot172D2h9sO/oPBoFEC0NsYUoKNJLJ+xZhQJMMptq4MVVxvF3meM28bNIKR45z5eKlC3nGsfLDWOPoCyrqwVsEAAAA=[0msink_level_support
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
@@ -25,5 +25,5 @@ Scheduled build for branch: master
 
 Finished examining lilinj2000/spdlog
 
-[Tue Dec 26 13:04:16 CST 2017] Finished branch indexing. Indexing took 3 sec
+[Fri Dec 29 18:44:15 CST 2017] Finished branch indexing. Indexing took 2.3 sec
 Finished: SUCCESS

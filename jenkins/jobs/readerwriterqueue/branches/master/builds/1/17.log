@@ -1,0 +1,3 @@
+[readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.

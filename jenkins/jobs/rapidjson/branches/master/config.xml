@@ -8,17 +8,12 @@
       </blueOceanUrlObject>
     </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.2.5"/>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@1.2.5">
-      <jobProperties/>
-      <triggers/>
-      <parameters/>
-    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
   </actions>
   <keepDependencies>false</keepDependencies>
   <properties>
     <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.16">
       <branch plugin="branch-api@2.0.16">
-        <sourceId>65026fe3-dae0-4137-92b8-6624933f1ee3</sourceId>
+        <sourceId>461b4720-d805-4f84-83a4-dbb76d7c301d</sourceId>
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>

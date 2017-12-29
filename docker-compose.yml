@@ -25,12 +25,15 @@ services:
       - ./mysql:/var/lib/mysql
 
   jenkins:
-    image: lilinj2000/dev:centos6
+    image: jenkinsci/blueocean
+    user: root
+    environment:
+      - TZ=Asia/Shanghai
     volumes:
-      - ./jenkins:/opt/jenkins/data
+      - ./jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "32770:8080"
-    command: java -jar /opt/jenkins/jenkins.war
     links:
       - sonarqube
 

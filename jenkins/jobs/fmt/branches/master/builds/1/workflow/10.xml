@@ -9,7 +9,7 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
@@ -17,7 +17,7 @@
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=master</string>
-            <string>GIT_COMMIT=25030110a02d14a771495bb5d3b9eb9bfedd83ba</string>
+            <string>GIT_COMMIT=8e808d2024a1455339d708d44b4a5d071df14fc1</string>
             <string>GIT_URL=https://github.com/lilinj2000/fmt.git</string>
           </list>
         </entry>
@@ -25,7 +25,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514196836859</startTime>
+      <startTime>1514544844366</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

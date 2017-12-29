@@ -9,30 +9,19 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
         <entry>
           <string>script</string>
-          <string>kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
-home_disruptor=${home_3rd}/disruptor
-
-mkdir -p ${home_disruptor}/include
-
-cp -avr disruptor ${home_disruptor}/include
-
-
-</string>
+          <string>docker pull lilinj2000/dev:centos6</string>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514265064070</startTime>
+      <startTime>1514544003046</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

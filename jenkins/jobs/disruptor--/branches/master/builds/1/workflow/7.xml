@@ -9,7 +9,7 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
       <arguments class="linked-hash-map">
@@ -44,18 +44,18 @@
                   <revision plugin="git-client@2.7.0">
                     <sha1 serialization="custom">
                       <unserializable-parents>
-                        <w1>-1551798715</w1>
-                        <w2>1412238911</w2>
-                        <w3>-1026615696</w3>
-                        <w4>1506780198</w4>
-                        <w5>1401412436</w5>
+                        <w1>-1204131717</w1>
+                        <w2>1842184664</w2>
+                        <w3>-1832357984</w3>
+                        <w4>-1398602955</w4>
+                        <w5>1425951678</w5>
                       </unserializable-parents>
                       <org.eclipse.jgit.lib.ObjectId>
-                        <int>-1551798715</int>
-                        <int>1412238911</int>
-                        <int>-1026615696</int>
-                        <int>1506780198</int>
-                        <int>1401412436</int>
+                        <int>-1204131717</int>
+                        <int>1842184664</int>
+                        <int>-1832357984</int>
+                        <int>-1398602955</int>
+                        <int>1425951678</int>
                       </org.eclipse.jgit.lib.ObjectId>
                     </sha1>
                     <branches class="singleton-set">
@@ -74,7 +74,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514265060090</startTime>
+      <startTime>1514543997995</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

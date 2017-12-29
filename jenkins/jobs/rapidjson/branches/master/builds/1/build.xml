@@ -20,14 +20,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>cd30ee958647beb7d03625469c3aefb392b298c3</hash>
+        <hash>66bf66cc0b78fbc00e100a5a9e951077475767e4</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>415617bb-d8e9-411a-82ee-48ec9c335e50</stagesUUID>
+      <stagesUUID>a0000db4-3e8f-4686-92ae-22323f2d0b3d</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -46,17 +46,40 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">mkdir build
-
+                              <value class="string">
+mkdir -p build
 cd build
-
-kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
-cmake -DDCMAKE_INSTALL_PREFIX=${home_3rd}/rapidjson ..
-
-make</value>
+cmake -DINCLUDE_INSTALL_DIR=${home_3rd}/rapidjson/include ..
+make
+	</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>install</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                              <value class="string">
+cd build
+make install
+	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -67,7 +90,7 @@ make</value>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>415617bb-d8e9-411a-82ee-48ec9c335e50</uuid>
+          <uuid>a0000db4-3e8f-4686-92ae-22323f2d0b3d</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -77,7 +100,7 @@ make</value>
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>cd30ee958647beb7d03625469c3aefb392b298c3</sha1>
+              <sha1>66bf66cc0b78fbc00e100a5a9e951077475767e4</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -102,7 +125,7 @@ make</value>
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ</ws>
+      <ws>/var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -112,31 +135,58 @@ make</value>
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>35</queueId>
-  <timestamp>1514192685345</timestamp>
-  <startTime>1514192685365</startTime>
+  <queueId>45</queueId>
+  <timestamp>1514544430270</timestamp>
+  <startTime>1514544430311</startTime>
   <result>SUCCESS</result>
-  <duration>47772</duration>
+  <duration>60287</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
   stages {
     stage(&apos;build&apos;) {
       steps {
-        sh &apos;&apos;&apos;mkdir build
-
+        sh &apos;&apos;&apos;
+mkdir -p build
 cd build
-
-kernel=`uname -sr | sed --e=\&apos;s/ /\\//\&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
-cmake -DDCMAKE_INSTALL_PREFIX=${home_3rd}/rapidjson ..
-
-make&apos;&apos;&apos;
+cmake -DINCLUDE_INSTALL_DIR=${home_3rd}/rapidjson/include ..
+make
+	&apos;&apos;&apos;
+      }
+    }
+    stage(&apos;install&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+cd build
+make install
+	&apos;&apos;&apos;
       }
     }
   }
@@ -145,28 +195,28 @@ make&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>108033392</long>
+        <long>218682793</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>188509372</long>
+        <long>399701200</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>683583106</long>
+        <long>4806284198</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>38143285</long>
+        <long>108964345</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>112998712</long>
+        <long>207434168</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>21</iota>
-    <head>1:21</head>
+    <iota>40</iota>
+    <head>1:40</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -202,8 +252,8 @@ make&apos;&apos;&apos;
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/rapidjson/branches/master/builds/1/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/rapidjson/branches/master/builds/1/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

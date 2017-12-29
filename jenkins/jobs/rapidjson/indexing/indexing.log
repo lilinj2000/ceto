@@ -1,68 +1,67 @@
-Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[Mon Dec 25 18:08:17 CST 2017] Starting branch indexing...
-[8mha:////4Oanx4Fn+FeZnu87ViParp9mQAcLT8W5XpUlrSSKm4KeAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRCr8o3XgCe7jmkjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-[8mha:////4E5rWuBIUuT6/NG6qy1UYuMg1joQshoTst99IcuwVgLJAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRCr8pPOQCPsx+njgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-Examining [8mha:////4KE0wItEwMyHTLr6JaA6RovgtRzTeR7ENKYm0DSyu2qcAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0DgBpcGP/rAAAAA==[0mlilinj2000/rapidjson
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[Fri Dec 29 18:47:05 CST 2017] Starting branch indexing...
+[8mha:////4IvPx3vi2SdNTacsVxqGdOln1UKUQySF3IXBkf8lK9jmAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwoevqwAwIrTojgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4Gj1pZWllagwKdw7QAkZ4oWNPmDxQ83//17a00EXLF6+AAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwofvJgMAqYwVTI4AAAA=[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Examining [8mha:////4LLnlQR0FP6E8wA/3yQK/NGR2AHEbUvwiH9dzaOUZtkSAAAApR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKWFQzygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0DgBpcGP/rAAAAA==[0mlilinj2000/rapidjson
 
   Checking branches...
 
   Getting remote branches...
 
-    Checking branch [8mha:////4D1h+NlIi2oUfM/baUUBVNIVcNv2iILDBTAESImI6kppAAAAux+LCAAAAAAAAP9djbENwjAURD9BMACiQswQRxQUoBSIBqSIhgGQA1+2g2Nb9g9K1mANaBiCcdgBo3Rc8665d88PjIKHuWwuwZr0bE2wGtNd59BrZa4HS7jMH6/87t4JJHsYazSCZAHDxmuCSVHxG2eaG8GO5JUR69bD7E+37fmTQZ9BAtC6WKYEG0nkwooxoUg2ZVzVTKv4Xi2yLGOeO3Wpoo6RR2TY8tppPDnuA5ZdBIUvpDxNJsYAAAA=[0mexample_parsebyparts
+    Checking branch [8mha:////4B/8slnPYjwxJAjh0BqAEwvgHfEHvj6DgOM9o5vzxVJaAAAAux+LCAAAAAAAAP9djbENwjAURD9BMACiQswQRxQUoBSIBqSIhgGQA1+2g2Nb9g9K1mANaBiCcdgBo3Rc8665d88PjIKHuWwuwZr0bE2wGtNd59BrZa4HS7jMH6/87t4JJHsYazSCZAHDxmuCSVHxG2eaG8GO5JUR69bD7E+37fmTQZ9BAtC6WKYEG0nkwooxoUg2ZVzVTKv4Xi2yLGOeO3Wpoo6RR2TY8tppPDnuA5ZdBIUvpDxNJsYAAAA=[0mexample_parsebyparts
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4P9fvNOt9r/Mp2Sr6w3RlHBTFqpeNhPcqwJTYfy/ZPzIAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVPz1DtyAxPbUYAA642b66AAAA[0mgh-pages
+    Checking branch [8mha:////4MdugSycMKc71ICSddReBzl6RoHWMfKbhjR6RhCweqO4AAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVPz1DtyAxPbUYAA642b66AAAA[0mgh-pages
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4DreQRi940peKgaOQlpsp0ZV3j0VPvMVqmZvs3udnORnAAAAvR+LCAAAAAAAAP9djUEOATEYhX8jHMBGIs4wHRIiZFYsSCY2DiBlmk5HdZr+f2VcwzXYOITjuIMyO2/z3uZ93+MNHXQwLHyOlYmPlcFKi3h9tcJpZU7bisQ0vT/Tm31FEG2gq4WRVGTQ9k4T9LKSXzjT3Ei2I6eMXNQOBn+4ZdNfGDRpRQC1DaNPsCqILM4Zk4oKfwivM9Mq2MtxkiTMcavyMuAYOSGYQvRiNJntLXcokHL8aT/vLiScyQAAAA==[0missue158_parsestdstring
+    Checking branch [8mha:////4CzjrOxl0AOJWATssjfFViHD61hJcqJTrD1eJLoM2NGDAAAAvR+LCAAAAAAAAP9djUEOATEYhX8jHMBGIs4wHRIiZFYsSCY2DiBlmk5HdZr+f2VcwzXYOITjuIMyO2/z3uZ93+MNHXQwLHyOlYmPlcFKi3h9tcJpZU7bisQ0vT/Tm31FEG2gq4WRVGTQ9k4T9LKSXzjT3Ei2I6eMXNQOBn+4ZdNfGDRpRQC1DaNPsCqILM4Zk4oKfwivM9Mq2MtxkiTMcavyMuAYOSGYQvRiNJntLXcokHL8aT/vLiScyQAAAA==[0missue158_parsestdstring
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4LU3VODuEiDbOwrJ0BtH2ekwAXqkfarIp9/TNFlds15GAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTVyMAUAEeyiI26AAAA[0missue205
+    Checking branch [8mha:////4A6xJoFvJP3TawqdeoRxJOWDXe7FbVzBNyI+1+9PVE6DAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTVyMAUAEeyiI26AAAA[0missue205
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4HJLP5SjmmjnLg745R+HDVWrHHUioHV60ZTgQe5WIPhMAAAAwB+LCAAAAAAAAP9djbENwjAQRY8gGIASmCEOIKUApaIJUkTDAMgkp8TBsS3fBYU1WAMahmAcdiCIjt/837z3H28YkYd51RZkTZhbQ1ZjmF4deq3MeW8Z4+T+TG7uFUCwg7FGU3KVwbD1mmGS1fIihZamFAf2ypSbzsP0T7f99VcGvwwCgM71Y8aQVsyO1kKUiqv21FON0Kp/r5dRFAkvnSrqXifYIwpF1OJqER8ZG6clYyHzHImspw/D8CBrzQAAAA==[0missue316_templatedaccessors
+    Checking branch [8mha:////4NvAn/8RKDCjAuxymGB3lMJUNBJFZIZ0R7W0/WYC0E3OAAAAwB+LCAAAAAAAAP9djbENwjAQRY8gGIASmCEOIKUApaIJUkTDAMgkp8TBsS3fBYU1WAMahmAcdiCIjt/837z3H28YkYd51RZkTZhbQ1ZjmF4deq3MeW8Z4+T+TG7uFUCwg7FGU3KVwbD1mmGS1fIihZamFAf2ypSbzsP0T7f99VcGvwwCgM71Y8aQVsyO1kKUiqv21FON0Kp/r5dRFAkvnSrqXifYIwpF1OJqER8ZG6clYyHzHImspw/D8CBrzQAAAA==[0missue316_templatedaccessors
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4BmGieL78rpvt9mvyVSSdF4nETecJg5tw+iH1/F1CSCeAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MgUAPK6fL66AAAA[0missue325
+    Checking branch [8mha:////4ENvvOSrwmr39PqmfVOdkXB7cBYSGdjxFmjb8ZUf6dGJAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MgUAPK6fL66AAAA[0missue325
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4KmhkzPx3m1rfEcnhbutI21yGc1iEliXO6MR3+/wKmaUAAAAuR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgK2GwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MQwPi0nP7EEAFHFMJbAAAAA[0missue341_float
+    Checking branch [8mha:////4DZ2you0KXpWgEYNu/dVeww9CUfEwi0tsvrFCHHPM39dAAAAuR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgK2GwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MQwPi0nP7EEAFHFMJbAAAAA[0missue341_float
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4DwzF36QARmwdwi+OB3odSrAovWpGt4gE7nOTJQIxa19AAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MwIAFXqdES6AAAA[0missue362
+    Checking branch [8mha:////4OUtSXiKhKa8GwHEY/SMzeYEBtP0ugKAgWcMmOgM9U8BAAAAsx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKGEwzSgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVP7O4uDTV2MwIAFXqdES6AAAA[0missue362
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4NWO66dnnWO8iIkCNltmI5BP3B5EAEVa5wUPKvRfk4hNAAAAvh+LCAAAAAAAAP9djUEOwUAUhp8KB5DYiDN0GkKEdMOGpLFxACl9mU5NZyZvXqUcwzXYOITjuIOKnX/z/5vv+x9v6HiCYV5l3prwaI23GsP1xSFpZU5byziN78/45l4BBBvoajSS8wTaFWmGXlKk51To1EixY1JGLmqCwZ9u9euvDH5pBQC1a0afYZkzOz8XQirOq0NDlUKr5r0YRVEkKHUqKxqdYEIUyvsKJ+PZnlBifUWypTIfkZHyu8cAAAA=[0missue538_regexzeromin
+    Checking branch [8mha:////4BG8SCe4JN8IWUNmf7pxNj4oXlioJKIv6xjtU7EBVKPMAAAAvh+LCAAAAAAAAP9djUEOwUAUhp8KB5DYiDN0GkKEdMOGpLFxACl9mU5NZyZvXqUcwzXYOITjuIOKnX/z/5vv+x9v6HiCYV5l3prwaI23GsP1xSFpZU5byziN78/45l4BBBvoajSS8wTaFWmGXlKk51To1EixY1JGLmqCwZ9u9euvDH5pBQC1a0afYZkzOz8XQirOq0NDlUKr5r0YRVEkKHUqKxqdYEIUyvsKJ+PZnlBifUWypTIfkZHyu8cAAAA=[0missue538_regexzeromin
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4JNpvEgI9yjEfqVgZxtVGUsm5RZSMZmE53ZxHlDQ/56kAAAAwh+LCAAAAAAAAP9djbENwjAURD9BMAAlghVwFAkKUCoaQBENAyCTfMUOjm3Z3xGswRrQMATjsANGdFxz19x7jzcMvIOJCJU3elYa7Y3C2eZq0Smpz3tDuMjvz/xmXwkkWxgq1DWJAvrBKYJR0fCOM8V1zQ7kpK5XFwfjP9z6118Y/NJLAC42jinBThBZv2SsliTCKb5apmS0N1mapsxxK6sm4hg5RCa9DzifZ8fWdFHnS4Etr0wZWtT0AblFEW/PAAAA[0missue552_movingschemadocument
+    Checking branch [8mha:////4GdzF8KL2HvQ6RFMGmTGBx8j0d+isC6NSDaxtHTRDPVMAAAAwh+LCAAAAAAAAP9djbENwjAURD9BMAAlghVwFAkKUCoaQBENAyCTfMUOjm3Z3xGswRrQMATjsANGdFxz19x7jzcMvIOJCJU3elYa7Y3C2eZq0Smpz3tDuMjvz/xmXwkkWxgq1DWJAvrBKYJR0fCOM8V1zQ7kpK5XFwfjP9z6118Y/NJLAC42jinBThBZv2SsliTCKb5apmS0N1mapsxxK6sm4hg5RCa9DzifZ8fWdFHnS4Etr0wZWtT0AblFEW/PAAAA[0missue552_movingschemadocument
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4EqIMGHd8q3lb6CNiUmaNTcQeC1+FWT37CfPFtGwgLEZAAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2EwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVPzexuCS1CABXFCfhuAAAAA==[0mmaster
+    Checking branch [8mha:////4PF6d872Fbfw+wFxRMcEAyRHizydzmrLL3IXcxnJnr0xAAAAsR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2EwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVPzexuCS1CABXFCfhuAAAAA==[0mmaster
       ‘Jenkinsfile’ found
     Met criteria
-Changes detected: master (c2c333689724749d99f56de839cdb1ea1888397b → 6b8554c911965d8a874925b1cff636701fc4396e)
 Scheduled build for branch: master
 
-    Checking branch [8mha:////4F/ZdMfOWq8iQB4OcUrD2flBmVg0lFtuWBORkwDZLqnfAAAAth+LCAAAAAAAAP9djbENwjAQRY8gqKgoETPkIgokQKloQIpomMAQK77g2JZ9QYExWAMahmAcdsCIjt/837z3H28YBA9T1ZbBmvRoTbBappuLk16TOe0sy3l+f+Y390og2cJQS1OxKqDfes0wLmpxFqiFqXDPnky16jxM/nTrX39l8EsvAehcHCOGhWJ2YYlYEav2EKkGNcX3epZlGXrhqKyjDtlLidYxNXQVTNZ8AIR3KMK+AAAA[0moptimization
+    Checking branch [8mha:////4DVAGxvINFq/pDy4VZD8qCaA41HvaOudFqv7bFw82dfzAAAAth+LCAAAAAAAAP9djbENwjAQRY8gqKgoETPkIgokQKloQIpomMAQK77g2JZ9QYExWAMahmAcdsCIjt/837z3H28YBA9T1ZbBmvRoTbBappuLk16TOe0sy3l+f+Y390og2cJQS1OxKqDfes0wLmpxFqiFqXDPnky16jxM/nTrX39l8EsvAehcHCOGhWJ2YYlYEav2EKkGNcX3epZlGXrhqKyjDtlLidYxNXQVTNZ8AIR3KMK+AAAA[0moptimization
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4HDgMxaYG7QqEpoHnkJD3nq8/BT6dYDOn7wqVH/r985zAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKWEwzCgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVvyS1uAQAmybfNLYAAAA=[0mtest
+    Checking branch [8mha:////4EKbWKXQtc8Q1NqiyUiVdaVm+fGBM/E82qnSwKTlsfnXAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKWEwzCgpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDVVvyS1uAQAmybfNLYAAAA=[0mtest
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
-    Checking branch [8mha:////4IkRppU52rZg93tqr5v+aoBCAToW5LjQ9WL7caiVYqbuAAAAsB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2EwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDUVSCSWZRYDALaemMC4AAAA[0mtravis
+    Checking branch [8mha:////4Fe06lTAMAJ2rX53/Tipn1XdDo5WphQYuQrDnHCDoB5UAAAAsB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2EwzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+UWJCZkgU0Tr+kKDUVSCSWZRYDALaemMC4AAAA[0mtravis
       ‘Jenkinsfile’ not found
     Does not meet criteria
 
@@ -70,5 +69,5 @@ Scheduled build for branch: master
 
 Finished examining lilinj2000/rapidjson
 
-[Mon Dec 25 18:08:23 CST 2017] Finished branch indexing. Indexing took 6.2 sec
+[Fri Dec 29 18:47:11 CST 2017] Finished branch indexing. Indexing took 5.5 sec
 Finished: SUCCESS

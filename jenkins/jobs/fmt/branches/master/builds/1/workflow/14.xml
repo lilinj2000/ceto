@@ -9,19 +9,19 @@
   </node>
   <actions>
     <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-      <charset>US-ASCII</charset>
+      <charset>UTF-8</charset>
     </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
     <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
-      <arguments>
+      <arguments class="linked-hash-map">
         <entry>
           <string>script</string>
-          <org.jenkinsci.plugins.workflow.actions.ArgumentsAction_-NotStoredReason>MASKED_VALUE</org.jenkinsci.plugins.workflow.actions.ArgumentsAction_-NotStoredReason>
+          <string>docker pull lilinj2000/dev:centos6</string>
         </entry>
       </arguments>
-      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514196836930</startTime>
+      <startTime>1514544844796</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

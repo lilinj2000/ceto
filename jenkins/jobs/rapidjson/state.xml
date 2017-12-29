@@ -2,7 +2,7 @@
 <jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.16">
   <sourceActions>
     <entry>
-      <string>65026fe3-dae0-4137-92b8-6624933f1ee3</string>
+      <string>461b4720-d805-4f84-83a4-dbb76d7c301d</string>
       <list>
         <org.jenkinsci.plugins.github__branch__source.GitHubRepoMetadataAction plugin="github-branch-source@2.3.2"/>
         <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.6">

@@ -3,7 +3,7 @@
   <fullName>lilinj2000</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>{AQAAABAAAAAw3yAts0Iuku3dWgz7ZZbr0NPsGT6sE7ReEZjWr6PMRSiKiWrKVO5VJXsK4Ft2vxyMjx//ZcyDrgMoQTD0QetFcA==}</apiToken>
+      <apiToken>{AQAAABAAAAAwOcf1qzCi1rdCt92+XsXrEW//cbZj2Gkh0V26gTDw0q0AQ/Hb8BkGGioYSg+ivnlLhyjv/3R3HvYK5Ij9tlSOFQ==}</apiToken>
     </jenkins.security.ApiTokenProperty>
     <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.1">
       <autofavoriteEnabled>true</autofavoriteEnabled>
@@ -11,6 +11,9 @@
     <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.1.16">
       <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
     </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.61">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
     <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.1">
       <data class="concurrent-hash-map">
         <entry>
@@ -26,7 +29,15 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>boost/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>disruptor--/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>boost_1_66_0/master</string>
           <boolean>true</boolean>
         </entry>
         <entry>
@@ -39,10 +50,6 @@
         </entry>
         <entry>
           <string>rapidjson/master</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>jetta/master</string>
           <boolean>true</boolean>
         </entry>
         <entry>

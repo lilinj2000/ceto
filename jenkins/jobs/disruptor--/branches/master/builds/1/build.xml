@@ -20,14 +20,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>a3816e45542d0e3fc2cf167059cfa4265387db54</hash>
+        <hash>b83a687b6dcd81d892c86fa0aca3033554fe4bbe</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>c7f0565c-dc3a-4015-807c-f60d53c6929c</stagesUUID>
+      <stagesUUID>58f80c6c-1231-484f-873c-b70bbf4beb4b</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -46,18 +46,11 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
+                              <value class="string">
 home_disruptor=${home_3rd}/disruptor
-
 mkdir -p ${home_disruptor}/include
-
 cp -avr disruptor ${home_disruptor}/include
-
-
-</value>
+   	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -68,7 +61,7 @@ cp -avr disruptor ${home_disruptor}/include
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>c7f0565c-dc3a-4015-807c-f60d53c6929c</uuid>
+          <uuid>58f80c6c-1231-484f-873c-b70bbf4beb4b</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -78,7 +71,7 @@ cp -avr disruptor ${home_disruptor}/include
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>a3816e45542d0e3fc2cf167059cfa4265387db54</sha1>
+              <sha1>b83a687b6dcd81d892c86fa0aca3033554fe4bbe</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -103,7 +96,7 @@ cp -avr disruptor ${home_disruptor}/include
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA</ws>
+      <ws>/var/jenkins_home/workspace/disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -113,32 +106,49 @@ cp -avr disruptor ${home_disruptor}/include
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>8</queueId>
-  <timestamp>1514265056327</timestamp>
-  <startTime>1514265056358</startTime>
+  <queueId>36</queueId>
+  <timestamp>1514543994025</timestamp>
+  <startTime>1514543994050</startTime>
   <result>SUCCESS</result>
-  <duration>8043</duration>
+  <duration>17674</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
   stages {
     stage(&apos;install&apos;) {
       steps {
-        sh &apos;&apos;&apos;kernel=`uname -sr | sed --e=\&apos;s/ /\\//\&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
+        sh &apos;&apos;&apos;
 home_disruptor=${home_3rd}/disruptor
-
 mkdir -p ${home_disruptor}/include
-
 cp -avr disruptor ${home_disruptor}/include
-
-
-&apos;&apos;&apos;
+   	&apos;&apos;&apos;
       }
     }
   }
@@ -147,28 +157,28 @@ cp -avr disruptor ${home_disruptor}/include
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>127258781</long>
+        <long>138919645</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>244844685</long>
+        <long>568124276</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>744678646</long>
+        <long>4883021326</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>60220428</long>
+        <long>72010677</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>60474137</long>
+        <long>119051588</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>21</iota>
-    <head>1:21</head>
+    <iota>35</iota>
+    <head>1:35</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -204,8 +214,8 @@ cp -avr disruptor ${home_disruptor}/include
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/disruptor--/branches/master/builds/1/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA</workspace>
+      <changelogFile>/var/jenkins_home/jobs/disruptor--/branches/master/builds/1/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

@@ -1,27 +1,29 @@
 env
-env
-hostname
-uname -a
-exit
-env
+date
 pwd
 ls
-ls -lart
-pwd
-cd /root
-ls
-touch a.txt
-ls -rt
+cat /etc/issue
 ls -lrt
-exit
+java --version
+java -v
+java --help
+java --help
+java
+java -version
+uname -a
+uname -sr
+pwd
 ls
-cd /opt/jenkins/
 ls
-exit
+pwd
 ls
-which java
-java -jar /opt/jenkins/jenkins.war 
+pwd
+cd home/
 ls
-cd /root
+cd /var/jenkins_home/
 ls
+cd secret
+cd secrets/
+ls
+more initialAdminPassword 
 exit

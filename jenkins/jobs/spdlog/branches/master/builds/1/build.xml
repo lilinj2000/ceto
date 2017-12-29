@@ -20,14 +20,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>604ddd2d2edaf3006bc9cadd1722cc23f660f61d</hash>
+        <hash>73d4ab4b2dc36d1dd3f8c8d959f05c922e25805f</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>13c41709-76bb-47ae-aa3c-62774a41c84b</stagesUUID>
+      <stagesUUID>8aafbe62-15cf-43f4-b7f5-5800643d9891</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -46,18 +46,11 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
+                              <value class="string">
 home_spdlog=${home_3rd}/spdlog
-
 mkdir -p ${home_spdlog}
-
 cp -avr include ${home_spdlog}
-
-
-</value>
+   	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -68,7 +61,7 @@ cp -avr include ${home_spdlog}
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>13c41709-76bb-47ae-aa3c-62774a41c84b</uuid>
+          <uuid>8aafbe62-15cf-43f4-b7f5-5800643d9891</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -78,7 +71,7 @@ cp -avr include ${home_spdlog}
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>604ddd2d2edaf3006bc9cadd1722cc23f660f61d</sha1>
+              <sha1>73d4ab4b2dc36d1dd3f8c8d959f05c922e25805f</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -103,7 +96,7 @@ cp -avr include ${home_spdlog}
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</ws>
+      <ws>/var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -113,32 +106,49 @@ cp -avr include ${home_spdlog}
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>5</queueId>
-  <timestamp>1514264656420</timestamp>
-  <startTime>1514264656450</startTime>
+  <queueId>42</queueId>
+  <timestamp>1514544255063</timestamp>
+  <startTime>1514544255087</startTime>
   <result>SUCCESS</result>
-  <duration>11275</duration>
+  <duration>17715</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
   stages {
     stage(&apos;install&apos;) {
       steps {
-        sh &apos;&apos;&apos;kernel=`uname -sr | sed --e=\&apos;s/ /\\//\&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
+        sh &apos;&apos;&apos;
 home_spdlog=${home_3rd}/spdlog
-
 mkdir -p ${home_spdlog}
-
 cp -avr include ${home_spdlog}
-
-
-&apos;&apos;&apos;
+   	&apos;&apos;&apos;
       }
     }
   }
@@ -147,28 +157,28 @@ cp -avr include ${home_spdlog}
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>129475969</long>
+        <long>218416977</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>1090812211</long>
+        <long>503048073</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>1319986903</long>
+        <long>4291284771</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>130995902</long>
+        <long>57459508</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>108228197</long>
+        <long>86577895</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>21</iota>
-    <head>1:21</head>
+    <iota>35</iota>
+    <head>1:35</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -204,8 +214,8 @@ cp -avr include ${home_spdlog}
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/spdlog/branches/master/builds/1/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/spdlog/branches/master/builds/1/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

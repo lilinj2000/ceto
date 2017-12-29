@@ -5,7 +5,7 @@
       <causeBag class="linked-hash-map">
         <entry>
           <hudson.model.Cause_-UserIdCause>
-            <userId>admin</userId>
+            <userId>llj</userId>
           </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
@@ -22,14 +22,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>bdd6660382ce8715d5c64769a3dc63d139b8f985</hash>
+        <hash>c36d843bf4d6bc2ae0d83661f8a89d0099dd248d</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>8afa888d-951a-4821-8ce0-2078da273d58</stagesUUID>
+      <stagesUUID>05c07ff5-0cb0-4e36-979f-fc949b9b326d</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -48,11 +48,11 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">./configure
-make
-
-
-env</value>
+                              <value class="string">
+	env
+	uname -a
+	sleep 10000
+	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -63,7 +63,7 @@ env</value>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>8afa888d-951a-4821-8ce0-2078da273d58</uuid>
+          <uuid>05c07ff5-0cb0-4e36-979f-fc949b9b326d</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -73,7 +73,7 @@ env</value>
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>bdd6660382ce8715d5c64769a3dc63d139b8f985</sha1>
+              <sha1>c36d843bf4d6bc2ae0d83661f8a89d0099dd248d</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -98,7 +98,7 @@ env</value>
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</ws>
+      <ws>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -108,25 +108,47 @@ env</value>
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>llj</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
   </actions>
-  <queueId>4</queueId>
-  <timestamp>1514354896417</timestamp>
-  <startTime>1514354896418</startTime>
-  <result>SUCCESS</result>
-  <duration>9707</duration>
+  <queueId>5</queueId>
+  <timestamp>1514528135083</timestamp>
+  <startTime>1514528135147</startTime>
+  <result>ABORTED</result>
+  <duration>254635</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>ABORTED</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker { image &apos;lilinj2000/dev:centos6&apos; }
+  }
   stages {
     stage(&apos;build&apos;) {
       steps {
-        sh &apos;&apos;&apos;./configure
-make
-
-
-env&apos;&apos;&apos;
+        sh &apos;&apos;&apos;
+	env
+	uname -a
+	sleep 10000
+	&apos;&apos;&apos;
       }
     }
   }
@@ -135,28 +157,28 @@ env&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>125476550</long>
+        <long>314139640</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>252036058</long>
+        <long>17765993631</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>876872720</long>
+        <long>27163754430</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>49334319</long>
+        <long>235994515</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>125936954</long>
+        <long>197892040</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>21</iota>
-    <head>1:21</head>
+    <iota>31</iota>
+    <head>1:31</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -192,8 +214,8 @@ env&apos;&apos;&apos;
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/jetta/branches/master/builds/3/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</workspace>
+      <changelogFile>/var/jenkins_home/jobs/jetta/branches/master/builds/3/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

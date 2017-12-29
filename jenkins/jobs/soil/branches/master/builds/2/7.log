@@ -6,8 +6,8 @@ Fetching upstream changes from https://github.com/lilinj2000/soil.git
  > git --version # timeout=10
 using GIT_ASKPASS to set credentials GitHub Access Token
  > git fetch --no-tags --progress https://github.com/lilinj2000/soil.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision da3c90e8469c6228f06346c19b85b384171d93ff (master)
+Checking out Revision e65c6642208e8ed8bd6b4e500495e11850a35be2 (master)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f da3c90e8469c6228f06346c19b85b384171d93ff
-Commit message: "Added Jenkinsfile"
- > git rev-list --no-walk b1036356b2c1cafbb9c4f15f04759e1526e4f0b6 # timeout=10
+ > git checkout -f e65c6642208e8ed8bd6b4e500495e11850a35be2
+Commit message: "update Jenkinsfile."
+ > git rev-list --no-walk e65c6642208e8ed8bd6b4e500495e11850a35be2 # timeout=10

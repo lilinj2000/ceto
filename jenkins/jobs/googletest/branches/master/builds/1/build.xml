@@ -20,14 +20,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>07e3dab1492456ed2d7563af31de42e3f93bf4a9</hash>
+        <hash>e6b015dbe7726f12a80016e61012e8ad12484e28</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>482be724-9dc6-4132-b595-3c686737a7c0</stagesUUID>
+      <stagesUUID>22dfedd5-663e-49a3-834e-a3c98e31869e</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -46,17 +46,12 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">mkdir -p build
-
+                              <value class="string">
+mkdir -p build
 cd build
-
-kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
 cmake -DCMAKE_INSTALL_PREFIX=${home_3rd}/googletest ..
-
-make</value>
+make
+	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -81,9 +76,10 @@ make</value>
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cd build
-
-make install</value>
+                              <value class="string">
+cd build
+make install
+	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -94,7 +90,7 @@ make install</value>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>482be724-9dc6-4132-b595-3c686737a7c0</uuid>
+          <uuid>22dfedd5-663e-49a3-834e-a3c98e31869e</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -104,7 +100,7 @@ make install</value>
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>07e3dab1492456ed2d7563af31de42e3f93bf4a9</sha1>
+              <sha1>e6b015dbe7726f12a80016e61012e8ad12484e28</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -129,7 +125,7 @@ make install</value>
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ</ws>
+      <ws>/var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -139,38 +135,58 @@ make install</value>
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>11</queueId>
-  <timestamp>1514265356698</timestamp>
-  <startTime>1514265356704</startTime>
+  <queueId>39</queueId>
+  <timestamp>1514544137528</timestamp>
+  <startTime>1514544137546</startTime>
   <result>SUCCESS</result>
-  <duration>29054</duration>
+  <duration>46204</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
   stages {
     stage(&apos;build&apos;) {
       steps {
-        sh &apos;&apos;&apos;mkdir -p build
-
+        sh &apos;&apos;&apos;
+mkdir -p build
 cd build
-
-kernel=`uname -sr | sed --e=\&apos;s/ /\\//\&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
 cmake -DCMAKE_INSTALL_PREFIX=${home_3rd}/googletest ..
-
-make&apos;&apos;&apos;
+make
+	&apos;&apos;&apos;
       }
     }
     stage(&apos;install&apos;) {
       steps {
-        sh &apos;&apos;&apos;cd build
-
-make install&apos;&apos;&apos;
+        sh &apos;&apos;&apos;
+cd build
+make install
+	&apos;&apos;&apos;
       }
     }
   }
@@ -179,28 +195,28 @@ make install&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>139578183</long>
+        <long>171723791</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>349717761</long>
+        <long>584157500</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>1029130594</long>
+        <long>7061609807</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>58686798</long>
+        <long>83518665</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>155273266</long>
+        <long>203905148</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>26</iota>
-    <head>1:26</head>
+    <iota>40</iota>
+    <head>1:40</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -236,8 +252,8 @@ make install&apos;&apos;&apos;
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/googletest/branches/master/builds/1/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/googletest/branches/master/builds/1/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

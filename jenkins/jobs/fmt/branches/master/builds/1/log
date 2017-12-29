@@ -1,16 +1,16 @@
 Branch indexing
-[8mha:////4NmFNNtL5QEyf7UOhyg6m59dni9c+z0odBEW6Duygy/QAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRCr+bPawBeang6jgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-Obtained Jenkinsfile from 25030110a02d14a771495bb5d3b9eb9bfedd83ba
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
-Running on [8mha:////4AFFYmcyhX53hBLD440aUbHSV/MhPPZtMzqEYtKnJQOxAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /opt/jenkins/data/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+[8mha:////4I5qTjlA1jFmKtk5VTQteC135r8Ab7X67UBazDaDpWGHAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCwhfSVgCSuQWFjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 8e808d2024a1455339d708d44b4a5d071df14fc1
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
 Cloning the remote Git repository
 Cloning with configured refspecs honoured and without tags
 Cloning repository https://github.com/lilinj2000/fmt.git
- > git init /opt/jenkins/data/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA # timeout=10
+ > git init /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA # timeout=10
 Fetching upstream changes from https://github.com/lilinj2000/fmt.git
  > git --version # timeout=10
 using GIT_ASKPASS to set credentials GitHub Access Token
@@ -22,26 +22,42 @@ Fetching without tags
 Fetching upstream changes from https://github.com/lilinj2000/fmt.git
 using GIT_ASKPASS to set credentials GitHub Access Token
  > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision 25030110a02d14a771495bb5d3b9eb9bfedd83ba (master)
+Checking out Revision 8e808d2024a1455339d708d44b4a5d071df14fc1 (master)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 25030110a02d14a771495bb5d3b9eb9bfedd83ba
-Commit message: "Added Jenkinsfile"
+ > git checkout -f 8e808d2024a1455339d708d44b4a5d071df14fc1
+Commit message: "upate Jenkinsfile."
 First time build. Skipping changelog.
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
+Status: Image is up to date for lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container acc54d1b45542c685cc07979cef67a5e41565338165558cf92a6e1381cf52b56
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA --volumes-from acc54d1b45542c685cc07979cef67a5e41565338165558cf92a6e1381cf52b56 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
 [fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
 + mkdir -p build
 + cd build
-++ uname -sr
-++ sed '--e=s/ /\//'
-+ kernel=Linux/3.10.0-327.el7.x86_64
-+ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
-+ cmake -DCMAKE_INSTALL_PREFIX=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt ..
++ cmake -DCMAKE_INSTALL_PREFIX=/var/jenkins_home/dist_pkg/3rd/centos6/fmt -DBUILD_SHARED_LIBS=TRUE ..
 -- CMake version: 2.8.12.2
 -- The C compiler identification is GNU 4.8.2
 -- The CXX compiler identification is GNU 4.8.2
@@ -91,14 +107,14 @@ First time build. Skipping changelog.
 -- Performing Test HAVE_FNO_EXCEPTIONS_FLAG - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /opt/jenkins/data/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA/build
+-- Build files have been written to: /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA/build
 + make
 Scanning dependencies of target fmt
 [  3%] Building CXX object fmt/CMakeFiles/fmt.dir/posix.cc.o
 [  6%] Building CXX object fmt/CMakeFiles/fmt.dir/format.cc.o
 [  9%] Building CXX object fmt/CMakeFiles/fmt.dir/ostream.cc.o
 [ 12%] Building CXX object fmt/CMakeFiles/fmt.dir/printf.cc.o
-Linking CXX static library libfmt.a
+Linking CXX shared library libfmt.so
 [ 12%] Built target fmt
 Scanning dependencies of target gmock
 [ 16%] Building CXX object test/CMakeFiles/gmock.dir/gmock-gtest-all.cc.o
@@ -146,7 +162,7 @@ Linking CXX executable ../bin/macro-test
 [ 58%] Built target macro-test
 Scanning dependencies of target noexception-test
 [ 61%] Building CXX object test/CMakeFiles/noexception-test.dir/__/fmt/format.cc.o
-Linking CXX static library libnoexception-test.a
+Linking CXX shared library libnoexception-test.so
 [ 61%] Built target noexception-test
 Scanning dependencies of target ostream-test
 [ 64%] Building CXX object test/CMakeFiles/ostream-test.dir/ostream-test.cc.o
@@ -181,11 +197,11 @@ Scanning dependencies of target util-test
 [100%] Building CXX object test/CMakeFiles/util-test.dir/util-test.cc.o
 Linking CXX executable ../bin/util-test
 [100%] Built target util-test
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
 [fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
 + cd build
 + make install
@@ -210,29 +226,37 @@ Linking CXX executable ../bin/util-test
 [100%] Built target util-test
 Install the project...
 -- Install configuration: "Release"
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/lib/cmake/fmt/fmt-config.cmake
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/lib/cmake/fmt/fmt-config-version.cmake
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/lib/cmake/fmt/fmt-targets.cmake
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/lib/cmake/fmt/fmt-targets-release.cmake
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/lib/libfmt.a
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/container.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/format.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/format.cc
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/ostream.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/ostream.cc
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/printf.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/printf.cc
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/string.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/time.h
--- Installing: /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/fmt/include/fmt/posix.h
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
-[8mha:////4CupLTnhX8OmelEk6AuvuzwlrZI/b3PKCOQUBkKb2gx6AAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/libfmt.so.4.0.1
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/libfmt.so.4
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib/libfmt.so
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/container.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.cc
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/ostream.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/ostream.cc
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/printf.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/printf.cc
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/string.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/time.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/posix.h
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 af9fc1dc6c7f9a544819e1ab13f2d05fcf1b101df741381dc1c7019a5656185c
+$ docker rm -f af9fc1dc6c7f9a544819e1ab13f2d05fcf1b101df741381dc1c7019a5656185c
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
 
-GitHub has been notified of this commit?s build result
+GitHub has been notified of this commit’s build result
 
 Finished: SUCCESS

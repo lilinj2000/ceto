@@ -10,10 +10,18 @@
   <actions>
     <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
     <org.jenkinsci.plugins.workflow.actions.LabelAction plugin="workflow-api@2.24">
-      <displayName>install</displayName>
+      <displayName>Declarative: Agent Setup</displayName>
     </org.jenkinsci.plugins.workflow.actions.LabelAction>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514265064004</startTime>
+      <startTime>1514544002767</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <org.jenkinsci.plugins.workflow.actions.TagsAction plugin="workflow-api@2.24">
+      <tags>
+        <entry>
+          <string>SYNTHETIC_STAGE</string>
+          <string>PRE</string>
+        </entry>
+      </tags>
+    </org.jenkinsci.plugins.workflow.actions.TagsAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

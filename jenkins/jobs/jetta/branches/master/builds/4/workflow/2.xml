@@ -4,11 +4,4 @@
     <parentIds/>
     <id>2</id>
   </node>
-  <actions>
-    <org.jenkinsci.plugins.workflow.support.actions.WorkspaceActionImpl>
-      <node></node>
-      <path>/opt/jenkins/data/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@script</path>
-      <labels class="sorted-set"/>
-    </org.jenkinsci.plugins.workflow.support.actions.WorkspaceActionImpl>
-  </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

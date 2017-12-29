@@ -20,14 +20,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>104850bfd83f717d8b6f44905a114a31f6059193</hash>
+        <hash>c4b636a27845c393c652a9851972d41371659d44</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>593683f4-06a9-4bc1-999c-18353d5a8f3e</stagesUUID>
+      <stagesUUID>87c5d658-aee1-4e01-bdec-6101eedc38a4</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -46,16 +46,11 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">kernel=`uname -sr | sed --e=&apos;s/ /\//&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
-readerwriterqueue_include=${home_3rd}/readerwriterqueue/include/readerwriterqueue
-
-mkdir -p ${readerwriterqueue_include}
-
-cp -av atomicops.h ${readerwriterqueue_include}
-cp -av readerwriterqueue.h ${readerwriterqueue_include}</value>
+                              <value class="string">
+readerwriterqueue_install_path=${home_3rd}/readerwriterqueue/include
+mkdir -p ${readerwriterqueue_install_path}
+cp -av *.h ${readerwriterqueue_install_path}
+       	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -66,7 +61,7 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}</value>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>593683f4-06a9-4bc1-999c-18353d5a8f3e</uuid>
+          <uuid>87c5d658-aee1-4e01-bdec-6101eedc38a4</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -76,7 +71,7 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}</value>
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>104850bfd83f717d8b6f44905a114a31f6059193</sha1>
+              <sha1>c4b636a27845c393c652a9851972d41371659d44</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -101,7 +96,7 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}</value>
           <list/>
         </entry>
       </tags>
-      <ws>/opt/jenkins/data/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A</ws>
+      <ws>/var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A</ws>
     </hudson.plugins.git.GitTagAction>
     <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
       <revisionStates>
@@ -111,30 +106,49 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}</value>
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>2</queueId>
-  <timestamp>1514198631871</timestamp>
-  <startTime>1514198631889</startTime>
+  <queueId>33</queueId>
+  <timestamp>1514543866383</timestamp>
+  <startTime>1514543866409</startTime>
   <result>SUCCESS</result>
-  <duration>14525</duration>
+  <duration>22693</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
   stages {
     stage(&apos;install&apos;) {
       steps {
-        sh &apos;&apos;&apos;kernel=`uname -sr | sed --e=\&apos;s/ /\\//\&apos;`
-
-home_3rd=$JENKINS_HOME/3rd/${kernel}
-
-readerwriterqueue_include=${home_3rd}/readerwriterqueue/include/readerwriterqueue
-
-mkdir -p ${readerwriterqueue_include}
-
-cp -av atomicops.h ${readerwriterqueue_include}
-cp -av readerwriterqueue.h ${readerwriterqueue_include}&apos;&apos;&apos;
+        sh &apos;&apos;&apos;
+readerwriterqueue_install_path=${home_3rd}/readerwriterqueue/include
+mkdir -p ${readerwriterqueue_install_path}
+cp -av *.h ${readerwriterqueue_install_path}
+       	&apos;&apos;&apos;
       }
     }
   }
@@ -143,28 +157,28 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>216540332</long>
+        <long>218748262</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>5629551509</long>
+        <long>2882447510</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>6330194468</long>
+        <long>8669152301</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>728129048</long>
+        <long>626843759</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>674028142</long>
+        <long>118940373</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>21</iota>
-    <head>1:21</head>
+    <iota>35</iota>
+    <head>1:35</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -200,8 +214,8 @@ cp -av readerwriterqueue.h ${readerwriterqueue_include}&apos;&apos;&apos;
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/readerwriterqueue/branches/master/builds/1/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A</workspace>
+      <changelogFile>/var/jenkins_home/jobs/readerwriterqueue/branches/master/builds/1/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

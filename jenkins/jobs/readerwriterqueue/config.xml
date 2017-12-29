@@ -7,7 +7,7 @@
         <description>Blue Ocean Folder Credentials domain</description>
         <specifications/>
       </domain>
-      <user>admin</user>
+      <user>llj</user>
       <id>github</id>
     </io.jenkins.blueocean.rest.impl.pipeline.credential.BlueOceanCredentialsProvider_-FolderPropertyImpl>
   </properties>

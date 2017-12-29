@@ -5,7 +5,7 @@
       <causeBag class="linked-hash-map">
         <entry>
           <hudson.model.Cause_-UserIdCause>
-            <userId>admin</userId>
+            <userId>llj</userId>
           </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
@@ -19,13 +19,13 @@
             <hudson.model.CauseAction reference="../../../../../hudson.model.CauseAction"/>
             <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../../../.."/>
           </actions>
-          <id>7</id>
+          <id>35</id>
           <task class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" resolves-to="hudson.model.AbstractItem$Replacer" plugin="workflow-multibranch@2.16">
             <fullName>disruptor--</fullName>
           </task>
-          <inQueueSince>1514265053376</inQueueSince>
+          <inQueueSince>1514543991450</inQueueSince>
           <timestamp>
-            <time>1514265053376</time>
+            <time>1514543991450</time>
             <timezone>Asia/Shanghai</timezone>
           </timestamp>
         </modelObject>
@@ -40,8 +40,8 @@
     <completeBuild>true</completeBuild>
   </result>
   <durations>
-    <long>3200</long>
+    <long>2825</long>
   </durations>
-  <timestamp>1514265053383</timestamp>
-  <duration>3200</duration>
+  <timestamp>1514543991480</timestamp>
+  <duration>2825</duration>
 </jenkins.branch.MultiBranchProject_-BranchIndexing>

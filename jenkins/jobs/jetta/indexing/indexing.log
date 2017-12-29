@@ -1,23 +1,22 @@
-Started by user [8mha:////4JckyprFL31qjFwOI+iQQq3F5n8VHTOyX7TxSSgDhjwOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-[Wed Dec 27 14:34:11 CST 2017] Starting branch indexing...
-[8mha:////4FRsP10ZAX2dWF3eSx2D4zePpcitcPpnoe+v6v+ZIr77AAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCtLUbLgEAyTmKfY4AAAA=[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-[8mha:////4GlDRI55lYTGqlKCO4EkLOfUcwJRQo2LyoB1T051+ziwAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCtLVbrAERpjDAjgAAAA==[0mConnecting to https://api.github.com using admin/****** (GitHub Access Token)
-Examining [8mha:////4Cv5yot0q23piQseCNKJP4G7SoBBw6F3/CsW2FvNBG4+AAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGFQzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+VWlKSCADUPZENqAAAAA==[0mlilinj2000/jetta
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[Fri Dec 29 14:25:41 CST 2017] Starting branch indexing...
+[8mha:////4Hp3DjKb1toUf02NvWc83f8ot0watDYxB5nYSyndRy8zAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCgk9zUwBvuwLNjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4JSWwRB0EudjTm0WjEL83A3JgQqzX+AyRNGCSqO2pz7FAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCgk8LKgEIn+zEjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Examining [8mha:////4KoFbPGWwlNt9uav4l/BgZ1tPPdeVB6QNbIH8w6haUT7AAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGFQzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+VWlKSCADUPZENqAAAAA==[0mlilinj2000/jetta
 
   Checking branches...
 
   Getting remote branches...
 
-    Checking branch [8mha:////4EDSumxR5E23y+qZvBs+HqtDu+oVBsRfDd3+GtkeCGsiAAAArR+LCAAAAAAAAP9djb0NwjAQhY8gMgAlYoZcREEBSkUDUkTDBAZO/sGxLfuCwhqsAQ1DMA47EJSO17zXfN97fmCSIsxVe07eFSfvkrdUbG+BotXusvdMy+rxqu7hnUG2g9ySk6xqGLfRMkxrI64CrXASDxy1k+suwuxPtxn6J4MhowygC/3IGVAxh7RClJpVe+ypBq3u382iLEs0xCyQIxE2IjHFL40qTOG0AAAA[0mmaster
+    Checking branch [8mha:////4JDXj0RuzmbaQVtIYPQAHjRLYcMd7d0wxhRHthOzsTLEAAAArR+LCAAAAAAAAP9djb0NwjAQhY8gMgAlYoZcREEBSkUDUkTDBAZO/sGxLfuCwhqsAQ1DMA47EJSO17zXfN97fmCSIsxVe07eFSfvkrdUbG+BotXusvdMy+rxqu7hnUG2g9ySk6xqGLfRMkxrI64CrXASDxy1k+suwuxPtxn6J4MhowygC/3IGVAxh7RClJpVe+ypBq3u382iLEs0xCyQIxE2IjHFL40qTOG0AAAA[0mmaster
       ‘Jenkinsfile’ found
     Met criteria
-Takeover for [8mha:////4EI71jGgsCtevLQj/Ul+6iM/DIFKHz3+dlCuZu1zbmfDAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYx/az8JP2s1JKSRDArN7G4JLVIHwBVcBroywAAAA==[0mjetta » master by source #1 from source that no longer exists
-Branch reopened: master (ec4b048b5aae6aa609db7f36e71893bababd575e)
+Changes detected: master (a2815525e36dd48c977b2abc78db3f4a3ce8af53 → f998cec1eb14a33ea7387fa46cb09018e64c0743)
 Scheduled build for branch: master
 
   1 branches were processed
 
 Finished examining lilinj2000/jetta
 
-[Wed Dec 27 14:34:15 CST 2017] Finished branch indexing. Indexing took 3.5 sec
+[Fri Dec 29 14:25:44 CST 2017] Finished branch indexing. Indexing took 2.6 sec
 Finished: SUCCESS

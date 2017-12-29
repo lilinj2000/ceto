@@ -1,0 +1,41 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ env
+JENKINS_NODE_COOKIE=d772a73c-a307-4ce6-886a-a587ccfad422
+HOSTNAME=e03b12cfdb28
+HUDSON_SERVER_COOKIE=38b9b9ff056fcf1b
+STAGE_NAME=build
+BUILD_TAG=jenkins-jetta-master-3
+BRANCH_NAME=master
+GIT_PREVIOUS_COMMIT=90a2153075f3513b1343de04d8f0a1d8ed8fbe20
+WORKSPACE=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/3/display/redirect?page=changes
+GIT_COMMIT=c36d843bf4d6bc2ae0d83661f8a89d0099dd248d
+JENKINS_HOME=/opt/jenkins/data
+PATH=/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/3/display/redirect
+REFRESHED_AT=2017-12-21
+_=/usr/bin/env
+PWD=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+JOB_NAME=jetta/master
+TZ=Asia/Shanghai
+BUILD_DISPLAY_NAME=#3
+BUILD_ID=3
+JOB_BASE_NAME=master
+HOME=/root
+SHLVL=2
+GIT_BRANCH=master
+EXECUTOR_NUMBER=0
+JENKINS_SERVER_COOKIE=durable-40e5eba32c53ecd709681a4a155d24ec
+NODE_LABELS=master
+GIT_URL=https://github.com/lilinj2000/jetta.git
+CLASSPATH=
+HUDSON_HOME=/var/jenkins_home
+NODE_NAME=master
+JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/display/redirect
+BUILD_NUMBER=3
++ uname -a
+Linux e03b12cfdb28 3.10.0-327.el7.x86_64 #1 SMP Thu Nov 19 22:10:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
++ sleep 10000
+Sending interrupt signal to process
+sh: line 1:    11 Terminated              JENKINS_SERVER_COOKIE=$jsc '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@tmp/durable-c5f809d3/script.sh' > '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@tmp/durable-c5f809d3/jenkins-log.txt' 2>&1
+After 10s process did not stop

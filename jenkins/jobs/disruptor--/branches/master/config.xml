@@ -13,7 +13,7 @@
   <properties>
     <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.16">
       <branch plugin="branch-api@2.0.16">
-        <sourceId>0781683f-db50-48cf-8b36-df0f9bffd8ab</sourceId>
+        <sourceId>16e73c2a-5998-42c4-90e4-bb39a873813d</sourceId>
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>

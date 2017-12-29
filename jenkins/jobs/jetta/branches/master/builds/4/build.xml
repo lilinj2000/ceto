@@ -5,7 +5,7 @@
       <causeBag class="linked-hash-map">
         <entry>
           <hudson.model.Cause_-UserIdCause>
-            <userId>admin</userId>
+            <userId>llj</userId>
           </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
@@ -17,74 +17,19 @@
         <modelObject class="flow-build" reference="../../../.."/>
       </blueOceanUrlObject>
     </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
-      <buildsByBranchName>
-        <entry>
-          <string>origin/master</string>
-          <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
-              <sha1>bdd6660382ce8715d5c64769a3dc63d139b8f985</sha1>
-              <branches class="list">
-                <hudson.plugins.git.Branch>
-                  <sha1 reference="../../../sha1"/>
-                  <name>origin/master</name>
-                </hudson.plugins.git.Branch>
-              </branches>
-            </marked>
-            <revision reference="../marked"/>
-            <hudsonBuildNumber>4</hudsonBuildNumber>
-          </hudson.plugins.git.util.Build>
-        </entry>
-        <entry>
-          <string>master</string>
-          <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
-              <sha1>bdd6660382ce8715d5c64769a3dc63d139b8f985</sha1>
-              <branches class="list">
-                <hudson.plugins.git.Branch>
-                  <sha1 reference="../../../sha1"/>
-                  <name>master</name>
-                </hudson.plugins.git.Branch>
-              </branches>
-            </marked>
-            <revision plugin="git-client@2.7.0">
-              <sha1 reference="../../marked/sha1"/>
-              <branches class="list">
-                <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
-              </branches>
-            </revision>
-            <hudsonBuildNumber>3</hudsonBuildNumber>
-          </hudson.plugins.git.util.Build>
-        </entry>
-      </buildsByBranchName>
-      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
-      <scmName></scmName>
-      <remoteUrls>
-        <string>https://github.com/lilinj2000/jetta.git</string>
-      </remoteUrls>
-    </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
-      <tags class="hudson.util.CopyOnWriteMap$Tree">
-        <entry>
-          <string>origin/master</string>
-          <list/>
-        </entry>
-      </tags>
-      <ws>/opt/jenkins/data/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@script</ws>
-    </hudson.plugins.git.GitTagAction>
-    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
-      <revisionStates>
-        <entry>
-          <string>git https://github.com/lilinj2000/jetta.git</string>
-          <hudson.scm.SCMRevisionState_-None/>
-        </entry>
-      </revisionStates>
-    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
+          <name>master</name>
+        </head>
+        <hash>32654ad62d133714087ae19643c8fbf612f8aa83</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>957e3925-55bd-41aa-a3f0-43713191fe9f</stagesUUID>
+      <stagesUUID>a193e96a-243a-4b7f-a914-20a462dbc7ba</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -103,11 +48,12 @@
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">./configure
-make
-
-
-env</value>
+                              <value class="string">
+	env
+	uname -a
+	./configure
+	make
+	</value>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                           </entry>
                         </arguments>
@@ -118,29 +64,86 @@ env</value>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>957e3925-55bd-41aa-a3f0-43713191fe9f</uuid>
+          <uuid>a193e96a-243a-4b7f-a914-20a462dbc7ba</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.0">
+              <sha1>32654ad62d133714087ae19643c8fbf612f8aa83</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>4</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/lilinj2000/jetta.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/lilinj2000/jetta.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+      <imageIDs>
+        <string>sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>1</queueId>
-  <timestamp>1514355040901</timestamp>
-  <startTime>1514355040906</startTime>
+  <queueId>7</queueId>
+  <timestamp>1514528461873</timestamp>
+  <startTime>1514528461881</startTime>
   <result>SUCCESS</result>
-  <duration>22937</duration>
+  <duration>24756</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
-  agent any
+  agent {
+    docker { image &apos;lilinj2000/dev:centos6&apos; }
+  }
   stages {
     stage(&apos;build&apos;) {
       steps {
-        sh &apos;&apos;&apos;./configure
-make
-
-
-env&apos;&apos;&apos;
+        sh &apos;&apos;&apos;
+	env
+	uname -a
+	./configure
+	make
+	&apos;&apos;&apos;
       }
     }
   }
@@ -149,28 +152,28 @@ env&apos;&apos;&apos;
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>171668566</long>
+        <long>220257601</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>6776493129</long>
+        <long>790493906</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>6113165856</long>
+        <long>6914370966</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>1782150384</long>
+        <long>538782523</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>734322981</long>
+        <long>213754779</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>12</iota>
-    <head>1:12</head>
+    <iota>31</iota>
+    <head>1:31</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
@@ -198,11 +201,16 @@ env&apos;&apos;&apos;
           <jenkins.plugins.git.GitSCMSourceDefaults>
             <includeTags>false</includeTags>
           </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
         </extensions>
       </scm>
       <node></node>
-      <workspace>/opt/jenkins/data/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@script</workspace>
-      <changelogFile>/opt/jenkins/data/jobs/jetta/branches/master/builds/4/changelog0.xml</changelogFile>
+      <workspace>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</workspace>
+      <changelogFile>/var/jenkins_home/jobs/jetta/branches/master/builds/4/changelog0.xml</changelogFile>
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
   </checkouts>

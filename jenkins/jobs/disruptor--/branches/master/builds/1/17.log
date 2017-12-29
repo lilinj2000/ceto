@@ -1,0 +1,3 @@
+[disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.

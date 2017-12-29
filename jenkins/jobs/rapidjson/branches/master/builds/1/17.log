@@ -1,0 +1,3 @@
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.

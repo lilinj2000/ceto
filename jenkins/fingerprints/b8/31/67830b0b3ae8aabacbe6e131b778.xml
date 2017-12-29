@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-12-29 06:16:26.773 UTC</timestamp>
+  <original>
+    <name>jetta/master</name>
+    <number>3</number>
+  </original>
+  <md5sum>b83167830b0b3ae8aabacbe6e131b778</md5sum>
+  <fileName>Docker image sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.10">
+      <timestamp>1514528186806</timestamp>
+      <imageId>sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</imageId>
+      <usages>
+        <entry>
+          <string>jetta/master</string>
+          <ranges>3-6</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>e03b12cfdb28</host>
+          <containerId>e03b12cfdb289b5da07142e601ec3f7fa64d32183f88ad2fbeec43529e7ca947</containerId>
+          <containerName>/competent_brahmagupta</containerName>
+          <created>1514499375000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>1e138c05f637</host>
+          <containerId>1e138c05f63739bcf9423b34e809287521a2cc7fb863601e81383510f89d279c</containerId>
+          <containerName>/blissful_bartik</containerName>
+          <created>1514499674000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>e9afb6a1111b</host>
+          <containerId>e9afb6a1111b3a198edde893435696761846f4ce1374e2687f3b7c82deffb973</containerId>
+          <containerName>/clever_galileo</containerName>
+          <created>1514499959000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f4b08f1a111e</host>
+          <containerId>f4b08f1a111e283b2a4c3011ddf2ce2f434e7db45c9c125b708b1fe2fae69b55</containerId>
+          <containerName>/objective_mclean</containerName>
+          <created>1514501742000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

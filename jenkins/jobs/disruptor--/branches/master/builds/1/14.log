@@ -1,22 +1,5 @@
 [disruptor--_master-DIHSTG4AMUAGK5LCOLPQ7BJ7E4DTFD4AD7XAMJUHYGRY2C47PYKA] Running shell script
-++ sed '--e=s/ /\//'
-++ uname -sr
-+ kernel=Linux/3.10.0-327.el7.x86_64
-+ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
-+ home_disruptor=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor
-+ mkdir -p /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include
-+ cp -avr disruptor /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include
-`disruptor' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor'
-`disruptor/batch_descriptor.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/batch_descriptor.h'
-`disruptor/claim_strategy.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/claim_strategy.h'
-`disruptor/event_processor.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/event_processor.h'
-`disruptor/event_publisher.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/event_publisher.h'
-`disruptor/exception_handler.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/exception_handler.h'
-`disruptor/exceptions.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/exceptions.h'
-`disruptor/interface.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/interface.h'
-`disruptor/ring_buffer.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/ring_buffer.h'
-`disruptor/sequence.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/sequence.h'
-`disruptor/sequence_barrier.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/sequence_barrier.h'
-`disruptor/sequencer.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/sequencer.h'
-`disruptor/utils.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/utils.h'
-`disruptor/wait_strategy.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/disruptor/include/disruptor/wait_strategy.h'
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
+Status: Image is up to date for lilinj2000/dev:centos6

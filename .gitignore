@@ -1,4 +1,4 @@
 *~
-jenkins/dist_pkg
-jenkins/workspace
-mysql/sonar
+jenkins/dist_pkg/
+jenkins/workspace/
+mysql/sonar/

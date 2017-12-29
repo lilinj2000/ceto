@@ -18,7 +18,7 @@
   <properties>
     <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.16">
       <branch plugin="branch-api@2.0.16">
-        <sourceId>d12ecbf3-338c-4524-9191-dfa52d2217f2</sourceId>
+        <sourceId>5958fd90-6128-46e3-aa35-aa9e25759b69</sourceId>
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>

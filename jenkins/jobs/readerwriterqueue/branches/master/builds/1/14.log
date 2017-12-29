@@ -1,11 +1,5 @@
 [readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
-++ uname -sr
-++ sed '--e=s/ /\//'
-+ kernel=Linux/3.10.0-327.el7.x86_64
-+ home_3rd=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64
-+ readerwriterqueue_include=/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue
-+ mkdir -p /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue
-+ cp -av atomicops.h /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue
-`atomicops.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue/atomicops.h'
-+ cp -av readerwriterqueue.h /opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue
-`readerwriterqueue.h' -> `/opt/jenkins/data/3rd/Linux/3.10.0-327.el7.x86_64/readerwriterqueue/include/readerwriterqueue/readerwriterqueue.h'
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
+Status: Image is up to date for lilinj2000/dev:centos6

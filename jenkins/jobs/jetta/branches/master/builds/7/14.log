@@ -1,0 +1,62 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+d47c6c3d155a: Already exists
+ce6e753060b7: Pulling fs layer
+bcd94c5fdb2a: Pulling fs layer
+a7cc042fe3d8: Pulling fs layer
+255ec5029c5b: Pulling fs layer
+a693de620a0c: Pulling fs layer
+d5c632493bea: Pulling fs layer
+c2b305437a2b: Pulling fs layer
+255ec5029c5b: Waiting
+a693de620a0c: Waiting
+d5c632493bea: Waiting
+9b54b5eb3758: Pulling fs layer
+92bcc9a9ffba: Pulling fs layer
+b8ec96c574d2: Pulling fs layer
+8644c7fe54a2: Pulling fs layer
+a254b630cd89: Pulling fs layer
+c2b305437a2b: Waiting
+9b54b5eb3758: Waiting
+92bcc9a9ffba: Waiting
+b8ec96c574d2: Waiting
+8644c7fe54a2: Waiting
+bc1487a859f0: Pulling fs layer
+a254b630cd89: Waiting
+bc1487a859f0: Waiting
+ce6e753060b7: Download complete
+bcd94c5fdb2a: Verifying Checksum
+bcd94c5fdb2a: Download complete
+ce6e753060b7: Pull complete
+bcd94c5fdb2a: Pull complete
+a693de620a0c: Download complete
+d5c632493bea: Download complete
+255ec5029c5b: Verifying Checksum
+255ec5029c5b: Download complete
+9b54b5eb3758: Verifying Checksum
+9b54b5eb3758: Download complete
+92bcc9a9ffba: Verifying Checksum
+92bcc9a9ffba: Download complete
+c2b305437a2b: Verifying Checksum
+c2b305437a2b: Download complete
+8644c7fe54a2: Verifying Checksum
+8644c7fe54a2: Download complete
+b8ec96c574d2: Verifying Checksum
+b8ec96c574d2: Download complete
+a254b630cd89: Download complete
+bc1487a859f0: Download complete
+a7cc042fe3d8: Download complete
+a7cc042fe3d8: Pull complete
+255ec5029c5b: Pull complete
+a693de620a0c: Pull complete
+d5c632493bea: Pull complete
+c2b305437a2b: Pull complete
+9b54b5eb3758: Pull complete
+92bcc9a9ffba: Pull complete
+b8ec96c574d2: Pull complete
+8644c7fe54a2: Pull complete
+a254b630cd89: Pull complete
+bc1487a859f0: Pull complete
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
+Status: Downloaded newer image for lilinj2000/dev:centos6
