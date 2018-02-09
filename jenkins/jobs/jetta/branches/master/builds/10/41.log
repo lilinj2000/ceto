@@ -1,0 +1,20 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+INFO: Publish mode
+INFO: Load global settings
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 3.998s
+INFO: Final Memory: 7M/29M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarQube Scanner execution
+ERROR: Not authorized. Please check the properties sonar.login and sonar.password.
+ERROR: 
+ERROR: Re-run SonarQube Scanner using the -X switch to enable full debug logging.

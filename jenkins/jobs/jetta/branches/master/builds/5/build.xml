@@ -4,7 +4,9 @@
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.16"/>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>llj</userId>
+          </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
       </causeBag>
@@ -20,215 +22,18 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>f998cec1eb14a33ea7387fa46cb09018e64c0743</hash>
+        <hash>708ac43c7f36a0b993a859abccbadd304a10de25</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>992f6a56-ab42-4a16-9bb9-1ad1ccf9c4af</stagesUUID>
-      <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
-          <stages>
-            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
-              <name>build</name>
-              <branches>
-                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
-                  <name>default</name>
-                  <steps>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
-                      <name>sh</name>
-                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-	env
-	uname -a
-	./configure
-	make
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
-                      </args>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
-                      <name>cleanWs</name>
-                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>cleanWhenSuccess</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">true</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
-                      </args>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
-                  </steps>
-                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
-              </branches>
-            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
-          </stages>
-          <uuid>992f6a56-ab42-4a16-9bb9-1ad1ccf9c4af</uuid>
-        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
-      </stagesList>
-    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
-      <buildsByBranchName>
-        <entry>
-          <string>master</string>
-          <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
-              <sha1>f998cec1eb14a33ea7387fa46cb09018e64c0743</sha1>
-              <branches class="singleton-set">
-                <hudson.plugins.git.Branch>
-                  <sha1 reference="../../../sha1"/>
-                  <name>master</name>
-                </hudson.plugins.git.Branch>
-              </branches>
-            </marked>
-            <revision reference="../marked"/>
-            <hudsonBuildNumber>5</hudsonBuildNumber>
-          </hudson.plugins.git.util.Build>
-        </entry>
-      </buildsByBranchName>
-      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
-      <remoteUrls>
-        <string>https://github.com/lilinj2000/jetta.git</string>
-      </remoteUrls>
-    </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
-      <tags class="hudson.util.CopyOnWriteMap$Tree">
-        <entry>
-          <string>master</string>
-          <list/>
-        </entry>
-      </tags>
-      <ws>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</ws>
-    </hudson.plugins.git.GitTagAction>
-    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
-      <revisionStates>
-        <entry>
-          <string>git https://github.com/lilinj2000/jetta.git</string>
-          <hudson.scm.SCMRevisionState_-None/>
-        </entry>
-      </revisionStates>
-    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
-      <env class="tree-map"/>
-    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
-      <imageIDs>
-        <string>sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</string>
-      </imageIDs>
-    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
-      <names class="sorted-set">
-        <string>lilinj2000/dev:centos6</string>
-      </names>
-    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>10</queueId>
-  <timestamp>1514528744561</timestamp>
-  <startTime>1514528744564</startTime>
-  <result>SUCCESS</result>
-  <duration>24311</duration>
+  <queueId>77</queueId>
+  <timestamp>1514879174650</timestamp>
+  <startTime>1514879174653</startTime>
+  <result>FAILURE</result>
+  <duration>3756</duration>
   <keepLog>false</keepLog>
-  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
-    <script>pipeline {
-  agent {
-    docker {
-      image &apos;lilinj2000/dev:centos6&apos;
-    }
-    
-  }
-  stages {
-    stage(&apos;build&apos;) {
-      steps {
-        sh &apos;&apos;&apos;
-	env
-	uname -a
-	./configure
-	make
-	&apos;&apos;&apos;
-        cleanWs(cleanWhenSuccess: true)
-      }
-    }
-  }
-}</script>
-    <loadedScripts class="map"/>
-    <timings class="map">
-      <entry>
-        <string>flowNode</string>
-        <long>261992583</long>
-      </entry>
-      <entry>
-        <string>classLoad</string>
-        <long>1334612664</long>
-      </entry>
-      <entry>
-        <string>run</string>
-        <long>6071626567</long>
-      </entry>
-      <entry>
-        <string>parse</string>
-        <long>73035390</long>
-      </entry>
-      <entry>
-        <string>saveProgram</string>
-        <long>206987248</long>
-      </entry>
-    </timings>
-    <sandbox>true</sandbox>
-    <iota>32</iota>
-    <head>1:32</head>
-  </execution>
-  <checkouts class="hudson.util.PersistedList">
-    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
-        <configVersion>2</configVersion>
-        <userRemoteConfigs>
-          <hudson.plugins.git.UserRemoteConfig>
-            <name>origin</name>
-            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
-            <url>https://github.com/lilinj2000/jetta.git</url>
-            <credentialsId>github</credentialsId>
-          </hudson.plugins.git.UserRemoteConfig>
-        </userRemoteConfigs>
-        <branches class="singleton-list">
-          <hudson.plugins.git.BranchSpec>
-            <name>master</name>
-          </hudson.plugins.git.BranchSpec>
-        </branches>
-        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
-        <browser class="hudson.plugins.git.browser.GithubWeb">
-          <url>https://github.com/lilinj2000/jetta</url>
-        </browser>
-        <submoduleCfg class="empty-list"/>
-        <extensions>
-          <jenkins.plugins.git.GitSCMSourceDefaults>
-            <includeTags>false</includeTags>
-          </jenkins.plugins.git.GitSCMSourceDefaults>
-          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
-            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
-              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
-            </buildChooser>
-          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
-        </extensions>
-      </scm>
-      <node></node>
-      <workspace>/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A</workspace>
-      <changelogFile>/var/jenkins_home/jobs/jetta/branches/master/builds/5/changelog0.xml</changelogFile>
-      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
-    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-  </checkouts>
+  <checkouts class="hudson.util.PersistedList"/>
 </flow-build>

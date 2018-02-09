@@ -1,0 +1,380 @@
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[8mha:////4H20gQ1AmGW0Zy3rRt5d+Vb7Ncu/BOGXHRkKrCM3eI49AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCNvv9nwH49t7ojgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 15d51be595b7a4c0c3f8c018e85025ddec99750d
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/jetta.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 15d51be595b7a4c0c3f8c018e85025ddec99750d (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 15d51be595b7a4c0c3f8c018e85025ddec99750d
+Commit message: "test"
+ > git rev-list --no-walk 15d51be595b7a4c0c3f8c018e85025ddec99750d # timeout=10
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 4166235b2a8fd210d5eab13e277ede45ffc94d85432326bc947229d667a84f8e
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A --volumes-from 4166235b2a8fd210d5eab13e277ede45ffc94d85432326bc947229d667a84f8e -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ ./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
+checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
++ make
+Making all in src
+make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
+make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 32489f0d28e13329d5b0f08a3b683205d24f253a93995903b1136f393da40c2d
+$ docker rm -f 32489f0d28e13329d5b0f08a3b683205d24f253a93995903b1136f393da40c2d
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (SonarQube analysis)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/jetta.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 15d51be595b7a4c0c3f8c018e85025ddec99750d (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 15d51be595b7a4c0c3f8c018e85025ddec99750d
+Commit message: "test"
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] script
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] tool
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // script
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: SonarQube
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ env
+JENKINS_HOME=/var/jenkins_home
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=15d51be595b7a4c0c3f8c018e85025ddec99750d
+JENKINS_UC_EXPERIMENTAL=https://updates.jenkins.io/experimental
+JAVA_ALPINE_VERSION=8.151.12-r0
+RUN_CHANGES_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/17/display/redirect?page=changes
+HOSTNAME=4166235b2a8f
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64:/usr/lib/jvm/java-1.8-openjdk/jre/../lib/amd64
+SHLVL=2
+NODE_LABELS=master
+HUDSON_URL=http://192.168.1.166:32770/
+GIT_COMMIT=15d51be595b7a4c0c3f8c018e85025ddec99750d
+HOME=/root
+BUILD_URL=http://192.168.1.166:32770/job/jetta/job/master/17/
+HUDSON_COOKIE=09ba6442-c66a-468c-b63c-aac1a65a3a89
+SONAR_HOST_URL=http://sonarqube:9000
+JENKINS_SERVER_COOKIE=durable-40e5eba32c53ecd709681a4a155d24ec
+JENKINS_UC=https://updates.jenkins.io
+WORKSPACE=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+JAVA_VERSION=8u151
+NODE_NAME=master
+STAGE_NAME=SonarQube analysis
+GIT_BRANCH=master
+EXECUTOR_NUMBER=1
+TINI_SHA=6c41ec7d33e857d4779f14d9c74924cab0c7973485d2972419a3b7c7620ff5fd
+SONAR_CONFIG_NAME=SonarQube
+BUILD_DISPLAY_NAME=#17
+JENKINS_VERSION=2.89.2
+HUDSON_HOME=/var/jenkins_home
+JOB_BASE_NAME=master
+SONARQUBE_SCANNER_PARAMS={ "sonar.host.url" : "http:\/\/sonarqube:9000", "sonar.login" : "******"}
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/jvm/java-1.8-openjdk/jre/bin:/usr/lib/jvm/java-1.8-openjdk/bin
+SONAR_AUTH_TOKEN=******
+BUILD_ID=17
+BUILD_TAG=jenkins-jetta-master-17
+JENKINS_URL=http://192.168.1.166:32770/
+LANG=C.UTF-8
+JOB_URL=http://192.168.1.166:32770/job/jetta/job/master/
+GIT_URL=https://github.com/lilinj2000/jetta.git
+BUILD_NUMBER=17
+JENKINS_NODE_COOKIE=d852c918-134e-4d05-aed4-3bf4913a638f
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+RUN_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/17/display/redirect
+JENKINS_SLAVE_AGENT_PORT=50000
+HUDSON_SERVER_COOKIE=38b9b9ff056fcf1b
+JOB_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/display/redirect
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+JOB_NAME=jetta/master
+COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log
+PWD=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+GIT_PREVIOUS_COMMIT=15d51be595b7a4c0c3f8c018e85025ddec99750d
+TINI_VERSION=0.14.0
+TZ=Asia/Shanghai
+SONAR_MAVEN_GOAL=sonar:sonar
+BRANCH_NAME=master
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=406ms
+INFO: Server id: AWCbl1BlujbdPMUWztSA
+INFO: User cache: /root/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=239ms
+INFO: Plugin [l10nzh] defines 'l10nen' as base plugin. This metadata can be removed from manifest of l10n plugins since version 5.2.
+INFO: SonarQube server 6.7.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=1446ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=560ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=3584ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=146ms
+INFO: Project key: lilinj2000:jetta
+INFO: -------------  Scan jetta
+INFO: Load server rules
+INFO: Load server rules (done) | time=648ms
+INFO: Base dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+INFO: Working dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/.scannerwork
+INFO: Source paths: src
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: 6 files indexed
+INFO: Quality profile for c: Sonar way
+INFO: Sensor c SquidSensor [c]
+INFO: SonarQube 6.2 or newer environment
+WARN: [/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src/hello.cc:1]: cannot find the sources for '#include <iostream>'
+INFO: Searching coverage reports by path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.coverage.reportPath'
+INFO: Searching for coverage reports '[]'
+INFO: Coverage BaseDir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' 
+INFO: Sensor c SquidSensor [c] (done) | time=3205ms
+INFO: Sensor c RatsSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.rats.reportPath'
+INFO: Undefined report path value for key 'sonar.c.rats.reportPath'
+INFO: C-RATS processed = 0
+INFO: Sensor c RatsSensor [c] (done) | time=1ms
+INFO: Sensor c CppCheckSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.cppcheck.reportPath'
+INFO: Undefined report path value for key 'sonar.c.cppcheck.reportPath'
+INFO: C-CPPCHECK processed = 0
+INFO: Sensor c CppCheckSensor [c] (done) | time=0ms
+INFO: Sensor c PCLintSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.pclint.reportPath'
+INFO: Undefined report path value for key 'sonar.c.pclint.reportPath'
+INFO: C-PC-LINT processed = 0
+INFO: Sensor c PCLintSensor [c] (done) | time=1ms
+INFO: Sensor c DrMemorySensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.drmemory.reportPath'
+INFO: Undefined report path value for key 'sonar.c.drmemory.reportPath'
+INFO: C-DRMEMORY processed = 0
+INFO: Sensor c DrMemorySensor [c] (done) | time=1ms
+INFO: Sensor c CompilerSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.compiler.reportPath'
+INFO: Undefined report path value for key 'sonar.c.compiler.reportPath'
+INFO: C-COMPILER processed = 0
+INFO: Sensor c CompilerSensor [c] (done) | time=0ms
+INFO: Sensor c VeraxxSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.vera.reportPath'
+INFO: Undefined report path value for key 'sonar.c.vera.reportPath'
+INFO: C-VERA++ processed = 0
+INFO: Sensor c VeraxxSensor [c] (done) | time=1ms
+INFO: Sensor c ValgrindSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.valgrind.reportPath'
+INFO: Undefined report path value for key 'sonar.c.valgrind.reportPath'
+INFO: C-VALGRIND processed = 0
+INFO: Sensor c ValgrindSensor [c] (done) | time=0ms
+INFO: Sensor c ClangTidySensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.clangtidy.reportPath'
+INFO: Undefined report path value for key 'sonar.c.clangtidy.reportPath'
+INFO: C-CLANG-TIDY processed = 0
+INFO: Sensor c ClangTidySensor [c] (done) | time=1ms
+INFO: Sensor c ClangSASensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.clangsa.reportPath'
+INFO: Undefined report path value for key 'sonar.c.clangsa.reportPath'
+INFO: C-CLANGSA processed = 0
+INFO: Sensor c ClangSASensor [c] (done) | time=1ms
+INFO: Sensor c ExternalRulesSensor [c]
+INFO: Undefined report path value for key 'sonar.c.other.xslt.1.inputs'
+ERROR: sonar.c.other.xslt.1.stylesheet is not defined.
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.other.reportPath'
+INFO: Undefined report path value for key 'sonar.c.other.reportPath'
+INFO: C-OTHER processed = 0
+INFO: Sensor c ExternalRulesSensor [c] (done) | time=1ms
+INFO: Sensor c XunitSensor [c]
+INFO: Undefined report path value for key 'sonar.c.xunit.reportPath'
+INFO: Sensor c XunitSensor [c] (done) | time=0ms
+INFO: Sensor Unit Test Results Import [c]
+INFO: Sensor Unit Test Results Import [c] (done) | time=1ms
+INFO: Sensor c CoverageSensor [c]
+INFO: Sensor c CoverageSensor [c] (done) | time=0ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=1ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=134ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=351ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=0ms
+INFO: SCM provider for this project is: git
+INFO: 1 files to be analyzed
+INFO: 1/1 files analyzed
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 469ms, dir size=44 KB
+INFO: Analysis reports compressed in 160ms, zip size=12 KB
+INFO: Analysis report uploaded in 2034ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://sonarqube:9000/dashboard/index/lilinj2000:jetta
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://sonarqube:9000/api/ce/task?id=AWC2QML4Tq9Fv1e38sJy
+INFO: Task total time: 26.242 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 32.252s
+INFO: Final Memory: 45M/113M
+INFO: ------------------------------------------------------------------------
+Cannot contact : java.io.IOException: corrupted content in /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A@tmp/durable-8957c663/jenkins-result.txt: java.lang.NumberFormatException: For input string: ""
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

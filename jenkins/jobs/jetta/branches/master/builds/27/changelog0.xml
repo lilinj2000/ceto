@@ -1,0 +1,11 @@
+commit f776d640d76a73e5772b2bc3f05e988431ca7795
+tree 3ac4cbe5e447b8f0e803b0a52c9e34f26b73fc70
+parent fb02cbd4de146f0c1696bda34b13e51c9a88cf90
+author lilinj2000 <lilinj2000@gmail.com> 2018-02-09 18:49:13 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-02-09 18:49:13 +0800
+
+    with env var.
+
+
+
+:100644 100644 841998427a76796ab59b3f2b6cc8b84dbdd52a54 85ae3d13606d5752832acb838ddfe90cdc0a5122 M	Jenkinsfile

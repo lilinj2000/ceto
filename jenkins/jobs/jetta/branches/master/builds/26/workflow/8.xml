@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.44">
+    <parentIds>
+      <string>7</string>
+    </parentIds>
+    <id>8</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.25">
+      <startTime>1518173026387</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.44">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=fb02cbd4de146f0c1696bda34b13e51c9a88cf90</string>
+            <string>GIT_PREVIOUS_COMMIT=3759694cf1124722fb69922bb545c8f49f90c441</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=3759694cf1124722fb69922bb545c8f49f90c441</string>
+            <string>GIT_URL=https://github.com/lilinj2000/jetta.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

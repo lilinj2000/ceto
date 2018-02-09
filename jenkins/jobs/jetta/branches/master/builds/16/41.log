@@ -1,0 +1,65 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=96ms
+INFO: Server id: AWCbl1BlujbdPMUWztSA
+INFO: User cache: /root/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=190ms
+INFO: Plugin [l10nzh] defines 'l10nen' as base plugin. This metadata can be removed from manifest of l10n plugins since version 5.2.
+INFO: SonarQube server 6.7.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=65ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=262ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1883ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=56ms
+INFO: Project key: lilinj2000:jetta
+INFO: -------------  Scan jetta
+INFO: Load server rules
+INFO: Load server rules (done) | time=418ms
+INFO: Base dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+INFO: Working dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/.scannerwork
+INFO: Source paths: src
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: 6 files indexed
+INFO: Sensor c XunitSensor [c]
+INFO: Undefined report path value for key 'sonar.c.xunit.reportPath'
+INFO: Sensor c XunitSensor [c] (done) | time=0ms
+INFO: Sensor Unit Test Results Import [c]
+INFO: Sensor Unit Test Results Import [c] (done) | time=0ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=0ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=12ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=82ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=0ms
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 228ms, dir size=43 KB
+INFO: Analysis reports compressed in 25ms, zip size=10 KB
+INFO: Analysis report uploaded in 16500ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://sonarqube:9000/dashboard/index/lilinj2000:jetta
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://sonarqube:9000/api/ce/task?id=AWC2PAXITq9Fv1e38sJx
+INFO: Task total time: 24.219 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 26.150s
+INFO: Final Memory: 44M/132M
+INFO: ------------------------------------------------------------------------

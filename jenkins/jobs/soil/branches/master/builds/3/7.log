@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/soil.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/soil.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/soil.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision c9a4cd1ff19baea1b8cbaad9861800f98ef7f2bc (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c9a4cd1ff19baea1b8cbaad9861800f98ef7f2bc
+Commit message: "cpplint check passed."
+ > git rev-list --no-walk e65c6642208e8ed8bd6b4e500495e11850a35be2 # timeout=10

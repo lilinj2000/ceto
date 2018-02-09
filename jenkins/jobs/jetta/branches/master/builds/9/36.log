@@ -1,0 +1,46 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ env
+JENKINS_NODE_COOKIE=4ae37d44-ad82-4ea7-b342-ae4890a84dbc
+BUILD_URL=http://192.168.1.166:32770/job/jetta/job/master/9/
+HOSTNAME=d08889ef41e7
+SONARQUBE_SCANNER_PARAMS={ "sonar.host.url" : "http:\/\/sonarqube:9000", "sonar.login" : "******"}
+home_libs=/var/jenkins_home/dist_pkg/libs/centos6
+HUDSON_SERVER_COOKIE=38b9b9ff056fcf1b
+SONAR_AUTH_TOKEN=******
+SONAR_HOST_URL=http://sonarqube:9000
+STAGE_NAME=SonarQube analysis
+BUILD_TAG=jenkins-jetta-master-9
+BRANCH_NAME=master
+GIT_PREVIOUS_COMMIT=12420901925c3daeac6c847f36af7281c434cd39
+WORKSPACE=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+JOB_URL=http://192.168.1.166:32770/job/jetta/job/master/
+RUN_CHANGES_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/9/display/redirect?page=changes
+GIT_COMMIT=f3c557693f831668f2f091416242056c42497b74
+PATH=/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+home_3rd=/var/jenkins_home/dist_pkg/3rd/centos6
+RUN_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/9/display/redirect
+REFRESHED_AT=2017-12-21
+_=/usr/bin/env
+SONAR_CONFIG_NAME=SonarQube
+home_app=/var/jenkins_home/dist_pkg/app/centos6
+PWD=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+HUDSON_URL=http://192.168.1.166:32770/
+JOB_NAME=jetta/master
+TZ=Asia/Shanghai
+BUILD_DISPLAY_NAME=#9
+JENKINS_URL=http://192.168.1.166:32770/
+BUILD_ID=9
+JOB_BASE_NAME=master
+HOME=/root
+SHLVL=2
+GIT_BRANCH=master
+EXECUTOR_NUMBER=1
+JENKINS_SERVER_COOKIE=durable-40e5eba32c53ecd709681a4a155d24ec
+GIT_URL=https://github.com/lilinj2000/jetta.git
+NODE_LABELS=master
+CLASSPATH=
+HUDSON_HOME=/var/jenkins_home
+NODE_NAME=master
+JOB_DISPLAY_URL=http://192.168.1.166:32770/job/jetta/job/master/display/redirect
+BUILD_NUMBER=9
+SONAR_MAVEN_GOAL=sonar:sonar

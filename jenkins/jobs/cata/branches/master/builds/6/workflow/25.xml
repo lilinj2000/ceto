@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.44">
+    <parentIds>
+      <string>24</string>
+    </parentIds>
+    <id>25</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.25">
+      <startTime>1518173652149</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.44">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>script</string>
+          <string>
+home_cata=${home_libs}/cata
+./configure --prefix=${home_cata}
+make
+	</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

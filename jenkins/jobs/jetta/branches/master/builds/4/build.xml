@@ -22,14 +22,14 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
           <name>master</name>
         </head>
-        <hash>32654ad62d133714087ae19643c8fbf612f8aa83</hash>
+        <hash>12e4e002ac3ad72b400d54f60faf46faeb42a6f5</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
     <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>a193e96a-243a-4b7f-a914-20a462dbc7ba</stagesUUID>
+      <stagesUUID>1918b092-26ec-4eca-85f1-6c3a0dd5a483</stagesUUID>
       <stagesList>
         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
           <stages>
@@ -49,8 +49,6 @@
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
                               <value class="string">
-	env
-	uname -a
 	./configure
 	make
 	</value>
@@ -59,12 +57,60 @@
                         </arguments>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                      <name>withSonarQubeEnv</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$1">
+                          <value class="string">1</value>
+                        </value>
+                      </args>
+                      <children>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>tool</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>name</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                                  <value class="string">scanner</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                              </entry>
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>type</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                                  <value class="string">hudson.plugins.sonar.SonarRunnerInstallation</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                          <name>sh</name>
+                          <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                            <arguments class="linked-hash-map">
+                              <entry>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <key>script</key>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                                  <value class="string">env</value>
+                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                              </entry>
+                            </arguments>
+                          </args>
+                        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      </children>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
                   </steps>
                 </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>a193e96a-243a-4b7f-a914-20a462dbc7ba</uuid>
+          <uuid>1918b092-26ec-4eca-85f1-6c3a0dd5a483</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
@@ -74,7 +120,7 @@
           <string>master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.7.0">
-              <sha1>32654ad62d133714087ae19643c8fbf612f8aa83</sha1>
+              <sha1>12e4e002ac3ad72b400d54f60faf46faeb42a6f5</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -114,7 +160,7 @@
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
     <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
       <imageIDs>
-        <string>sha256:b83167830b0b3ae8aabacbe6e131b778424c7f73d73cfbb9539cc2451f19a96e</string>
+        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
     <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
@@ -123,27 +169,37 @@
       </names>
     </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>7</queueId>
-  <timestamp>1514528461873</timestamp>
-  <startTime>1514528461881</startTime>
-  <result>SUCCESS</result>
-  <duration>24756</duration>
+  <queueId>75</queueId>
+  <timestamp>1514878008678</timestamp>
+  <startTime>1514878008686</startTime>
+  <result>FAILURE</result>
+  <duration>18329</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>FAILURE</result>
     <script>pipeline {
   agent {
-    docker { image &apos;lilinj2000/dev:centos6&apos; }
+    docker {
+      image &apos;lilinj2000/dev:centos6&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
   }
   stages {
     stage(&apos;build&apos;) {
       steps {
         sh &apos;&apos;&apos;
-	env
-	uname -a
 	./configure
 	make
 	&apos;&apos;&apos;
+        withSonarQubeEnv(&apos;1&apos;) {
+          tool name: &apos;scanner&apos;, type: &apos;hudson.plugins.sonar.SonarRunnerInstallation&apos;
+	  sh &apos;env&apos;
+        }
       }
     }
   }
@@ -152,28 +208,28 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>220257601</long>
+        <long>262254607</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>790493906</long>
+        <long>389265459</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>6914370966</long>
+        <long>5019826665</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>538782523</long>
+        <long>65095106</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>213754779</long>
+        <long>193921664</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>31</iota>
-    <head>1:31</head>
+    <iota>37</iota>
+    <head>1:37</head>
   </execution>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>

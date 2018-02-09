@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/jetta.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision f776d640d76a73e5772b2bc3f05e988431ca7795 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f776d640d76a73e5772b2bc3f05e988431ca7795
+Commit message: "with env var."
+ > git rev-list --no-walk fb02cbd4de146f0c1696bda34b13e51c9a88cf90 # timeout=10

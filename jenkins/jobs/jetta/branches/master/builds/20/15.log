@@ -1,0 +1,5 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ cpplint --output=vs7 --recursive .
+src/hello.cc(0): warning: No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Done processing src/hello.cc
+Total errors found: 1

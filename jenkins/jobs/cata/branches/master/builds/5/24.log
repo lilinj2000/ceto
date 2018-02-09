@@ -1,0 +1,49 @@
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ cpplint --output=vs7 --recursive .
+Done processing service/trader_spi_impl.h
+Ignoring "service/auto/ThostFtdcUserApiDataType.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/helper.h
+Done processing service/trader_service_impl.cc
+Done processing cata/md_service.h
+Done processing utest/md_service_impl_test.cc
+Done processing utest/trader_service_test.cc
+Done processing service/trader_options.h
+Done processing service/md_service_impl.h
+Ignoring "service/auto/ThostFtdcMdApi.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/trader_options.cc
+Done processing service/md_options.h
+Ignoring "service/auto/ThostFtdcUserApiStruct.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/md_service_impl.cc
+Done processing service/trader_service_impl.h
+Done processing service/trader_spi_impl.cc
+Done processing cata/trader_service.h
+Done processing service/md_spi_impl.h
+Ignoring "service/auto/ThostFtdcTraderApi.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/md_options.cc
+Done processing utest/mock_md_api.h
+Done processing service/md_api_factory.h
+Done processing utest/md_service_test.cc
+Done processing service/api_struct_print.h
+Done processing service/md_spi_impl.cc
+Done processing utest/message_test.cc
++ cppcheck --enable=all --inconclusive --xml --xml-version=2 .
+Checking service/md_options.cc ...
+1/10 files checked 10% done
+Checking service/md_service_impl.cc ...
+2/10 files checked 20% done
+Checking service/md_spi_impl.cc ...
+3/10 files checked 30% done
+Checking service/trader_options.cc ...
+4/10 files checked 40% done
+Checking service/trader_service_impl.cc ...
+5/10 files checked 50% done
+Checking service/trader_spi_impl.cc ...
+6/10 files checked 60% done
+Checking utest/md_service_impl_test.cc ...
+7/10 files checked 70% done
+Checking utest/md_service_test.cc ...
+8/10 files checked 80% done
+Checking utest/message_test.cc ...
+9/10 files checked 90% done
+Checking utest/trader_service_test.cc ...
+10/10 files checked 100% done

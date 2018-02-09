@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.44">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.25">
+      <startTime>1518172269666</startTime>
+    </wf.a.TimingAction>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.44">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>home_libs=/var/jenkins_home/dist_pkg/libs/centos6</string>
+            <string>home_app=/var/jenkins_home/dist_pkg/app/centos6</string>
+            <string>home_3rd=/var/jenkins_home/dist_pkg/3rd/centos6</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

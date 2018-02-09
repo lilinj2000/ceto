@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<jenkins.branch.MultiBranchProject_-BranchIndexing plugin="branch-api@2.0.16">
+<jenkins.branch.MultiBranchProject_-BranchIndexing plugin="branch-api@2.0.18">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
@@ -11,27 +11,11 @@
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.4.1">
       <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
         <mappedUrl>blue/organizations/jenkins/pipelines/</mappedUrl>
-        <modelObject class="hudson.model.Queue$WaitingItem">
-          <actions>
-            <hudson.model.CauseAction reference="../../../../../hudson.model.CauseAction"/>
-            <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../../../.."/>
-          </actions>
-          <id>9</id>
-          <task class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" resolves-to="hudson.model.AbstractItem$Replacer" plugin="workflow-multibranch@2.16">
-            <fullName>jetta</fullName>
-          </task>
-          <inQueueSince>1514528741774</inQueueSince>
-          <timestamp>
-            <time>1514528741774</time>
-            <timezone>Asia/Shanghai</timezone>
-          </timestamp>
-        </modelObject>
       </blueOceanUrlObject>
     </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
-    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction reference="../io.jenkins.blueocean.service.embedded.BlueOceanUrlAction"/>
   </actions>
   <result>
     <name>SUCCESS</name>
@@ -40,8 +24,8 @@
     <completeBuild>true</completeBuild>
   </result>
   <durations>
-    <long>2672</long>
+    <long>2067</long>
   </durations>
-  <timestamp>1514528741796</timestamp>
-  <duration>2672</duration>
+  <timestamp>1518173017217</timestamp>
+  <duration>2067</duration>
 </jenkins.branch.MultiBranchProject_-BranchIndexing>

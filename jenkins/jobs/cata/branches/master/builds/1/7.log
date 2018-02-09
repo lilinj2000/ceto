@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/cata.git
+ > git init /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 826afb196116eb02389682274ad1282a97b4133d (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 826afb196116eb02389682274ad1282a97b4133d
+Commit message: "cpplint && cppcheck passed."
+First time build. Skipping changelog.

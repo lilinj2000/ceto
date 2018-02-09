@@ -17,8 +17,8 @@
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=master</string>
-            <string>GIT_COMMIT=c36d843bf4d6bc2ae0d83661f8a89d0099dd248d</string>
-            <string>GIT_PREVIOUS_COMMIT=90a2153075f3513b1343de04d8f0a1d8ed8fbe20</string>
+            <string>GIT_COMMIT=a5355e2274b838610381a3234c980472fcc7c1e1</string>
+            <string>GIT_PREVIOUS_COMMIT=a5355e2274b838610381a3234c980472fcc7c1e1</string>
             <string>GIT_URL=https://github.com/lilinj2000/jetta.git</string>
           </list>
         </entry>
@@ -26,7 +26,7 @@
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
     </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514528143411</startTime>
+      <startTime>1514877988414</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

@@ -1,0 +1,326 @@
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+ERROR: Could not determine exact tip revision of master; falling back to nondeterministic checkout
+[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mChecking out git https://github.com/lilinj2000/cata.git into /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA@script to read Jenkinsfile
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/cata.git
+ > git init /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA@script # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+ > git rev-parse origin/master^{commit} # timeout=10
+Checking out Revision 14c7653d0d423d8dd68b7041434b234b8d739c80 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 14c7653d0d423d8dd68b7041434b234b8d739c80
+Commit message: "cppcheck be added in Jenkinsfile."
+First time build. Skipping changelog.
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:cefb914964d10e32d72c0ddd6a25c57b1955e10103fc711eae09a6c17e1c280c
+Status: Image is up to date for lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container f1e53072df63c732de3210a21d56f56f793b4ef06e5c52429ee9c1604d004ba3
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA --volumes-from f1e53072df63c732de3210a21d56f56f793b4ef06e5c52429ee9c1604d004ba3 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6 cat
+$ docker top a531bc8fcb381e35e40fec0e862b655fdeea429926727e78812c6e3461fe825f
+ERROR: The container started but didn't run the expected command. Please double check your ENTRYPOINT does execute the command passed as docker run argument. See https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#entrypoint for entrypoint best practices.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (code check)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ cpplint --output=vs7 --recursive .
+Done processing service/trader_spi_impl.h
+Ignoring "service/auto/ThostFtdcUserApiDataType.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/helper.h
+Done processing service/trader_service_impl.cc
+Done processing cata/md_service.h
+Done processing utest/md_service_impl_test.cc
+Done processing utest/trader_service_test.cc
+Done processing service/trader_options.h
+Done processing service/md_service_impl.h
+Ignoring "service/auto/ThostFtdcMdApi.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/trader_options.cc
+Done processing service/md_options.h
+Ignoring "service/auto/ThostFtdcUserApiStruct.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/md_service_impl.cc
+Done processing service/trader_service_impl.h
+Done processing service/trader_spi_impl.cc
+Done processing cata/trader_service.h
+Done processing service/md_spi_impl.h
+Ignoring "service/auto/ThostFtdcTraderApi.h": file excluded by "/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service/CPPLINT.cfg". File path component "auto" matches pattern "auto/*"
+Done processing service/md_options.cc
+Done processing utest/mock_md_api.h
+Done processing service/md_api_factory.h
+Done processing utest/md_service_test.cc
+Done processing service/api_struct_print.h
+Done processing service/md_spi_impl.cc
+Done processing utest/message_test.cc
++ cppcheck --enable=all --inconclusive --xml --xml-version=2 .
+Checking service/md_options.cc ...
+1/10 files checked 10% done
+Checking service/md_service_impl.cc ...
+2/10 files checked 20% done
+Checking service/md_spi_impl.cc ...
+3/10 files checked 30% done
+Checking service/trader_options.cc ...
+4/10 files checked 40% done
+Checking service/trader_service_impl.cc ...
+5/10 files checked 50% done
+Checking service/trader_spi_impl.cc ...
+6/10 files checked 60% done
+Checking utest/md_service_impl_test.cc ...
+7/10 files checked 70% done
+Checking utest/md_service_test.cc ...
+8/10 files checked 80% done
+Checking utest/message_test.cc ...
+9/10 files checked 90% done
+Checking utest/trader_service_test.cc ...
+10/10 files checked 100% done
++ cppcheck-htmlreport --title=cata/master --file=cppcheck.xml --report-dir=./cppcheck-report
+Parsing xml report.
+Creating ./cppcheck-report directory
+Processing errors
+  utest/md_service_impl_test.cc
+  utest/md_service_test.cc
+  utest/trader_service_test.cc
+Creating index.html
+Creating style.css file
+Creating stats.html (statistics)
+
+
+Open './cppcheck-report/index.html' to see the results.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cppcheck-report to /var/jenkins_home/jobs/cata/branches/master/htmlreports/cppcheck_Report
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ home_cata=/var/jenkins_home/dist_pkg/libs/centos6/cata
++ ./configure --prefix=/var/jenkins_home/dist_pkg/libs/centos6/cata
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
+checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking for gcov... gcov
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating cata/Makefile
+config.status: creating service/Makefile
+config.status: creating utest/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
++ make
+Making all in cata
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+Making all in service
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+Making all in utest
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[2]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ make install
+Making install in cata
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+make[2]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/var/jenkins_home/dist_pkg/libs/centos6/cata/include/cata" || /bin/mkdir -p "/var/jenkins_home/dist_pkg/libs/centos6/cata/include/cata"
+ /usr/bin/install -c -m 644 md_service.h trader_service.h '/var/jenkins_home/dist_pkg/libs/centos6/cata/include/cata'
+test -z "/var/jenkins_home/dist_pkg/libs/centos6/cata/include" || /bin/mkdir -p "/var/jenkins_home/dist_pkg/libs/centos6/cata/include"
+make[2]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/cata'
+Making install in service
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+make[2]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+test -z "/var/jenkins_home/dist_pkg/libs/centos6/cata/lib" || /bin/mkdir -p "/var/jenkins_home/dist_pkg/libs/centos6/cata/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcata_md.la libcata_trader.la '/var/jenkins_home/dist_pkg/libs/centos6/cata/lib'
+libtool: install: /usr/bin/install -c .libs/libcata_md-0.1.so.0.0.1 /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_md-0.1.so.0.0.1
+libtool: install: (cd /var/jenkins_home/dist_pkg/libs/centos6/cata/lib && { ln -s -f libcata_md-0.1.so.0.0.1 libcata_md-0.1.so.0 || { rm -f libcata_md-0.1.so.0 && ln -s libcata_md-0.1.so.0.0.1 libcata_md-0.1.so.0; }; })
+libtool: install: (cd /var/jenkins_home/dist_pkg/libs/centos6/cata/lib && { ln -s -f libcata_md-0.1.so.0.0.1 libcata_md.so || { rm -f libcata_md.so && ln -s libcata_md-0.1.so.0.0.1 libcata_md.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcata_md.lai /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_md.la
+libtool: install: /usr/bin/install -c .libs/libcata_trader-0.1.so.0.0.1 /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_trader-0.1.so.0.0.1
+libtool: install: (cd /var/jenkins_home/dist_pkg/libs/centos6/cata/lib && { ln -s -f libcata_trader-0.1.so.0.0.1 libcata_trader-0.1.so.0 || { rm -f libcata_trader-0.1.so.0 && ln -s libcata_trader-0.1.so.0.0.1 libcata_trader-0.1.so.0; }; })
+libtool: install: (cd /var/jenkins_home/dist_pkg/libs/centos6/cata/lib && { ln -s -f libcata_trader-0.1.so.0.0.1 libcata_trader.so || { rm -f libcata_trader.so && ln -s libcata_trader-0.1.so.0.0.1 libcata_trader.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcata_trader.lai /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_trader.la
+libtool: install: /usr/bin/install -c .libs/libcata_md.a /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_md.a
+libtool: install: chmod 644 /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_md.a
+libtool: install: ranlib /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_md.a
+libtool: install: /usr/bin/install -c .libs/libcata_trader.a /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_trader.a
+libtool: install: chmod 644 /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_trader.a
+libtool: install: ranlib /var/jenkins_home/dist_pkg/libs/centos6/cata/lib/libcata_trader.a
+libtool: finish: PATH="/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /var/jenkins_home/dist_pkg/libs/centos6/cata/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /var/jenkins_home/dist_pkg/libs/centos6/cata/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/service'
+Making install in utest
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[2]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[3]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[2]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA/utest'
+make[1]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+make[2]: Entering directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+make[1]: Leaving directory `/var/jenkins_home/workspace/cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m$ docker stop --time=1 a531bc8fcb381e35e40fec0e862b655fdeea429926727e78812c6e3461fe825f
+$ docker rm -f a531bc8fcb381e35e40fec0e862b655fdeea429926727e78812c6e3461fe825f
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

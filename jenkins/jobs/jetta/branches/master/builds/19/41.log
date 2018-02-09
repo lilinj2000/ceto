@@ -1,0 +1,131 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=964ms
+INFO: Server id: AWCbl1BlujbdPMUWztSA
+INFO: User cache: /root/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=318ms
+INFO: Plugin [l10nzh] defines 'l10nen' as base plugin. This metadata can be removed from manifest of l10n plugins since version 5.2.
+INFO: SonarQube server 6.7.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=215ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=1097ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=7538ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=343ms
+INFO: Project key: jetta
+INFO: -------------  Scan jetta
+INFO: Load server rules
+INFO: Load server rules (done) | time=624ms
+INFO: Base dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+INFO: Working dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/.scannerwork
+INFO: Source paths: src
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: Index files
+INFO: 6 files indexed
+INFO: Quality profile for c: Sonar way
+INFO: Sensor c SquidSensor [c]
+INFO: SonarQube 6.2 or newer environment
+WARN: [/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src/hello.cc:1]: cannot find the sources for '#include <iostream>'
+INFO: Searching coverage reports by path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.coverage.reportPath'
+INFO: Searching for coverage reports '[]'
+INFO: Coverage BaseDir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' 
+INFO: Sensor c SquidSensor [c] (done) | time=701ms
+INFO: Sensor c RatsSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.rats.reportPath'
+INFO: Undefined report path value for key 'sonar.c.rats.reportPath'
+INFO: C-RATS processed = 0
+INFO: Sensor c RatsSensor [c] (done) | time=1ms
+INFO: Sensor c CppCheckSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.cppcheck.reportPath'
+INFO: Undefined report path value for key 'sonar.c.cppcheck.reportPath'
+INFO: C-CPPCHECK processed = 0
+INFO: Sensor c CppCheckSensor [c] (done) | time=0ms
+INFO: Sensor c PCLintSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.pclint.reportPath'
+INFO: Undefined report path value for key 'sonar.c.pclint.reportPath'
+INFO: C-PC-LINT processed = 0
+INFO: Sensor c PCLintSensor [c] (done) | time=1ms
+INFO: Sensor c DrMemorySensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.drmemory.reportPath'
+INFO: Undefined report path value for key 'sonar.c.drmemory.reportPath'
+INFO: C-DRMEMORY processed = 0
+INFO: Sensor c DrMemorySensor [c] (done) | time=0ms
+INFO: Sensor c CompilerSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.compiler.reportPath'
+INFO: Undefined report path value for key 'sonar.c.compiler.reportPath'
+INFO: C-COMPILER processed = 0
+INFO: Sensor c CompilerSensor [c] (done) | time=1ms
+INFO: Sensor c VeraxxSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.vera.reportPath'
+INFO: Undefined report path value for key 'sonar.c.vera.reportPath'
+INFO: C-VERA++ processed = 0
+INFO: Sensor c VeraxxSensor [c] (done) | time=0ms
+INFO: Sensor c ValgrindSensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.valgrind.reportPath'
+INFO: Undefined report path value for key 'sonar.c.valgrind.reportPath'
+INFO: C-VALGRIND processed = 0
+INFO: Sensor c ValgrindSensor [c] (done) | time=1ms
+INFO: Sensor c ClangTidySensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.clangtidy.reportPath'
+INFO: Undefined report path value for key 'sonar.c.clangtidy.reportPath'
+INFO: C-CLANG-TIDY processed = 0
+INFO: Sensor c ClangTidySensor [c] (done) | time=0ms
+INFO: Sensor c ClangSASensor [c]
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.clangsa.reportPath'
+INFO: Undefined report path value for key 'sonar.c.clangsa.reportPath'
+INFO: C-CLANGSA processed = 0
+INFO: Sensor c ClangSASensor [c] (done) | time=1ms
+INFO: Sensor c ExternalRulesSensor [c]
+INFO: Undefined report path value for key 'sonar.c.other.xslt.1.inputs'
+ERROR: sonar.c.other.xslt.1.stylesheet is not defined.
+INFO: Searching reports by relative path with basedir '/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A' and search prop 'sonar.c.other.reportPath'
+INFO: Undefined report path value for key 'sonar.c.other.reportPath'
+INFO: C-OTHER processed = 0
+INFO: Sensor c ExternalRulesSensor [c] (done) | time=0ms
+INFO: Sensor c XunitSensor [c]
+INFO: Undefined report path value for key 'sonar.c.xunit.reportPath'
+INFO: Sensor c XunitSensor [c] (done) | time=1ms
+INFO: Sensor Unit Test Results Import [c]
+INFO: Sensor Unit Test Results Import [c] (done) | time=0ms
+INFO: Sensor c CoverageSensor [c]
+INFO: Sensor c CoverageSensor [c] (done) | time=0ms
+INFO: Sensor SonarJavaXmlFileSensor [java]
+INFO: Sensor SonarJavaXmlFileSensor [java] (done) | time=1ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=9ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=48ms
+INFO: Sensor CPD Block Indexer
+INFO: Sensor CPD Block Indexer (done) | time=0ms
+INFO: SCM provider for this project is: git
+INFO: 1 files to be analyzed
+INFO: 1/1 files analyzed
+INFO: 1 file had no CPD blocks
+INFO: Calculating CPD for 0 files
+INFO: CPD calculation finished
+INFO: Analysis report generated in 210ms, dir size=44 KB
+INFO: Analysis reports compressed in 33ms, zip size=12 KB
+INFO: Analysis report uploaded in 6047ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://sonarqube:9000/dashboard/index/jetta
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://sonarqube:9000/api/ce/task?id=AWC2TtxNTq9Fv1e38sKA
+INFO: Task total time: 27.661 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 35.756s
+INFO: Final Memory: 45M/105M
+INFO: ------------------------------------------------------------------------

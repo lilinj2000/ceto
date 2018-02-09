@@ -1,0 +1,46 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+INFO: Publish mode
+INFO: Load global settings
+INFO: Load global settings (done) | time=8315ms
+INFO: Server id: AWCbl1BlujbdPMUWztSA
+INFO: User cache: /root/.sonar/cache
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=762ms
+INFO: Download sonar-c-plugin-0.9.8.jar
+INFO: Plugin [l10nzh] defines 'l10nen' as base plugin. This metadata can be removed from manifest of l10n plugins since version 5.2.
+INFO: SonarQube server 6.7.0
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Process project properties
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=1884ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=5222ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=25584ms
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=1241ms
+INFO: Project key: lilinj2000:jetta
+INFO: -------------  Scan jetta
+INFO: Load server rules
+INFO: Load server rules (done) | time=1888ms
+INFO: Base dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
+INFO: Working dir: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/.scannerwork
+INFO: Source paths: src
+INFO: Source encoding: UTF-8, default locale: en_US
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 1:07.874s
+INFO: Final Memory: 43M/117M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarQube Scanner execution
+ERROR: You must install a plugin that supports the language 'cxx'
+ERROR: 
+ERROR: Re-run SonarQube Scanner using the -X switch to enable full debug logging.

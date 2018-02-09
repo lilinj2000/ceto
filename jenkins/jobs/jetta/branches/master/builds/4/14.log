@@ -1,5 +1,5 @@
 [jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
 + docker pull lilinj2000/dev:centos6
 centos6: Pulling from lilinj2000/dev
-Digest: sha256:cfa04902e23c4db33d946d6410a2d22e76d14b642d22d6cae41376bfa3e966d4
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
 Status: Image is up to date for lilinj2000/dev:centos6

@@ -1,0 +1,66 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner
+INFO: Scanner configuration file: /var/jenkins_home/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/sonar-project.properties
+INFO: SonarQube Scanner 3.0.3.778
+INFO: Java 1.8.0_151 Oracle Corporation (64-bit)
+INFO: Linux 3.10.0-327.el7.x86_64 amd64
+INFO: User cache: /root/.sonar/cache
+ERROR: SonarQube server [http://sonarqube:9000] can not be reached
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 2.098s
+INFO: Final Memory: 3M/29M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarQube Scanner execution
+org.sonarsource.scanner.api.internal.ScannerException: Unable to execute SonarQube
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory$1.run(IsolatedLauncherFactory.java:84)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory$1.run(IsolatedLauncherFactory.java:71)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:71)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory.createLauncher(IsolatedLauncherFactory.java:67)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doStart(EmbeddedScanner.java:218)
+	at org.sonarsource.scanner.api.EmbeddedScanner.start(EmbeddedScanner.java:156)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:74)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:61)
+Caused by: java.lang.IllegalStateException: Fail to get bootstrap index from server
+	at org.sonarsource.scanner.api.internal.Jars.getBootstrapIndex(Jars.java:100)
+	at org.sonarsource.scanner.api.internal.Jars.getScannerEngineFiles(Jars.java:76)
+	at org.sonarsource.scanner.api.internal.Jars.download(Jars.java:70)
+	at org.sonarsource.scanner.api.internal.JarDownloader.download(JarDownloader.java:39)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherFactory$1.run(IsolatedLauncherFactory.java:75)
+	... 8 more
+Caused by: java.net.UnknownHostException: sonarqube: Name or service not known
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.Dns$1.lookup(Dns.java:39)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:170)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RouteSelector.nextProxy(RouteSelector.java:136)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.RouteSelector.next(RouteSelector.java:81)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:171)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:121)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.StreamAllocation.newStream(StreamAllocation.java:100)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.getResponseWithInterceptorChain(RealCall.java:179)
+	at org.sonarsource.scanner.api.internal.shaded.okhttp.RealCall.execute(RealCall.java:63)
+	at org.sonarsource.scanner.api.internal.ServerConnection.callUrl(ServerConnection.java:113)
+	at org.sonarsource.scanner.api.internal.ServerConnection.downloadString(ServerConnection.java:98)
+	at org.sonarsource.scanner.api.internal.Jars.getBootstrapIndex(Jars.java:96)
+	... 12 more
+ERROR: 
+ERROR: Re-run SonarQube Scanner using the -X switch to enable full debug logging.

@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 6a2e500d0b4c1be75102dd8685c659e1177d272e (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6a2e500d0b4c1be75102dd8685c659e1177d272e
+Commit message: "update env"
+ > git rev-list --no-walk 826afb196116eb02389682274ad1282a97b4133d # timeout=10

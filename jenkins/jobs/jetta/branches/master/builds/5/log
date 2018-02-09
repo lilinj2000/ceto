@@ -1,202 +1,30 @@
-Branch indexing
-[8mha:////4PfXjyQHuh1I+yvSxr/CHo1FO+R6puf5eF/i5hlaNEZCAAAAhR+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCgk/LFgMARAOw9I4AAAA=[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
-Obtained Jenkinsfile from f998cec1eb14a33ea7387fa46cb09018e64c0743
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
-Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
- > git rev-parse --is-inside-work-tree # timeout=10
-Fetching changes from the remote Git repository
- > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
-Fetching without tags
-Fetching upstream changes from https://github.com/lilinj2000/jetta.git
- > git --version # timeout=10
-using GIT_ASKPASS to set credentials GitHub Access Token
- > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision f998cec1eb14a33ea7387fa46cb09018e64c0743 (master)
- > git config core.sparsecheckout # timeout=10
- > git checkout -f f998cec1eb14a33ea7387fa46cb09018e64c0743
-Commit message: "Added Jenkinsfile"
- > git rev-list --no-walk 32654ad62d133714087ae19643c8fbf612f8aa83 # timeout=10
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Agent Setup)
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
-[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
-+ docker pull lilinj2000/dev:centos6
-centos6: Pulling from lilinj2000/dev
-Digest: sha256:cfa04902e23c4db33d946d6410a2d22e76d14b642d22d6cae41376bfa3e966d4
-Status: Image is up to date for lilinj2000/dev:centos6
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
-[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
-+ docker inspect -f . lilinj2000/dev:centos6
-.
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
-Jenkins seems to be running inside container 6810d61d1c3f8e45677c8d8f06cd6228f8aa38f60f98336205a7931434ec5e4e
-$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A --volumes-from 6810d61d1c3f8e45677c8d8f06cd6228f8aa38f60f98336205a7931434ec5e4e -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat lilinj2000/dev:centos6
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
-[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
-+ env
-JENKINS_NODE_COOKIE=5ad1f2ad-d4c6-44e8-ab82-3ec33e0d3730
-HOSTNAME=e9afb6a1111b
-HUDSON_SERVER_COOKIE=38b9b9ff056fcf1b
-STAGE_NAME=build
-BUILD_TAG=jenkins-jetta-master-5
-BRANCH_NAME=master
-GIT_PREVIOUS_COMMIT=32654ad62d133714087ae19643c8fbf612f8aa83
-WORKSPACE=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
-RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/5/display/redirect?page=changes
-GIT_COMMIT=f998cec1eb14a33ea7387fa46cb09018e64c0743
-JENKINS_HOME=/opt/jenkins/data
-PATH=/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/5/display/redirect
-REFRESHED_AT=2017-12-21
-_=/usr/bin/env
-PWD=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
-JOB_NAME=jetta/master
-TZ=Asia/Shanghai
-BUILD_DISPLAY_NAME=#5
-BUILD_ID=5
-GIT_PREVIOUS_SUCCESSFUL_COMMIT=32654ad62d133714087ae19643c8fbf612f8aa83
-JOB_BASE_NAME=master
-HOME=/root
-SHLVL=2
-GIT_BRANCH=master
-EXECUTOR_NUMBER=0
-JENKINS_SERVER_COOKIE=durable-40e5eba32c53ecd709681a4a155d24ec
-GIT_URL=https://github.com/lilinj2000/jetta.git
-NODE_LABELS=master
-CLASSPATH=
-HUDSON_HOME=/var/jenkins_home
-NODE_NAME=master
-JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/display/redirect
-BUILD_NUMBER=5
-+ uname -a
-Linux e9afb6a1111b 3.10.0-327.el7.x86_64 #1 SMP Thu Nov 19 22:10:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
-+ ./configure
-checking for a BSD-compatible install... /usr/bin/install -c
-checking whether build environment is sane... yes
-checking for a thread-safe mkdir -p... /bin/mkdir -p
-checking for gawk... gawk
-checking whether make sets $(MAKE)... yes
-checking for g++... g++
-checking for C++ compiler default output file name... a.out
-checking whether the C++ compiler works... yes
-checking whether we are cross compiling... no
-checking for suffix of executables... 
-checking for suffix of object files... o
-checking whether we are using the GNU C++ compiler... yes
-checking whether g++ accepts -g... yes
-checking for style of include used by make... GNU
-checking dependency style of g++... gcc3
-checking for gcc... gcc
-checking whether we are using the GNU C compiler... yes
-checking whether gcc accepts -g... yes
-checking for gcc option to accept ISO C89... none needed
-checking dependency style of gcc... gcc3
-checking build system type... x86_64-unknown-linux-gnu
-checking host system type... x86_64-unknown-linux-gnu
-checking for a sed that does not truncate output... /bin/sed
-checking for grep that handles long lines and -e... /bin/grep
-checking for egrep... /bin/grep -E
-checking for fgrep... /bin/grep -F
-checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
-checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
-checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
-checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
-checking whether ln -s works... yes
-checking the maximum length of command line arguments... 1572864
-checking whether the shell understands some XSI constructs... yes
-checking whether the shell understands "+="... yes
-checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
-checking for objdump... objdump
-checking how to recognize dependent libraries... pass_all
-checking for ar... ar
-checking for strip... strip
-checking for ranlib... ranlib
-checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
-checking how to run the C preprocessor... gcc -E
-checking for ANSI C header files... yes
-checking for sys/types.h... yes
-checking for sys/stat.h... yes
-checking for stdlib.h... yes
-checking for string.h... yes
-checking for memory.h... yes
-checking for strings.h... yes
-checking for inttypes.h... yes
-checking for stdint.h... yes
-checking for unistd.h... yes
-checking for dlfcn.h... yes
-checking whether we are using the GNU C++ compiler... (cached) yes
-checking whether g++ accepts -g... (cached) yes
-checking dependency style of g++... (cached) gcc3
-checking how to run the C++ preprocessor... g++ -E
-checking for objdir... .libs
-checking if gcc supports -fno-rtti -fno-exceptions... no
-checking for gcc option to produce PIC... -fPIC -DPIC
-checking if gcc PIC flag -fPIC -DPIC works... yes
-checking if gcc static flag -static works... no
-checking if gcc supports -c -o file.o... yes
-checking if gcc supports -c -o file.o... (cached) yes
-checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
-checking whether -lc should be explicitly linked in... no
-checking dynamic linker characteristics... GNU/Linux ld.so
-checking how to hardcode library paths into programs... immediate
-checking whether stripping libraries is possible... yes
-checking if libtool supports shared libraries... yes
-checking whether to build shared libraries... yes
-checking whether to build static libraries... yes
-checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
-checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
-checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
-checking for g++ option to produce PIC... -fPIC -DPIC
-checking if g++ PIC flag -fPIC -DPIC works... yes
-checking if g++ static flag -static works... no
-checking if g++ supports -c -o file.o... yes
-checking if g++ supports -c -o file.o... (cached) yes
-checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
-checking dynamic linker characteristics... GNU/Linux ld.so
-checking how to hardcode library paths into programs... immediate
-checking for ranlib... (cached) ranlib
-checking whether g++ supports C++11 features by default... no
-checking whether g++ supports C++11 features with -std=c++11... yes
-configure: creating ./config.status
-config.status: creating Makefile
-config.status: creating src/Makefile
-config.status: executing depfiles commands
-config.status: executing libtool commands
-+ make
-Making all in src
-make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
-make[1]: Nothing to be done for `all'.
-make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
-make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
-make[1]: Nothing to be done for `all-am'.
-make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] cleanWs
-[WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-$ docker stop --time=1 e9afb6a1111b3a198edde893435696761846f4ce1374e2687f3b7c82deffb973
-$ docker rm -f e9afb6a1111b3a198edde893435696761846f4ce1374e2687f3b7c82deffb973
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
-[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[8mha:////4LaeB91oOAuiPafTTAw9jIjd2B0ABk+vo7WtJ85Ko9oXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTC1qtnNQBIHBZSjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 708ac43c7f36a0b993a859abccbadd304a10de25
 
 GitHub has been notified of this commit’s build result
 
-Finished: SUCCESS
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 23: Undefined section "stage" @ line 23, column 3.
+     stage('SonarQube analysis') {
+     ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:310)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1085)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:603)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:581)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:558)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:688)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:700)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:129)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:123)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:517)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:480)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:268)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:421)
+Finished: FAILURE

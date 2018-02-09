@@ -1,0 +1,2 @@
+$ docker stop --time=1 086819f805800f7d1f5984373d256d4b8bccfde655e5de2fe5feef7ae974a56e
+$ docker rm -f 086819f805800f7d1f5984373d256d4b8bccfde655e5de2fe5feef7ae974a56e

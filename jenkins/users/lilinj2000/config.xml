@@ -29,11 +29,23 @@
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>boost/master</string>
+          <string>disruptor--/master</string>
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>disruptor--/master</string>
+          <string>spdlog/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>cata/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>boost_1_58_0/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>boost/master</string>
           <boolean>true</boolean>
         </entry>
         <entry>
@@ -45,15 +57,11 @@
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>spdlog/master</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>rapidjson/master</string>
           <boolean>true</boolean>
         </entry>
         <entry>
-          <string>boost_1_58_0/master</string>
+          <string>jetta/master</string>
           <boolean>true</boolean>
         </entry>
       </data>

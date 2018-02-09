@@ -1,6 +1,6 @@
 Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
-[8mha:////4AkPG+oFZRRdv9WvJexoBSDL51fmJuzSkrQ1W4CbsfekAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTCgneRPwHIHBb5jgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
-Obtained Jenkinsfile from 32654ad62d133714087ae19643c8fbf612f8aa83
+[8mha:////4DEUnbJPy33xvv8lzxwDpNITu9Giw/ItWbTbR+gKr2tiAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTC1sP/8wHIQ3VPjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 12e4e002ac3ad72b400d54f60faf46faeb42a6f5
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
 Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
@@ -15,11 +15,11 @@ Fetching upstream changes from https://github.com/lilinj2000/jetta.git
  > git --version # timeout=10
 using GIT_ASKPASS to set credentials GitHub Access Token
  > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision 32654ad62d133714087ae19643c8fbf612f8aa83 (master)
+Checking out Revision 12e4e002ac3ad72b400d54f60faf46faeb42a6f5 (master)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f 32654ad62d133714087ae19643c8fbf612f8aa83
-Commit message: "the first build."
- > git rev-list --no-walk c36d843bf4d6bc2ae0d83661f8a89d0099dd248d # timeout=10
+ > git checkout -f 12e4e002ac3ad72b400d54f60faf46faeb42a6f5
+Commit message: "test"
+ > git rev-list --no-walk a5355e2274b838610381a3234c980472fcc7c1e1 # timeout=10
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
@@ -30,7 +30,7 @@ Commit message: "the first build."
 [jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
 + docker pull lilinj2000/dev:centos6
 centos6: Pulling from lilinj2000/dev
-Digest: sha256:cfa04902e23c4db33d946d6410a2d22e76d14b642d22d6cae41376bfa3e966d4
+Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
 Status: Image is up to date for lilinj2000/dev:centos6
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
@@ -39,49 +39,15 @@ Status: Image is up to date for lilinj2000/dev:centos6
 + docker inspect -f . lilinj2000/dev:centos6
 .
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
-Jenkins seems to be running inside container 6810d61d1c3f8e45677c8d8f06cd6228f8aa38f60f98336205a7931434ec5e4e
-$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A --volumes-from 6810d61d1c3f8e45677c8d8f06cd6228f8aa38f60f98336205a7931434ec5e4e -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat lilinj2000/dev:centos6
+Jenkins seems to be running inside container 4166235b2a8fd210d5eab13e277ede45ffc94d85432326bc947229d667a84f8e
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A --volumes-from 4166235b2a8fd210d5eab13e277ede45ffc94d85432326bc947229d667a84f8e -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** --entrypoint cat lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
 [jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
-+ env
-JENKINS_NODE_COOKIE=89456c5b-008a-40b3-8b9c-8e651c69298a
-HOSTNAME=1e138c05f637
-HUDSON_SERVER_COOKIE=38b9b9ff056fcf1b
-STAGE_NAME=build
-BUILD_TAG=jenkins-jetta-master-4
-BRANCH_NAME=master
-GIT_PREVIOUS_COMMIT=c36d843bf4d6bc2ae0d83661f8a89d0099dd248d
-WORKSPACE=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
-RUN_CHANGES_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/4/display/redirect?page=changes
-GIT_COMMIT=32654ad62d133714087ae19643c8fbf612f8aa83
-JENKINS_HOME=/opt/jenkins/data
-PATH=/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-RUN_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/4/display/redirect
-REFRESHED_AT=2017-12-21
-_=/usr/bin/env
-PWD=/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A
-JOB_NAME=jetta/master
-TZ=Asia/Shanghai
-BUILD_DISPLAY_NAME=#4
-BUILD_ID=4
-JOB_BASE_NAME=master
-HOME=/root
-SHLVL=2
-GIT_BRANCH=master
-EXECUTOR_NUMBER=1
-JENKINS_SERVER_COOKIE=durable-40e5eba32c53ecd709681a4a155d24ec
-NODE_LABELS=master
-GIT_URL=https://github.com/lilinj2000/jetta.git
-HUDSON_HOME=/var/jenkins_home
-CLASSPATH=
-NODE_NAME=master
-BUILD_NUMBER=4
-JOB_DISPLAY_URL=http://unconfigured-jenkins-location/job/jetta/job/master/display/redirect
-+ uname -a
-Linux 1e138c05f637 3.10.0-327.el7.x86_64 #1 SMP Thu Nov 19 22:10:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
 + ./configure
 checking for a BSD-compatible install... /usr/bin/install -c
 checking whether build environment is sane... yes
@@ -175,26 +141,22 @@ config.status: creating src/Makefile
 config.status: executing depfiles commands
 config.status: executing libtool commands
 + make
- cd . && /bin/sh /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/missing --run automake-1.11 --foreign
- cd . && /bin/sh ./config.status Makefile 
-config.status: creating Makefile
 Making all in src
-make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
- cd .. && /bin/sh ./config.status src/Makefile depfiles
-config.status: creating src/Makefile
-config.status: executing depfiles commands
-make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
 make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
 make[1]: Nothing to be done for `all'.
 make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A/src'
 make[1]: Entering directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
 make[1]: Nothing to be done for `all-am'.
 make[1]: Leaving directory `/var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withSonarQubeEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withSonarQubeEnv
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
-$ docker stop --time=1 1e138c05f63739bcf9423b34e809287521a2cc7fb863601e81383510f89d279c
-$ docker rm -f 1e138c05f63739bcf9423b34e809287521a2cc7fb863601e81383510f89d279c
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 3993ee83a30de80fd6cf5524dea4e66593eb5fcb66023c01d57b79497f4edd0b
+$ docker rm -f 3993ee83a30de80fd6cf5524dea4e66593eb5fcb66023c01d57b79497f4edd0b
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
 [8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
@@ -204,4 +166,108 @@ $ docker rm -f 1e138c05f63739bcf9423b34e809287521a2cc7fb863601e81383510f89d279c
 
 GitHub has been notified of this commit’s build result
 
-Finished: SUCCESS
+hudson.remoting.ProxyException: hudson.AbortException: SonarQube installation defined in this job (1) does not match any configured installation. Number of installations that can be configured: 1.
+If you want to reassign a lot of jobs to a different SonarQube installation see http://docs.sonarqube.org/display/PLUG/Reassign+Jobs+to+Another+SonarQube+Instance
+	at hudson.plugins.sonar.SonarInstallation.checkValid(SonarInstallation.java:170)
+	at hudson.plugins.sonar.SonarBuildWrapper.setUp(SonarBuildWrapper.java:81)
+	at org.jenkinsci.plugins.workflow.steps.CoreWrapperStep$Execution.start(CoreWrapperStep.java:80)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:224)
+Caused: hudson.remoting.ProxyException: org.codehaus.groovy.runtime.InvokerInvocationException: hudson.AbortException: SonarQube installation defined in this job (1) does not match any configured installation. Number of installations that can be configured: 1.
+If you want to reassign a lot of jobs to a different SonarQube installation see http://docs.sonarqube.org/display/PLUG/Reassign+Jobs+to+Another+SonarQube+Instance
+	at org.jenkinsci.plugins.workflow.cps.CpsStepContext.replay(CpsStepContext.java:498)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:253)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:353)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:108)
+	at sun.reflect.GeneratedMethodAccessor747.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+Caused: hudson.remoting.ProxyException: java.lang.IllegalArgumentException: Failed to prepare withSonarQubeEnv step
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeDescribable(DSL.java:355)
+	at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+	at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:108)
+	at sun.reflect.GeneratedMethodAccessor747.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)
+	at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:133)
+	at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at WorkflowScript.run(WorkflowScript:20)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:136)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:494)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:262)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:260)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executeSingleStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:493)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:214)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:391)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.toolsBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:390)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:212)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:301)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withEnvBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:300)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:211)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:339)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.withCredentialsBlock(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:338)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:210)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:424)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.inDeclarativeAgent(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:423)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.evaluateStage(jar:file:/var/jenkins_home/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar!/org/jenkinsci/plugins/pipeline/modeldefinition/ModelInterpreter.groovy:208)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:57)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:109)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:82)
+	at sun.reflect.GeneratedMethodAccessor412.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ClosureBlock.eval(ClosureBlock.java:46)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:122)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:261)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:19)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:35)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable$1.call(SandboxContinuable.java:32)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:108)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:32)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:174)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:331)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$100(CpsThreadGroup.java:82)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:243)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:231)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:112)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: FAILURE

@@ -43,7 +43,11 @@
       <data class="concurrent-hash-map">
         <entry>
           <string>soil/master</string>
-          <boolean>true</boolean>
+          <boolean>false</boolean>
+        </entry>
+        <entry>
+          <string>cata/master</string>
+          <boolean>false</boolean>
         </entry>
       </data>
     </hudson.plugins.favorite.user.FavoriteUserProperty>

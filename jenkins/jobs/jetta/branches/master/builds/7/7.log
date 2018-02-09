@@ -1,20 +1,13 @@
-Cloning the remote Git repository
-Cloning with configured refspecs honoured and without tags
-Cloning repository https://github.com/lilinj2000/jetta.git
- > git init /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A # timeout=10
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+Fetching without tags
 Fetching upstream changes from https://github.com/lilinj2000/jetta.git
  > git --version # timeout=10
 using GIT_ASKPASS to set credentials GitHub Access Token
  > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
- > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
- > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
- > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
-Fetching without tags
-Fetching upstream changes from https://github.com/lilinj2000/jetta.git
-using GIT_ASKPASS to set credentials GitHub Access Token
- > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
-Checking out Revision bdcfa227b490db0c682d96a2b542e104f418ea2a (master)
+Checking out Revision 8af8f5e49d68decf9219b2fb5f891199cb73c69b (master)
  > git config core.sparsecheckout # timeout=10
- > git checkout -f bdcfa227b490db0c682d96a2b542e104f418ea2a
+ > git checkout -f 8af8f5e49d68decf9219b2fb5f891199cb73c69b
 Commit message: "test"
- > git rev-list --no-walk 55147f73b182292018e635f7cd8506df99990cf6 # timeout=10
+ > git rev-list --no-walk 12e4e002ac3ad72b400d54f60faf46faeb42a6f5 # timeout=10

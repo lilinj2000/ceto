@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-02-09 10:27:23.299 UTC</timestamp>
+  <original>
+    <name>jetta/master</name>
+    <number>22</number>
+  </original>
+  <md5sum>236152e0b33c2961f00935410e4806c7</md5sum>
+  <fileName>Docker image sha256:236152e0b33c2961f00935410e4806c713f18464dc304ae5949bb9a9fedb1f5a</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.11">
+      <timestamp>1518172043366</timestamp>
+      <imageId>sha256:236152e0b33c2961f00935410e4806c713f18464dc304ae5949bb9a9fedb1f5a</imageId>
+      <usages>
+        <entry>
+          <string>jetta/master</string>
+          <ranges>22-27</ranges>
+        </entry>
+        <entry>
+          <string>cata/master</string>
+          <ranges>6</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>26923581500f</host>
+          <containerId>26923581500f5841369e99b27cc10e541c28099795afdc48c0d1563e1ec72d6f</containerId>
+          <containerName>/frosty_euclid</containerName>
+          <created>1518143221000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>5a95b67eb9cf</host>
+          <containerId>5a95b67eb9cf2e65807d1a5a69c03f45912a9cd380a0405d0fc835b6991fc132</containerId>
+          <containerName>/blissful_curran</containerName>
+          <created>1518143466000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>086819f80580</host>
+          <containerId>086819f805800f7d1f5984373d256d4b8bccfde655e5de2fe5feef7ae974a56e</containerId>
+          <containerName>/clever_panini</containerName>
+          <created>1518143690000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>69c5e8350c4e</host>
+          <containerId>69c5e8350c4eec220a94e5bc084582788dc4e8b5285c236f0107cfddcb5dbf19</containerId>
+          <containerName>/goofy_bohr</containerName>
+          <created>1518144025000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>8cc45b716ebe</host>
+          <containerId>8cc45b716ebedd1b23f7eeae30cc6d06942e80b543f2ac04da58356b74f4ec5c</containerId>
+          <containerName>/optimistic_booth</containerName>
+          <created>1518144227000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>8e91a8c860e2</host>
+          <containerId>8e91a8c860e29b7463fd20506d97612b7aa79e8c5441f078af5d9fe363cee824</containerId>
+          <containerName>/lucid_jennings</containerName>
+          <created>1518144574000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a531bc8fcb38</host>
+          <containerId>a531bc8fcb381e35e40fec0e862b655fdeea429926727e78812c6e3461fe825f</containerId>
+          <containerName>/zealous_volhard</containerName>
+          <created>1518144831000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

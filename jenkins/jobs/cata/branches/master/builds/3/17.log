@@ -1,0 +1,3 @@
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.

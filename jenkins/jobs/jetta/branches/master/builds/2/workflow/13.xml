@@ -10,16 +10,16 @@
   <actions>
     <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
     <org.jenkinsci.plugins.workflow.actions.LabelAction plugin="workflow-api@2.24">
-      <displayName>build</displayName>
+      <displayName>Declarative: Agent Setup</displayName>
     </org.jenkinsci.plugins.workflow.actions.LabelAction>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514527695024</startTime>
+      <startTime>1514877697367</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
     <org.jenkinsci.plugins.workflow.actions.TagsAction plugin="workflow-api@2.24">
       <tags>
         <entry>
-          <string>STAGE_STATUS</string>
-          <string>FAILED_AND_CONTINUED</string>
+          <string>SYNTHETIC_STAGE</string>
+          <string>PRE</string>
         </entry>
       </tags>
     </org.jenkinsci.plugins.workflow.actions.TagsAction>
