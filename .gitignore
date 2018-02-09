@@ -2,3 +2,4 @@
 jenkins/dist_pkg/
 jenkins/workspace/
 mysql/sonar/
+mysql/ibdata1
