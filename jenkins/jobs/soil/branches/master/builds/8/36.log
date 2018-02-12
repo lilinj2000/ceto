@@ -1,0 +1,4 @@
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/coverage-report to /var/jenkins_home/jobs/soil/branches/master/htmlreports/coverage_report
+ERROR: Specified HTML directory '/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/coverage-report' does not exist.
+[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m

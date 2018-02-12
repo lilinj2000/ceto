@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/cata.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/cata.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/cata.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 90760507bd450d0e46aa98f831e829127b82c506 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 90760507bd450d0e46aa98f831e829127b82c506
+Commit message: "fixed for Jenkins issue."
+ > git rev-list --no-walk 14c7653d0d423d8dd68b7041434b234b8d739c80 # timeout=10

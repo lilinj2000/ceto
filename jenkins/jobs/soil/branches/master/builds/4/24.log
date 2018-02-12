@@ -1,0 +1,43 @@
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ cpplint --output=vs7 --recursive .
+Done processing utest/json_test.cc
+Done processing soil/string.h
+Done processing libs/data_file.cc
+Done processing soil/data_file.h
+Done processing libs/date_time.cc
+Done processing soil/macro.h
+Done processing test_disruptor/perf_test.cc
+Done processing soil/pause.h
+Done processing utest/date_time_test.cc
+Done processing libs/pause_impl.cc
+Done processing libs/s_timer_impl.cc
+Done processing utest/s_timer_test.cc
+Done processing test_disruptor/support/stub_event.h
+Done processing libs/file_system.cc
+Done processing libs/hexdump.cc
+utest/string_test.cc(64): warning: Consider using ASSERT_EQ instead of ASSERT_TRUE(a == b)  [readability/check] [2]
+Done processing utest/string_test.cc
+Done processing soil/json.h
+Done processing test_disruptor/support/long_event.h
+Done processing utest/ring_queue_test.cc
+Done processing utest/demangle_test.cc
+Done processing utest/log_test.cc
+Done processing soil/date_time.h
+Done processing soil/reader_writer_queue.h
+Done processing soil/demangle.h
+Done processing soil/s_timer.h
+Done processing libs/pause_impl.h
+Done processing libs/log.cc
+Done processing utest/hexdump_test.cc
+Done processing soil/hexdump.h
+Done processing utest/reader_writer_queue_test.cc
+Done processing libs/json.cc
+Done processing utest/macro_test.cc
+Done processing soil/ring_queue.h
+Done processing utest/data_file_test.cc
+Done processing libs/s_timer_impl.h
+Done processing soil/log.h
+Done processing libs/demangle.cc
+Done processing libs/string.cc
+Done processing soil/file_system.h
+Total errors found: 1

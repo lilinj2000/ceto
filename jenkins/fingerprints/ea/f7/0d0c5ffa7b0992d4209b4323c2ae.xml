@@ -10,7 +10,7 @@
     </entry>
     <entry>
       <string>soil/master</string>
-      <ranges>1-3</ranges>
+      <ranges>1-9</ranges>
     </entry>
     <entry>
       <string>boost_1_58_0/master</string>
@@ -22,7 +22,7 @@
     </entry>
     <entry>
       <string>cata/master</string>
-      <ranges>1-6</ranges>
+      <ranges>1-6,9</ranges>
     </entry>
     <entry>
       <string>disruptor--/master</string>
@@ -34,7 +34,7 @@
     </entry>
     <entry>
       <string>jetta/master</string>
-      <ranges>1-27</ranges>
+      <ranges>1-29</ranges>
     </entry>
     <entry>
       <string>fmt/master</string>

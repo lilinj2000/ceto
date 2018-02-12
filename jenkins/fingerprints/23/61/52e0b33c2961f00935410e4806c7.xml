@@ -15,11 +15,15 @@
       <usages>
         <entry>
           <string>jetta/master</string>
-          <ranges>22-27</ranges>
+          <ranges>22-29</ranges>
         </entry>
         <entry>
           <string>cata/master</string>
-          <ranges>6</ranges>
+          <ranges>6,9</ranges>
+        </entry>
+        <entry>
+          <string>soil/master</string>
+          <ranges>4-9</ranges>
         </entry>
       </usages>
       <records class="java.util.concurrent.CopyOnWriteArrayList">
@@ -70,6 +74,69 @@
           <containerId>a531bc8fcb381e35e40fec0e862b655fdeea429926727e78812c6e3461fe825f</containerId>
           <containerName>/zealous_volhard</containerName>
           <created>1518144831000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>72e86eb9ac74</host>
+          <containerId>72e86eb9ac740b264b3db7126cc31814af9cb836911379508501a2ccd08e5d58</containerId>
+          <containerName>/distracted_brahmagupta</containerName>
+          <created>1518383047000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>2f7a919b7741</host>
+          <containerId>2f7a919b77419f66b86446ab7afeb62bbf554d666666581f52d5430f21fb5e02</containerId>
+          <containerName>/romantic_engelbart</containerName>
+          <created>1518383414000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>511a6b09025e</host>
+          <containerId>511a6b09025ec95fd6e3fd306474fa147ace007fb4e59c4ad88c2feac851bf5f</containerId>
+          <containerName>/kind_spence</containerName>
+          <created>1518384893000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a5c03e3a1b15</host>
+          <containerId>a5c03e3a1b159866f3257c60afd0e17ec76d1113ede5082f7ef343c2a18fe866</containerId>
+          <containerName>/naughty_ride</containerName>
+          <created>1518386268000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>fa25c1ec1f1e</host>
+          <containerId>fa25c1ec1f1e0f7b1e517629462c3e6bde5055474dc7623c3e893e54597b3b53</containerId>
+          <containerName>/elegant_benz</containerName>
+          <created>1518386340000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>498f1a31ed0f</host>
+          <containerId>498f1a31ed0f2b236ff4703acbb25317caa5e91319baa92f200e24237b5fa92e</containerId>
+          <containerName>/keen_golick</containerName>
+          <created>1518387491000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>5f94e830c9bf</host>
+          <containerId>5f94e830c9bfe81f30bd899dd322946aacbd0549726fd612274ea2fa2f61ee3f</containerId>
+          <containerName>/xenodochial_mestorf</containerName>
+          <created>1518389618000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>7d4a9bcd0836</host>
+          <containerId>7d4a9bcd0836485f888dec2d3def3d029a5200d69d1a0460b5885c6914e7a909</containerId>
+          <containerName>/musing_sammet</containerName>
+          <created>1518389977000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>d08f317c5f7f</host>
+          <containerId>d08f317c5f7f8a46c072faea94e0979b589716bc0b19741d4a02718029741505</containerId>
+          <containerName>/inspiring_almeida</containerName>
+          <created>1518390369000</created>
           <tags/>
         </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
       </records>

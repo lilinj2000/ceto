@@ -1,0 +1,502 @@
+Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+[8mha:////4AD4F81kpWUUz1iXl+JDog8S/sniEcDP0BZ3qT/VkwmHAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRiR5PQewByo2QHjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 686426d448efe15237c5583a81fcdce23fd0e535
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/soil.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/soil.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/soil.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 686426d448efe15237c5583a81fcdce23fd0e535 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 686426d448efe15237c5583a81fcdce23fd0e535
+Commit message: "code coverage added."
+ > git rev-list --no-walk 6282d31d9c6c6cf5d0a485b6d063812e1db15a39 # timeout=10
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:cefb914964d10e32d72c0ddd6a25c57b1955e10103fc711eae09a6c17e1c280c
+Status: Image is up to date for lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 832dbae84b27e612f6918335ddfe2964fc6903c3bcb86637fd311b9d075e4b42
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ --volumes-from 832dbae84b27e612f6918335ddfe2964fc6903c3bcb86637fd311b9d075e4b42 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6 cat
+$ docker top 511a6b09025ec95fd6e3fd306474fa147ace007fb4e59c4ad88c2feac851bf5f
+ERROR: The container started but didn't run the expected command. Please double check your ENTRYPOINT does execute the command passed as docker run argument. See https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#entrypoint for entrypoint best practices.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (code static check)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ cpplint --output=vs7 --recursive .
+Done processing libs/data_file.cc
+Done processing test_disruptor/perf_test.cc
+Done processing soil/pause.h
+Done processing libs/file_system.cc
+Done processing test_disruptor/support/long_event.h
+Done processing utest/s_timer_test.cc
+Done processing test_disruptor/support/stub_event.h
+Done processing soil/json.h
+Done processing soil/s_timer.h
+Done processing soil/hexdump.h
+Done processing utest/date_time_test.cc
+Done processing libs/pause_impl.cc
+Done processing libs/log.cc
+Done processing utest/json_test.cc
+Done processing libs/json.cc
+Done processing soil/reader_writer_queue.h
+Done processing libs/demangle.cc
+Done processing utest/string_test.cc
+Done processing soil/data_file.h
+Done processing libs/date_time.cc
+Done processing soil/macro.h
+Done processing soil/ring_queue.h
+Done processing libs/hexdump.cc
+Done processing utest/log_test.cc
+Done processing utest/data_file_test.cc
+Done processing utest/hexdump_test.cc
+Done processing utest/ring_queue_test.cc
+Done processing libs/string.cc
+Done processing soil/string.h
+Done processing libs/s_timer_impl.h
+Done processing soil/date_time.h
+Done processing libs/s_timer_impl.cc
+Done processing soil/log.h
+Done processing soil/demangle.h
+Done processing libs/pause_impl.h
+Done processing utest/reader_writer_queue_test.cc
+Done processing utest/macro_test.cc
+Done processing utest/demangle_test.cc
+Done processing soil/file_system.h
++ cppcheck --enable=all --inconclusive --xml --xml-version=2 .
+Checking libs/data_file.cc ...
+1/22 files checked 4% done
+Checking libs/date_time.cc ...
+2/22 files checked 9% done
+Checking libs/demangle.cc ...
+Checking libs/demangle.cc: __GNUG__...
+3/22 files checked 13% done
+Checking libs/file_system.cc ...
+4/22 files checked 18% done
+Checking libs/hexdump.cc ...
+5/22 files checked 22% done
+Checking libs/json.cc ...
+6/22 files checked 27% done
+Checking libs/log.cc ...
+7/22 files checked 31% done
+Checking libs/pause_impl.cc ...
+8/22 files checked 36% done
+Checking libs/s_timer_impl.cc ...
+9/22 files checked 40% done
+Checking libs/string.cc ...
+10/22 files checked 45% done
+Checking test_disruptor/perf_test.cc ...
+11/22 files checked 50% done
+Checking utest/data_file_test.cc ...
+12/22 files checked 54% done
+Checking utest/date_time_test.cc ...
+13/22 files checked 59% done
+Checking utest/demangle_test.cc ...
+14/22 files checked 63% done
+Checking utest/hexdump_test.cc ...
+15/22 files checked 68% done
+Checking utest/json_test.cc ...
+16/22 files checked 72% done
+Checking utest/log_test.cc ...
+17/22 files checked 77% done
+Checking utest/macro_test.cc ...
+18/22 files checked 81% done
+Checking utest/reader_writer_queue_test.cc ...
+19/22 files checked 86% done
+Checking utest/ring_queue_test.cc ...
+20/22 files checked 90% done
+Checking utest/s_timer_test.cc ...
+21/22 files checked 95% done
+Checking utest/string_test.cc ...
+22/22 files checked 100% done
++ cppcheck-htmlreport --title=soil/master --file=cppcheck.xml --report-dir=./cppcheck-report
+Parsing xml report.
+Creating ./cppcheck-report directory
+Processing errors
+  libs/date_time.cc
+  libs/demangle.cc
+  libs/file_system.cc
+  libs/json.cc
+  libs/log.cc
+  libs/string.cc
+  utest/data_file_test.cc
+  utest/date_time_test.cc
+  utest/demangle_test.cc
+  utest/json_test.cc
+  utest/log_test.cc
+  utest/macro_test.cc
+  utest/reader_writer_queue_test.cc
+  utest/ring_queue_test.cc
+  utest/s_timer_test.cc
+  utest/string_test.cc
+Creating index.html
+Creating style.css file
+Creating stats.html (statistics)
+
+
+Open './cppcheck-report/index.html' to see the results.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/cppcheck-report to /var/jenkins_home/jobs/soil/branches/master/htmlreports/cppcheck_report
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (utest && code coverage check)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ ./configure --enable-gcov
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
+checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking for gcov... gcov
+checking for shtool... no
+checking for lcov... lcov
+checking for genhtml... genhtml
+checking for lcov version... 1.0 (ok)
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating soil/Makefile
+config.status: creating libs/Makefile
+config.status: creating utest/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
++ make coverage-html
+make  -k check
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+Making check in soil
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+Making check in libs
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+Making check in utest
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  unittest
+make[3]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[3]: `unittest' is up to date.
+make[3]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  check-TESTS
+make[3]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+Running main() from gtest_main.cc
+[==========] Running 18 tests from 11 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from JsonTest
+[ RUN      ] JsonTest.getValueTest
+[       OK ] JsonTest.getValueTest (0 ms)
+[ RUN      ] JsonTest.escapeTest
+[2018-02-12 13:35:10.277470] [debug] [json_test.cc line #93] s.GetString(): {"test":"123 \u0000 456"}
+[2018-02-12 13:35:10.277562] [debug] [json_test.cc line #107] esp_test: 123 \u0000 456
+[       OK ] JsonTest.escapeTest (0 ms)
+[ RUN      ] JsonTest.writeValueTest
+[2018-02-12 13:35:10.277590] [debug] [json_test.cc line #139] sb.GetString(): {
+    "test1": "\u0000",
+    "test2": "test test",
+    "test3": false,
+    "test4": 500,
+    "test5": "12345",
+    "test6": "ttttt",
+    "test7": "ttttt",
+    "test8": 100
+}
+[       OK ] JsonTest.writeValueTest (0 ms)
+[----------] 3 tests from JsonTest (0 ms total)
+
+[----------] 1 test from ReaderWriterQueueTest
+[ RUN      ] ReaderWriterQueueTest.queueTest
+[2018-02-12 13:35:10.277689] [info] [reader_writer_queue_test.cc line #46] onStart()
+[2018-02-12 13:35:10.277701] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 0
+[2018-02-12 13:35:10.277708] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 1
+[2018-02-12 13:35:10.277715] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 2
+[2018-02-12 13:35:10.277720] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 3
+[2018-02-12 13:35:10.277725] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 4
+[2018-02-12 13:35:10.277730] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 5
+[2018-02-12 13:35:10.277746] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 6
+[2018-02-12 13:35:10.277752] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 7
+[2018-02-12 13:35:10.277758] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 8
+[2018-02-12 13:35:10.277763] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 9
+[2018-02-12 13:35:11.277851] [info] [reader_writer_queue_test.cc line #50] onStop()
+[       OK ] ReaderWriterQueueTest.queueTest (1000 ms)
+[----------] 1 test from ReaderWriterQueueTest (1000 ms total)
+
+[----------] 1 test from RingQueueTest
+[ RUN      ] RingQueueTest.allTest
+[       OK ] RingQueueTest.allTest (0 ms)
+[----------] 1 test from RingQueueTest (0 ms total)
+
+[----------] 1 test from LogTest
+[ RUN      ] LogTest.logTest
+[2018-02-12 13:35:11.278397] [trace] [log_test.cc line #59] This is a trace log
+[2018-02-12 13:35:11.278417] [debug] [log_test.cc line #60] This is a debug log
+[2018-02-12 13:35:11.278427] [info] [log_test.cc line #61] This is a info log
+[2018-02-12 13:35:11.278435] [warning] [log_test.cc line #62] This is a warn log
+[2018-02-12 13:35:11.278443] [error] [log_test.cc line #63] This is a error log
+[2018-02-12 13:35:11.278451] [critical] [log_test.cc line #64] This is a critical log
+[2018-02-12 13:35:11.278458] [trace] [log_test.cc line #66] This is a trace_if log
+[2018-02-12 13:35:11.278466] [debug] [log_test.cc line #67] This is a debug_if log
+[2018-02-12 13:35:11.278473] [info] [log_test.cc line #68] This is a info_if log
+[2018-02-12 13:35:11.278481] [warning] [log_test.cc line #69] This is a warn_if log
+[2018-02-12 13:35:11.278489] [error] [log_test.cc line #70] This is a error_if log
+[2018-02-12 13:35:11.278497] [critical] [log_test.cc line #71] This is a critical_if log
+[2018-02-12 13:35:11.278504] [info] [log_test.cc line #74] Point is (3.2, 4.5)
+[2018-02-12 13:35:11.278561] [trace] [log_test.cc line #76] TestBody()
+[2018-02-12 13:35:11.278571] [debug] [log_test.cc line #79] test_print: hello, print.
+[2018-02-12 13:35:11.278580] [debug] [log_test.cc line #82] &test: 100
+[2018-02-12 13:35:11.278589] [debug] [log_test.cc line #85] &tt: test pointer
+[       OK ] LogTest.logTest (0 ms)
+[----------] 1 test from LogTest (0 ms total)
+
+[----------] 2 tests from STimerTest
+[ RUN      ] STimerTest.wait2STest
+[       OK ] STimerTest.wait2STest (2000 ms)
+[ RUN      ] STimerTest.notifyTest
+[       OK ] STimerTest.notifyTest (1001 ms)
+[----------] 2 tests from STimerTest (3001 ms total)
+
+[----------] 1 test from DataFileTest
+[ RUN      ] DataFileTest.dataFileTest
+[2018-02-12 13:35:14.279597] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 13:35:14.279604] [trace] [data_file.cc line #68] ~DataFile()
+[2018-02-12 13:35:14.279650] [trace] [data_file.cc line #76] outData()
+[2018-02-12 13:35:14.279665] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 13:35:14.279677] [debug] [data_file_test.cc line #47] x_: 1
+[2018-02-12 13:35:14.279686] [debug] [data_file_test.cc line #48] y_: 2
+[2018-02-12 13:35:14.279720] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 13:35:14.279731] [trace] [data_file.cc line #76] outData()
+[2018-02-12 13:35:14.279739] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 13:35:14.279748] [debug] [data_file_test.cc line #47] x_: 2
+[2018-02-12 13:35:14.279756] [debug] [data_file_test.cc line #48] y_: 3
+[       OK ] DataFileTest.dataFileTest (1001 ms)
+[----------] 1 test from DataFileTest (1001 ms total)
+
+[----------] 1 test from MacroTest
+[ RUN      ] MacroTest.rangeForTest
+Hello, world!
+1 2 3 
+2 3 4 
+[       OK ] MacroTest.rangeForTest (0 ms)
+[----------] 1 test from MacroTest (0 ms total)
+
+[----------] 4 tests from DateTimeTest
+[ RUN      ] DateTimeTest.dateTimeTest
+2018-02-12 13:35:15.280266725
+2018-02-12 13:35:15.280266725
+[2018-02-12 13:35:15.280322] [debug] [date_time_test.cc line #47] cur time: 2018-02-12 13:35:15.280266725
+2018-02-12 10:10:20.000000000
+2015-11-18 00:00:00.000000000
+2016-06-01 01:47:41.613184321
+[       OK ] DateTimeTest.dateTimeTest (0 ms)
+[ RUN      ] DateTimeTest.operatorTest
+2018-02-12 13:35:15.280759526
+2018-02-12 13:35:15.380759526
+2018-02-12 13:35:35.380759526
+2018-02-12 13:35:15.280790439
+20099969087 nano seconds.
+[       OK ] DateTimeTest.operatorTest (0 ms)
+[ RUN      ] DateTimeTest.getStringTest
+[       OK ] DateTimeTest.getStringTest (0 ms)
+[ RUN      ] DateTimeTest.nowTest
+[       OK ] DateTimeTest.nowTest (0 ms)
+[----------] 4 tests from DateTimeTest (0 ms total)
+
+[----------] 2 tests from StringTest
+[ RUN      ] StringTest.splitTest
+set:
+Hello world 
+vec:
+Hello world 
+[       OK ] StringTest.splitTest (0 ms)
+[ RUN      ] StringTest.toUpper
+[       OK ] StringTest.toUpper (0 ms)
+[----------] 2 tests from StringTest (0 ms total)
+
+[----------] 1 test from DemangleTest
+[ RUN      ] DemangleTest.demangleTest
+[       OK ] DemangleTest.demangleTest (0 ms)
+[----------] 1 test from DemangleTest (0 ms total)
+
+[----------] 1 test from HexdumpTest
+[ RUN      ] HexdumpTest.allTest
+[2018-02-12 13:35:15.281027] [info] [hexdump_test.cc line #40] allTest
+  0000  61 66 61 6a 66 70 61 73 64 6a 66 64 6f 66 6a 32  afajfpasdjfdofj2
+  0010  33 34 32 33 34 32 33 61 73 66 61 66 6f 65 72 69  3423423asfafoeri
+
+[2018-02-12 13:35:15.281072] [info] [hexdump_test.cc line #45] allTest
+  0000  67 45 8b 6b c6 23 7b 32 69 98 3c 64 73 48 33 66  gE.k.#{2i.<dsH3f
+  0010  51 dc b0 74 ff 5c 49 19 4a 94 e8 2a ec 58 55 62  Q..t.\I.J..*.XUb
+  0020  29 1f 8e 23 cd 7c e8 46 ba 58 1b 3d ab d7 7e 50  )..#.|.F.X.=..~P
+  0030  f2 41 b1 2e fb 1e b7 41 e3 a9 e2 79 46 e1 45 75  .A.....A...yF.Eu
+  0040  7c 00 5f 51 c2 62 d0 5b 54 08 20 12 f8 27 b1 4d  |._Q.b.[T. ..'.M
+  0050  1b 23 16 02 e8 e9 16 1f e7 cd 90 11 8d 43 ef 66  .#...........C.f
+  0060  76 0f 0e 14                                      v...
+
+[       OK ] HexdumpTest.allTest (0 ms)
+[----------] 1 test from HexdumpTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 11 test cases ran. (5004 ms total)
+[  PASSED  ] 18 tests.
+PASS: unittest.sh
+=============
+1 test passed
+=============
+make[3]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make  generate-coverage-html
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+Collecting coverage data with lcov
+lcov --gcov-tool gcov --directory . --capture --output-file coverage.info --no-checksum --compat-libtool --no-external
+Capturing coverage data from .
+Found gcov version: 4.8.2
+Scanning . for .gcda files ...
+geninfo: WARNING: no .gcda files found in . - skipping!
+Finished .info-file creation
+lcov --remove coverage.info "/usr*" -o coverage.info
+lcov: ERROR: no valid records found in tracefile coverage.info
+Reading tracefile coverage.info
+make[1]: *** [generate-coverage-html] Error 255
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make: *** [coverage-html] Error 2
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build && install)
+Stage 'build && install' skipped due to earlier failure(s)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m$ docker stop --time=1 511a6b09025ec95fd6e3fd306474fa147ace007fb4e59c4ad88c2feac851bf5f
+$ docker rm -f 511a6b09025ec95fd6e3fd306474fa147ace007fb4e59c4ad88c2feac851bf5f
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 2
+[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0mFinished: FAILURE

@@ -1,0 +1,11 @@
+commit e5d79c372a9f08dc6b2f5fa3f802cdb7730d0693
+tree d5c580a6c17515247f96d2404f4e948d8e3b1bba
+parent 686426d448efe15237c5583a81fcdce23fd0e535
+author lilinj2000 <lilinj2000@gmail.com> 2018-02-12 13:57:03 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-02-12 13:57:03 +0800
+
+    cleanWs added.
+
+
+
+:100644 100644 6da11cdc372d53eb6c848b875bdcee3c418fe97b f706f4cf99b475ed35deaa4b15502f21bb24cf07 M	Jenkinsfile

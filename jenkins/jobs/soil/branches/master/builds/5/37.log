@@ -1,0 +1,188 @@
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ make check
+Making check in soil
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+Making check in libs
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+Making check in utest
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  unittest
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include    -g -O2 -std=c++11 -MT unittest-string_test.o -MD -MP -MF .deps/unittest-string_test.Tpo -c -o unittest-string_test.o `test -f 'string_test.cc' || echo './'`string_test.cc
+mv -f .deps/unittest-string_test.Tpo .deps/unittest-string_test.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2 -std=c++11  -Wl,--no-as-needed -pthread -lrt  -o unittest unittest-json_test.o unittest-reader_writer_queue_test.o unittest-ring_queue_test.o unittest-log_test.o unittest-s_timer_test.o unittest-data_file_test.o unittest-macro_test.o unittest-date_time_test.o unittest-string_test.o unittest-demangle_test.o unittest-hexdump_test.o /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a ../libs/libsoil.la -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_filesystem.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_regex.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_system.so  
+libtool: link: g++ -g -O2 -std=c++11 -Wl,--no-as-needed -pthread -o .libs/unittest unittest-json_test.o unittest-reader_writer_queue_test.o unittest-ring_queue_test.o unittest-log_test.o unittest-s_timer_test.o unittest-data_file_test.o unittest-macro_test.o unittest-date_time_test.o unittest-string_test.o unittest-demangle_test.o unittest-hexdump_test.o /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_filesystem.so /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_regex.so /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_system.so  -lrt /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a ../libs/.libs/libsoil.so -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt -pthread -Wl,-rpath -Wl,/var/jenkins_home/dist_pkg/libs/centos6/soil/lib
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  check-TESTS
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+Running main() from gtest_main.cc
+[==========] Running 18 tests from 11 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from JsonTest
+[ RUN      ] JsonTest.getValueTest
+[       OK ] JsonTest.getValueTest (35 ms)
+[ RUN      ] JsonTest.escapeTest
+[2018-02-12 13:11:29.485081] [debug] [json_test.cc line #93] s.GetString(): {"test":"123 \u0000 456"}
+[2018-02-12 13:11:29.485273] [debug] [json_test.cc line #107] esp_test: 123 \u0000 456
+[       OK ] JsonTest.escapeTest (221 ms)
+[ RUN      ] JsonTest.writeValueTest
+[2018-02-12 13:11:29.485328] [debug] [json_test.cc line #139] sb.GetString(): {
+    "test1": "\u0000",
+    "test2": "test test",
+    "test3": false,
+    "test4": 500,
+    "test5": "12345",
+    "test6": "ttttt",
+    "test7": "ttttt",
+    "test8": 100
+}
+[       OK ] JsonTest.writeValueTest (0 ms)
+[----------] 3 tests from JsonTest (256 ms total)
+
+[----------] 1 test from ReaderWriterQueueTest
+[ RUN      ] ReaderWriterQueueTest.queueTest
+[2018-02-12 13:11:29.506920] [info] [reader_writer_queue_test.cc line #46] onStart()
+[2018-02-12 13:11:29.506950] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 0
+[2018-02-12 13:11:29.506965] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 1
+[2018-02-12 13:11:29.506976] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 2
+[2018-02-12 13:11:29.506985] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 3
+[2018-02-12 13:11:29.506994] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 4
+[2018-02-12 13:11:29.507003] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 5
+[2018-02-12 13:11:29.507012] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 6
+[2018-02-12 13:11:29.507021] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 7
+[2018-02-12 13:11:29.507040] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 8
+[2018-02-12 13:11:29.507058] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 9
+[2018-02-12 13:11:30.507168] [info] [reader_writer_queue_test.cc line #50] onStop()
+[       OK ] ReaderWriterQueueTest.queueTest (1022 ms)
+[----------] 1 test from ReaderWriterQueueTest (1022 ms total)
+
+[----------] 1 test from RingQueueTest
+[ RUN      ] RingQueueTest.allTest
+[       OK ] RingQueueTest.allTest (0 ms)
+[----------] 1 test from RingQueueTest (0 ms total)
+
+[----------] 1 test from LogTest
+[ RUN      ] LogTest.logTest
+[2018-02-12 13:11:30.525777] [trace] [log_test.cc line #59] This is a trace log
+[2018-02-12 13:11:30.525823] [debug] [log_test.cc line #60] This is a debug log
+[2018-02-12 13:11:30.525829] [info] [log_test.cc line #61] This is a info log
+[2018-02-12 13:11:30.525834] [warning] [log_test.cc line #62] This is a warn log
+[2018-02-12 13:11:30.525839] [error] [log_test.cc line #63] This is a error log
+[2018-02-12 13:11:30.525843] [critical] [log_test.cc line #64] This is a critical log
+[2018-02-12 13:11:30.525848] [trace] [log_test.cc line #66] This is a trace_if log
+[2018-02-12 13:11:30.525852] [debug] [log_test.cc line #67] This is a debug_if log
+[2018-02-12 13:11:30.525857] [info] [log_test.cc line #68] This is a info_if log
+[2018-02-12 13:11:30.525861] [warning] [log_test.cc line #69] This is a warn_if log
+[2018-02-12 13:11:30.525866] [error] [log_test.cc line #70] This is a error_if log
+[2018-02-12 13:11:30.525870] [critical] [log_test.cc line #71] This is a critical_if log
+[2018-02-12 13:11:30.525875] [info] [log_test.cc line #74] Point is (3.2, 4.5)
+[2018-02-12 13:11:30.525938] [trace] [log_test.cc line #76] TestBody()
+[2018-02-12 13:11:30.525945] [debug] [log_test.cc line #79] test_print: hello, print.
+[2018-02-12 13:11:30.525951] [debug] [log_test.cc line #82] &test: 100
+[2018-02-12 13:11:30.525957] [debug] [log_test.cc line #85] &tt: test pointer
+[       OK ] LogTest.logTest (18 ms)
+[----------] 1 test from LogTest (19 ms total)
+
+[----------] 2 tests from STimerTest
+[ RUN      ] STimerTest.wait2STest
+[       OK ] STimerTest.wait2STest (2000 ms)
+[ RUN      ] STimerTest.notifyTest
+[       OK ] STimerTest.notifyTest (1000 ms)
+[----------] 2 tests from STimerTest (3000 ms total)
+
+[----------] 1 test from DataFileTest
+[ RUN      ] DataFileTest.dataFileTest
+[2018-02-12 13:11:33.526837] [trace] [data_file.cc line #68] ~DataFile()
+[2018-02-12 13:11:33.526897] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 13:11:33.526911] [trace] [data_file.cc line #76] outData()
+[2018-02-12 13:11:33.526919] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 13:11:33.526926] [debug] [data_file_test.cc line #47] x_: 1
+[2018-02-12 13:11:33.526931] [debug] [data_file_test.cc line #48] y_: 2
+[2018-02-12 13:11:33.526956] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 13:11:33.526963] [trace] [data_file.cc line #76] outData()
+[2018-02-12 13:11:33.526968] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 13:11:33.526973] [debug] [data_file_test.cc line #47] x_: 2
+[2018-02-12 13:11:33.526977] [debug] [data_file_test.cc line #48] y_: 3
+[       OK ] DataFileTest.dataFileTest (1001 ms)
+[----------] 1 test from DataFileTest (1001 ms total)
+
+[----------] 1 test from MacroTest
+[ RUN      ] MacroTest.rangeForTest
+Hello, world!
+1 2 3 
+2 3 4 
+[       OK ] MacroTest.rangeForTest (42 ms)
+[----------] 1 test from MacroTest (42 ms total)
+
+[----------] 4 tests from DateTimeTest
+[ RUN      ] DateTimeTest.dateTimeTest
+2018-02-12 13:11:34.569616626
+2018-02-12 13:11:34.569616626
+[2018-02-12 13:11:34.569674] [debug] [date_time_test.cc line #47] cur time: 2018-02-12 13:11:34.569616626
+2018-02-12 10:10:20.000000000
+2015-11-18 00:00:00.000000000
+2016-06-01 01:47:41.613184321
+[       OK ] DateTimeTest.dateTimeTest (1 ms)
+[ RUN      ] DateTimeTest.operatorTest
+2018-02-12 13:11:34.570105987
+2018-02-12 13:11:34.670105987
+2018-02-12 13:11:54.670105987
+2018-02-12 13:11:34.570132427
+20099973560 nano seconds.
+[       OK ] DateTimeTest.operatorTest (0 ms)
+[ RUN      ] DateTimeTest.getStringTest
+[       OK ] DateTimeTest.getStringTest (0 ms)
+[ RUN      ] DateTimeTest.nowTest
+[       OK ] DateTimeTest.nowTest (0 ms)
+[----------] 4 tests from DateTimeTest (1 ms total)
+
+[----------] 2 tests from StringTest
+[ RUN      ] StringTest.splitTest
+set:
+Hello world 
+vec:
+Hello world 
+[       OK ] StringTest.splitTest (0 ms)
+[ RUN      ] StringTest.toUpper
+[       OK ] StringTest.toUpper (0 ms)
+[----------] 2 tests from StringTest (0 ms total)
+
+[----------] 1 test from DemangleTest
+[ RUN      ] DemangleTest.demangleTest
+[       OK ] DemangleTest.demangleTest (0 ms)
+[----------] 1 test from DemangleTest (0 ms total)
+
+[----------] 1 test from HexdumpTest
+[ RUN      ] HexdumpTest.allTest
+[2018-02-12 13:11:34.570341] [info] [hexdump_test.cc line #40] allTest
+  0000  61 66 61 6a 66 70 61 73 64 6a 66 64 6f 66 6a 32  afajfpasdjfdofj2
+  0010  33 34 32 33 34 32 33 61 73 66 61 66 6f 65 72 69  3423423asfafoeri
+
+[2018-02-12 13:11:34.570373] [info] [hexdump_test.cc line #45] allTest
+  0000  67 45 8b 6b c6 23 7b 32 69 98 3c 64 73 48 33 66  gE.k.#{2i.<dsH3f
+  0010  51 dc b0 74 ff 5c 49 19 4a 94 e8 2a ec 58 55 62  Q..t.\I.J..*.XUb
+  0020  29 1f 8e 23 cd 7c e8 46 ba 58 1b 3d ab d7 7e 50  )..#.|.F.X.=..~P
+  0030  f2 41 b1 2e fb 1e b7 41 e3 a9 e2 79 46 e1 45 75  .A.....A...yF.Eu
+  0040  7c 00 5f 51 c2 62 d0 5b 54 08 20 12 f8 27 b1 4d  |._Q.b.[T. ..'.M
+  0050  1b 23 16 02 e8 e9 16 1f e7 cd 90 11 8d 43 ef 66  .#...........C.f
+  0060  76 0f 0e 14                                      v...
+
+[       OK ] HexdumpTest.allTest (0 ms)
+[----------] 1 test from HexdumpTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 11 test cases ran. (5341 ms total)
+[  PASSED  ] 18 tests.
+PASS: unittest.sh
+=============
+1 test passed
+=============
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[1]: Nothing to be done for `check-am'.
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'

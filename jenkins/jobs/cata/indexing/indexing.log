@@ -1,7 +1,7 @@
 Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
-[Fri Feb 09 16:08:25 CST 2018] Starting branch indexing...
-[8mha:////4FZJj/Hjavt39UpoI1v8O1nYKT5Rk2zeFfWFwljzFNraAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRi5exzAQBBbhpcjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
-[8mha:////4BYLc0jQVk8jxJpDCRCnYMcXuxYU5Q9MxKik3Wy8HadaAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRi5exLXQDWCGvcjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[Mon Feb 12 14:53:10 CST 2018] Starting branch indexing...
+[8mha:////4GEtqdtQQUEfVlVGdSWY4UYSC4xUx3GeNX1XrFYfIK4YAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRix8lPgQA0rAwJjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4GM9bVMD5UvsHOrrvJmUwVMcTr8AWvfrryY9YaQhecBkAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRix8mvEQBXgpE/jgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
 Examining [8mha:////4HLrGbdhLeFK5/JT2HFCAAs5hdj79Fm2QslqlScongyrAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+cWJIIAG969D+nAAAA[0mlilinj2000/cata
 
   Checking branches...
@@ -11,13 +11,12 @@ Examining [8mha:////4HLrGbdhLeFK5/JT2HFCAAs5hdj79Fm2QslqlScongyrAAAAoR+LCAAAAAA
     Checking branch [8mha:////4LxSyvrkvVq6iwVkEXS00TEd6dFDyWrYDczpgWDOU/wgAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQyygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+cWJKoX1KUmqqfm1hckloEAGiystWzAAAA[0mmaster
       ‘Jenkinsfile’ found
     Met criteria
-Takeover for [8mha:////4B7lSTbcKRP7KdcJiIHIS/2RiiTpeWtGgtNs74cvwk+cAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZR/az8JP3kxJJEMCM3sbgktUgfAK1h26rKAAAA[0mcata » master by source #1 from source that no longer exists
-Branch reopened: master (4cd8a937ca442c954b52dbe9f37c9df8316db9a0)
+Changes detected: master (5c539160b00f2909a16a1a6649e2181a7b43e1b3 → 90760507bd450d0e46aa98f831e829127b82c506)
 Scheduled build for branch: master
 
   1 branches were processed
 
 Finished examining lilinj2000/cata
 
-[Fri Feb 09 16:08:31 CST 2018] Finished branch indexing. Indexing took 6.3 sec
+[Mon Feb 12 14:53:13 CST 2018] Finished branch indexing. Indexing took 2.4 sec
 Finished: SUCCESS

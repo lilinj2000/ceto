@@ -1,0 +1,11 @@
+commit 599ea4e9d3a60fad52861666dc7a6adebef7b286
+tree f91359c64634caf0a5f2810fcc3e73cd7fc6eb0c
+parent f776d640d76a73e5772b2bc3f05e988431ca7795
+author lilinj2000 <lilinj2000@gmail.com> 2018-02-12 14:44:24 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-02-12 14:44:24 +0800
+
+    cleanWs() added for Jenkins.
+
+
+
+:100644 100644 85ae3d13606d5752832acb838ddfe90cdc0a5122 30ea0be96a70269d425dc5ae5cc198546ba70163 M	Jenkinsfile

@@ -11,7 +11,7 @@
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.4.0">
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.4.1">
       <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
         <mappedUrl>blue/organizations/jenkins/pipelines/</mappedUrl>
       </blueOceanUrlObject>
@@ -24,8 +24,8 @@
     <completeBuild>true</completeBuild>
   </result>
   <durations>
-    <long>6429</long>
+    <long>2433</long>
   </durations>
-  <timestamp>1518163705220</timestamp>
-  <duration>6429</duration>
+  <timestamp>1518418390852</timestamp>
+  <duration>2433</duration>
 </jenkins.branch.MultiBranchProject_-BranchIndexing>

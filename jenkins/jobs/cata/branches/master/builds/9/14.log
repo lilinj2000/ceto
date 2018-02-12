@@ -1,0 +1,5 @@
+[cata_master-LYKSODBV72IVUGKMTUFO2DAIGQNZRKPZGDHNB25KLSQHJZTM7OWA] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+Digest: sha256:cefb914964d10e32d72c0ddd6a25c57b1955e10103fc711eae09a6c17e1c280c
+Status: Image is up to date for lilinj2000/dev:centos6

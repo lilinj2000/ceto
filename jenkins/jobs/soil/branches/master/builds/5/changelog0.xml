@@ -1,0 +1,11 @@
+commit 6282d31d9c6c6cf5d0a485b6d063812e1db15a39
+tree 2f820e0f847491197f593cae38999bda1999ce46
+parent 4717e20b514bf4ff3439d02234fb3364e6123ac2
+author lilinj2000 <lilinj2000@gmail.com> 2018-02-12 13:09:43 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-02-12 13:09:43 +0800
+
+    fixed for cpplint check.
+
+
+
+:100644 100644 a3a61a29c00c5cfe6886815153ffb6af025bba50 d6134afc3145e6bcaafeeb83f2133302caf147e6 M	utest/string_test.cc

@@ -1,0 +1,11 @@
+commit 476e45c760e661d2e3bca6ccfeaf8754176c9e36
+tree ca9fcfe4e340a7e1f8527f492390ef823a827987
+parent 599ea4e9d3a60fad52861666dc7a6adebef7b286
+author lilinj2000 <lilinj2000@gmail.com> 2018-02-12 15:05:45 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-02-12 15:05:45 +0800
+
+    fixed for Jenkins.
+
+
+
+:100644 100644 30ea0be96a70269d425dc5ae5cc198546ba70163 16ab96b013de6897a691ac47185a35d2ce0f32fa M	Jenkinsfile

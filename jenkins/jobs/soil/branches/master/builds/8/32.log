@@ -1,0 +1,1418 @@
+[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
++ ./configure --enable-gcov
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
+checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking for gcov... gcov
+checking for shtool... no
+checking for lcov... lcov
+checking for genhtml... genhtml
+checking for lcov version... 1.0 (ok)
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating soil/Makefile
+config.status: creating libs/Makefile
+config.status: creating utest/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
++ make coverage-html
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/missing --run aclocal-1.11 -I m4
+ cd . && /bin/sh /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/missing --run automake-1.11 --foreign
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/sh /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/missing --run autoconf
+/bin/sh ./config.status --recheck
+running CONFIG_SHELL=/bin/sh /bin/sh ./configure --enable-gcov home_3rd=/var/jenkins_home/dist_pkg/3rd/centos6 --no-create --no-recursion
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /opt/rh/devtoolset-2/root/usr/bin/nm -B
+checking the name lister (/opt/rh/devtoolset-2/root/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /opt/rh/devtoolset-2/root/usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld used by g++... /opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64
+checking if the linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/opt/rh/devtoolset-2/root/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for ranlib... (cached) ranlib
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking for gcov... gcov
+checking for shtool... no
+checking for lcov... lcov
+checking for genhtml... genhtml
+checking for lcov version... 1.0 (ok)
+configure: creating ./config.status
+ /bin/sh ./config.status
+config.status: creating Makefile
+config.status: creating soil/Makefile
+config.status: creating libs/Makefile
+config.status: creating utest/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  -k check
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+Making check in soil
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil'
+Making check in libs
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-log.lo -MD -MP -MF .deps/libsoil_la-log.Tpo -c -o libsoil_la-log.lo `test -f 'log.cc' || echo './'`log.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-log.lo -MD -MP -MF .deps/libsoil_la-log.Tpo -c log.cc  -fPIC -DPIC -o .libs/libsoil_la-log.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-log.lo -MD -MP -MF .deps/libsoil_la-log.Tpo -c log.cc -o libsoil_la-log.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-log.Tpo .deps/libsoil_la-log.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-s_timer_impl.lo -MD -MP -MF .deps/libsoil_la-s_timer_impl.Tpo -c -o libsoil_la-s_timer_impl.lo `test -f 's_timer_impl.cc' || echo './'`s_timer_impl.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-s_timer_impl.lo -MD -MP -MF .deps/libsoil_la-s_timer_impl.Tpo -c s_timer_impl.cc  -fPIC -DPIC -o .libs/libsoil_la-s_timer_impl.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-s_timer_impl.lo -MD -MP -MF .deps/libsoil_la-s_timer_impl.Tpo -c s_timer_impl.cc -o libsoil_la-s_timer_impl.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-s_timer_impl.Tpo .deps/libsoil_la-s_timer_impl.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-data_file.lo -MD -MP -MF .deps/libsoil_la-data_file.Tpo -c -o libsoil_la-data_file.lo `test -f 'data_file.cc' || echo './'`data_file.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-data_file.lo -MD -MP -MF .deps/libsoil_la-data_file.Tpo -c data_file.cc  -fPIC -DPIC -o .libs/libsoil_la-data_file.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-data_file.lo -MD -MP -MF .deps/libsoil_la-data_file.Tpo -c data_file.cc -o libsoil_la-data_file.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-data_file.Tpo .deps/libsoil_la-data_file.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-date_time.lo -MD -MP -MF .deps/libsoil_la-date_time.Tpo -c -o libsoil_la-date_time.lo `test -f 'date_time.cc' || echo './'`date_time.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-date_time.lo -MD -MP -MF .deps/libsoil_la-date_time.Tpo -c date_time.cc  -fPIC -DPIC -o .libs/libsoil_la-date_time.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-date_time.lo -MD -MP -MF .deps/libsoil_la-date_time.Tpo -c date_time.cc -o libsoil_la-date_time.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-date_time.Tpo .deps/libsoil_la-date_time.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-string.lo -MD -MP -MF .deps/libsoil_la-string.Tpo -c -o libsoil_la-string.lo `test -f 'string.cc' || echo './'`string.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-string.lo -MD -MP -MF .deps/libsoil_la-string.Tpo -c string.cc  -fPIC -DPIC -o .libs/libsoil_la-string.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-string.lo -MD -MP -MF .deps/libsoil_la-string.Tpo -c string.cc -o libsoil_la-string.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-string.Tpo .deps/libsoil_la-string.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-demangle.lo -MD -MP -MF .deps/libsoil_la-demangle.Tpo -c -o libsoil_la-demangle.lo `test -f 'demangle.cc' || echo './'`demangle.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-demangle.lo -MD -MP -MF .deps/libsoil_la-demangle.Tpo -c demangle.cc  -fPIC -DPIC -o .libs/libsoil_la-demangle.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-demangle.lo -MD -MP -MF .deps/libsoil_la-demangle.Tpo -c demangle.cc -o libsoil_la-demangle.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-demangle.Tpo .deps/libsoil_la-demangle.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-pause_impl.lo -MD -MP -MF .deps/libsoil_la-pause_impl.Tpo -c -o libsoil_la-pause_impl.lo `test -f 'pause_impl.cc' || echo './'`pause_impl.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-pause_impl.lo -MD -MP -MF .deps/libsoil_la-pause_impl.Tpo -c pause_impl.cc  -fPIC -DPIC -o .libs/libsoil_la-pause_impl.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-pause_impl.lo -MD -MP -MF .deps/libsoil_la-pause_impl.Tpo -c pause_impl.cc -o libsoil_la-pause_impl.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-pause_impl.Tpo .deps/libsoil_la-pause_impl.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-hexdump.lo -MD -MP -MF .deps/libsoil_la-hexdump.Tpo -c -o libsoil_la-hexdump.lo `test -f 'hexdump.cc' || echo './'`hexdump.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-hexdump.lo -MD -MP -MF .deps/libsoil_la-hexdump.Tpo -c hexdump.cc  -fPIC -DPIC -o .libs/libsoil_la-hexdump.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-hexdump.lo -MD -MP -MF .deps/libsoil_la-hexdump.Tpo -c hexdump.cc -o libsoil_la-hexdump.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-hexdump.Tpo .deps/libsoil_la-hexdump.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-file_system.lo -MD -MP -MF .deps/libsoil_la-file_system.Tpo -c -o libsoil_la-file_system.lo `test -f 'file_system.cc' || echo './'`file_system.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-file_system.lo -MD -MP -MF .deps/libsoil_la-file_system.Tpo -c file_system.cc  -fPIC -DPIC -o .libs/libsoil_la-file_system.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-file_system.lo -MD -MP -MF .deps/libsoil_la-file_system.Tpo -c file_system.cc -o libsoil_la-file_system.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-file_system.Tpo .deps/libsoil_la-file_system.Plo
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT libsoil_la-json.lo -MD -MP -MF .deps/libsoil_la-json.Tpo -c -o libsoil_la-json.lo `test -f 'json.cc' || echo './'`json.cc
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-json.lo -MD -MP -MF .deps/libsoil_la-json.Tpo -c json.cc  -fPIC -DPIC -o .libs/libsoil_la-json.o
+libtool: compile:  g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" "-DPACKAGE_STRING=\"soil 0.1\"" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I. -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include --coverage -DDEBUG -g -O2 -std=c++11 -MT libsoil_la-json.lo -MD -MP -MF .deps/libsoil_la-json.Tpo -c json.cc -o libsoil_la-json.o >/dev/null 2>&1
+mv -f .deps/libsoil_la-json.Tpo .deps/libsoil_la-json.Plo
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2 -std=c++11 -no-undefined -version-info 0:1:0 -release 0.1   -o libsoil.la -rpath /usr/local/lib libsoil_la-log.lo libsoil_la-s_timer_impl.lo libsoil_la-data_file.lo libsoil_la-date_time.lo libsoil_la-string.lo libsoil_la-demangle.lo libsoil_la-pause_impl.lo libsoil_la-hexdump.lo libsoil_la-file_system.lo libsoil_la-json.lo /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_filesystem.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_regex.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_system.so -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt --coverage -lgcov 
+libtool: link: g++ -shared -nostdlib /usr/lib/../lib64/crti.o /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtbeginS.o  .libs/libsoil_la-log.o .libs/libsoil_la-s_timer_impl.o .libs/libsoil_la-data_file.o .libs/libsoil_la-date_time.o .libs/libsoil_la-string.o .libs/libsoil_la-demangle.o .libs/libsoil_la-pause_impl.o .libs/libsoil_la-hexdump.o .libs/libsoil_la-file_system.o .libs/libsoil_la-json.o   -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt -lgcov -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.2 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. -lstdc++ -lm -lc -lgcc_s /opt/rh/devtoolset-2/root/usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtendS.o /usr/lib/../lib64/crtn.o  --coverage   -Wl,-soname -Wl,libsoil-0.1.so.0 -o .libs/libsoil-0.1.so.0.0.1
+libtool: link: (cd ".libs" && rm -f "libsoil-0.1.so.0" && ln -s "libsoil-0.1.so.0.0.1" "libsoil-0.1.so.0")
+libtool: link: (cd ".libs" && rm -f "libsoil.so" && ln -s "libsoil-0.1.so.0.0.1" "libsoil.so")
+libtool: link: ar cru .libs/libsoil.a  libsoil_la-log.o libsoil_la-s_timer_impl.o libsoil_la-data_file.o libsoil_la-date_time.o libsoil_la-string.o libsoil_la-demangle.o libsoil_la-pause_impl.o libsoil_la-hexdump.o libsoil_la-file_system.o libsoil_la-json.o
+libtool: link: ranlib .libs/libsoil.a
+libtool: link: ( cd ".libs" && rm -f "libsoil.la" && ln -s "../libsoil.la" "libsoil.la" )
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs'
+Making check in utest
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  unittest
+make[3]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-json_test.o -MD -MP -MF .deps/unittest-json_test.Tpo -c -o unittest-json_test.o `test -f 'json_test.cc' || echo './'`json_test.cc
+mv -f .deps/unittest-json_test.Tpo .deps/unittest-json_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-reader_writer_queue_test.o -MD -MP -MF .deps/unittest-reader_writer_queue_test.Tpo -c -o unittest-reader_writer_queue_test.o `test -f 'reader_writer_queue_test.cc' || echo './'`reader_writer_queue_test.cc
+mv -f .deps/unittest-reader_writer_queue_test.Tpo .deps/unittest-reader_writer_queue_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-ring_queue_test.o -MD -MP -MF .deps/unittest-ring_queue_test.Tpo -c -o unittest-ring_queue_test.o `test -f 'ring_queue_test.cc' || echo './'`ring_queue_test.cc
+mv -f .deps/unittest-ring_queue_test.Tpo .deps/unittest-ring_queue_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-log_test.o -MD -MP -MF .deps/unittest-log_test.Tpo -c -o unittest-log_test.o `test -f 'log_test.cc' || echo './'`log_test.cc
+mv -f .deps/unittest-log_test.Tpo .deps/unittest-log_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-s_timer_test.o -MD -MP -MF .deps/unittest-s_timer_test.Tpo -c -o unittest-s_timer_test.o `test -f 's_timer_test.cc' || echo './'`s_timer_test.cc
+mv -f .deps/unittest-s_timer_test.Tpo .deps/unittest-s_timer_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-data_file_test.o -MD -MP -MF .deps/unittest-data_file_test.Tpo -c -o unittest-data_file_test.o `test -f 'data_file_test.cc' || echo './'`data_file_test.cc
+mv -f .deps/unittest-data_file_test.Tpo .deps/unittest-data_file_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-macro_test.o -MD -MP -MF .deps/unittest-macro_test.Tpo -c -o unittest-macro_test.o `test -f 'macro_test.cc' || echo './'`macro_test.cc
+mv -f .deps/unittest-macro_test.Tpo .deps/unittest-macro_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-date_time_test.o -MD -MP -MF .deps/unittest-date_time_test.Tpo -c -o unittest-date_time_test.o `test -f 'date_time_test.cc' || echo './'`date_time_test.cc
+mv -f .deps/unittest-date_time_test.Tpo .deps/unittest-date_time_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-string_test.o -MD -MP -MF .deps/unittest-string_test.Tpo -c -o unittest-string_test.o `test -f 'string_test.cc' || echo './'`string_test.cc
+mv -f .deps/unittest-string_test.Tpo .deps/unittest-string_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-demangle_test.o -MD -MP -MF .deps/unittest-demangle_test.Tpo -c -o unittest-demangle_test.o `test -f 'demangle_test.cc' || echo './'`demangle_test.cc
+mv -f .deps/unittest-demangle_test.Tpo .deps/unittest-demangle_test.Po
+g++ -DPACKAGE_NAME=\"soil\" -DPACKAGE_TARNAME=\"soil\" -DPACKAGE_VERSION=\"0.1\" -DPACKAGE_STRING=\"soil\ 0.1\" -DPACKAGE_BUGREPORT=\"lilinj2000@gmail.com\" -DPACKAGE=\"soil\" -DVERSION=\"0.1\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\".libs/\" -I.  -I.. -I/var/jenkins_home/dist_pkg/3rd/centos6/boost/include -DBOOST_ALL_DYN_LINK -I/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include -DRAPIDJSON_HAS_STDSTRING -I/var/jenkins_home/dist_pkg/3rd/centos6/fmt/include -I/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include -DSPDLOG_FMT_EXTERNAL -I/var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include -I/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include -I/var/jenkins_home/dist_pkg/3rd/centos6/googletest/include --coverage -DDEBUG   -g -O2 -std=c++11 -MT unittest-hexdump_test.o -MD -MP -MF .deps/unittest-hexdump_test.Tpo -c -o unittest-hexdump_test.o `test -f 'hexdump_test.cc' || echo './'`hexdump_test.cc
+mv -f .deps/unittest-hexdump_test.Tpo .deps/unittest-hexdump_test.Po
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -g -O2 -std=c++11  -Wl,--no-as-needed -pthread -lrt  -o unittest unittest-json_test.o unittest-reader_writer_queue_test.o unittest-ring_queue_test.o unittest-log_test.o unittest-s_timer_test.o unittest-data_file_test.o unittest-macro_test.o unittest-date_time_test.o unittest-string_test.o unittest-demangle_test.o unittest-hexdump_test.o /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a ../libs/libsoil.la -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_filesystem.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_regex.so 	      /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_system.so --coverage -lgcov 
+libtool: link: g++ -g -O2 -std=c++11 -Wl,--no-as-needed -pthread -o .libs/unittest unittest-json_test.o unittest-reader_writer_queue_test.o unittest-ring_queue_test.o unittest-log_test.o unittest-s_timer_test.o unittest-data_file_test.o unittest-macro_test.o unittest-date_time_test.o unittest-string_test.o unittest-demangle_test.o unittest-hexdump_test.o /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_filesystem.so /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_regex.so /var/jenkins_home/dist_pkg/3rd/centos6/boost/lib/libboost_system.so --coverage  -lrt /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a ../libs/.libs/libsoil.so -L/var/jenkins_home/dist_pkg/3rd/centos6/fmt/lib -lfmt -lgcov -pthread -Wl,-rpath -Wl,/usr/local/lib
+make[3]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make  check-TESTS
+make[3]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+Running main() from gtest_main.cc
+[==========] Running 18 tests from 11 test cases.
+[----------] Global test environment set-up.
+[----------] 3 tests from JsonTest
+[ RUN      ] JsonTest.getValueTest
+[       OK ] JsonTest.getValueTest (23 ms)
+[ RUN      ] JsonTest.escapeTest
+[2018-02-12 14:01:26.072240] [debug] [json_test.cc line #93] s.GetString(): {"test":"123 \u0000 456"}
+[2018-02-12 14:01:26.072374] [debug] [json_test.cc line #107] esp_test: 123 \u0000 456
+[       OK ] JsonTest.escapeTest (20 ms)
+[ RUN      ] JsonTest.writeValueTest
+[2018-02-12 14:01:26.072420] [debug] [json_test.cc line #139] sb.GetString(): {
+    "test1": "\u0000",
+    "test2": "test test",
+    "test3": false,
+    "test4": 500,
+    "test5": "12345",
+    "test6": "ttttt",
+    "test7": "ttttt",
+    "test8": 100
+}
+[       OK ] JsonTest.writeValueTest (0 ms)
+[----------] 3 tests from JsonTest (43 ms total)
+
+[----------] 1 test from ReaderWriterQueueTest
+[ RUN      ] ReaderWriterQueueTest.queueTest
+[2018-02-12 14:01:26.072548] [info] [reader_writer_queue_test.cc line #46] onStart()
+[2018-02-12 14:01:26.072568] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 0
+[2018-02-12 14:01:26.072577] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 1
+[2018-02-12 14:01:26.072584] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 2
+[2018-02-12 14:01:26.072591] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 3
+[2018-02-12 14:01:26.072598] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 4
+[2018-02-12 14:01:26.072605] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 5
+[2018-02-12 14:01:26.072612] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 6
+[2018-02-12 14:01:26.072619] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 7
+[2018-02-12 14:01:26.072637] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 8
+[2018-02-12 14:01:26.072645] [info] [reader_writer_queue_test.cc line #42] msgCallback() - msg: 9
+[2018-02-12 14:01:27.072759] [info] [reader_writer_queue_test.cc line #50] onStop()
+[       OK ] ReaderWriterQueueTest.queueTest (1000 ms)
+[----------] 1 test from ReaderWriterQueueTest (1000 ms total)
+
+[----------] 1 test from RingQueueTest
+[ RUN      ] RingQueueTest.allTest
+[       OK ] RingQueueTest.allTest (0 ms)
+[----------] 1 test from RingQueueTest (0 ms total)
+
+[----------] 1 test from LogTest
+[ RUN      ] LogTest.logTest
+[2018-02-12 14:01:27.073380] [trace] [log_test.cc line #59] This is a trace log
+[2018-02-12 14:01:27.073406] [debug] [log_test.cc line #60] This is a debug log
+[2018-02-12 14:01:27.073417] [info] [log_test.cc line #61] This is a info log
+[2018-02-12 14:01:27.073426] [warning] [log_test.cc line #62] This is a warn log
+[2018-02-12 14:01:27.073435] [error] [log_test.cc line #63] This is a error log
+[2018-02-12 14:01:27.073444] [critical] [log_test.cc line #64] This is a critical log
+[2018-02-12 14:01:27.073453] [trace] [log_test.cc line #66] This is a trace_if log
+[2018-02-12 14:01:27.073461] [debug] [log_test.cc line #67] This is a debug_if log
+[2018-02-12 14:01:27.073470] [info] [log_test.cc line #68] This is a info_if log
+[2018-02-12 14:01:27.073478] [warning] [log_test.cc line #69] This is a warn_if log
+[2018-02-12 14:01:27.073487] [error] [log_test.cc line #70] This is a error_if log
+[2018-02-12 14:01:27.073495] [critical] [log_test.cc line #71] This is a critical_if log
+[2018-02-12 14:01:27.073503] [info] [log_test.cc line #74] Point is (3.2, 4.5)
+[2018-02-12 14:01:27.073571] [trace] [log_test.cc line #76] TestBody()
+[2018-02-12 14:01:27.073585] [debug] [log_test.cc line #79] test_print: hello, print.
+[2018-02-12 14:01:27.073596] [debug] [log_test.cc line #82] &test: 100
+[2018-02-12 14:01:27.073606] [debug] [log_test.cc line #85] &tt: test pointer
+[       OK ] LogTest.logTest (0 ms)
+[----------] 1 test from LogTest (0 ms total)
+
+[----------] 2 tests from STimerTest
+[ RUN      ] STimerTest.wait2STest
+[       OK ] STimerTest.wait2STest (2000 ms)
+[ RUN      ] STimerTest.notifyTest
+[       OK ] STimerTest.notifyTest (1001 ms)
+[----------] 2 tests from STimerTest (3001 ms total)
+
+[----------] 1 test from DataFileTest
+[ RUN      ] DataFileTest.dataFileTest
+[2018-02-12 14:01:30.074679] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 14:01:30.074691] [trace] [data_file.cc line #68] ~DataFile()
+[2018-02-12 14:01:30.074734] [trace] [data_file.cc line #76] outData()
+[2018-02-12 14:01:30.074748] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 14:01:30.074760] [debug] [data_file_test.cc line #47] x_: 1
+[2018-02-12 14:01:30.074771] [debug] [data_file_test.cc line #48] y_: 2
+[2018-02-12 14:01:30.074809] [trace] [data_file.cc line #42] onMsg()
+[2018-02-12 14:01:30.074821] [trace] [data_file.cc line #76] outData()
+[2018-02-12 14:01:30.074831] [trace] [data_file_test.cc line #45] writeToFile()
+[2018-02-12 14:01:30.074841] [debug] [data_file_test.cc line #47] x_: 2
+[2018-02-12 14:01:30.074850] [debug] [data_file_test.cc line #48] y_: 3
+[       OK ] DataFileTest.dataFileTest (1001 ms)
+[----------] 1 test from DataFileTest (1001 ms total)
+
+[----------] 1 test from MacroTest
+[ RUN      ] MacroTest.rangeForTest
+Hello, world!
+1 2 3 
+2 3 4 
+[       OK ] MacroTest.rangeForTest (48 ms)
+[----------] 1 test from MacroTest (48 ms total)
+
+[----------] 4 tests from DateTimeTest
+[ RUN      ] DateTimeTest.dateTimeTest
+2018-02-12 14:01:31.123479207
+2018-02-12 14:01:31.123479207
+[2018-02-12 14:01:31.123566] [debug] [date_time_test.cc line #47] cur time: 2018-02-12 14:01:31.123479207
+2018-02-12 10:10:20.000000000
+2015-11-18 00:00:00.000000000
+2016-06-01 01:47:41.613184321
+[       OK ] DateTimeTest.dateTimeTest (1 ms)
+[ RUN      ] DateTimeTest.operatorTest
+2018-02-12 14:01:31.124226618
+2018-02-12 14:01:31.224226618
+2018-02-12 14:01:51.224226618
+2018-02-12 14:01:31.124276359
+20099950259 nano seconds.
+[       OK ] DateTimeTest.operatorTest (0 ms)
+[ RUN      ] DateTimeTest.getStringTest
+[       OK ] DateTimeTest.getStringTest (0 ms)
+[ RUN      ] DateTimeTest.nowTest
+[       OK ] DateTimeTest.nowTest (0 ms)
+[----------] 4 tests from DateTimeTest (1 ms total)
+
+[----------] 2 tests from StringTest
+[ RUN      ] StringTest.splitTest
+set:
+Hello world 
+vec:
+Hello world 
+[       OK ] StringTest.splitTest (0 ms)
+[ RUN      ] StringTest.toUpper
+[       OK ] StringTest.toUpper (0 ms)
+[----------] 2 tests from StringTest (0 ms total)
+
+[----------] 1 test from DemangleTest
+[ RUN      ] DemangleTest.demangleTest
+[       OK ] DemangleTest.demangleTest (0 ms)
+[----------] 1 test from DemangleTest (0 ms total)
+
+[----------] 1 test from HexdumpTest
+[ RUN      ] HexdumpTest.allTest
+[2018-02-12 14:01:31.124674] [info] [hexdump_test.cc line #40] allTest
+  0000  61 66 61 6a 66 70 61 73 64 6a 66 64 6f 66 6a 32  afajfpasdjfdofj2
+  0010  33 34 32 33 34 32 33 61 73 66 61 66 6f 65 72 69  3423423asfafoeri
+
+[2018-02-12 14:01:31.124726] [info] [hexdump_test.cc line #45] allTest
+  0000  67 45 8b 6b c6 23 7b 32 69 98 3c 64 73 48 33 66  gE.k.#{2i.<dsH3f
+  0010  51 dc b0 74 ff 5c 49 19 4a 94 e8 2a ec 58 55 62  Q..t.\I.J..*.XUb
+  0020  29 1f 8e 23 cd 7c e8 46 ba 58 1b 3d ab d7 7e 50  )..#.|.F.X.=..~P
+  0030  f2 41 b1 2e fb 1e b7 41 e3 a9 e2 79 46 e1 45 75  .A.....A...yF.Eu
+  0040  7c 00 5f 51 c2 62 d0 5b 54 08 20 12 f8 27 b1 4d  |._Q.b.[T. ..'.M
+  0050  1b 23 16 02 e8 e9 16 1f e7 cd 90 11 8d 43 ef 66  .#...........C.f
+  0060  76 0f 0e 14                                      v...
+
+[       OK ] HexdumpTest.allTest (0 ms)
+[----------] 1 test from HexdumpTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 11 test cases ran. (5098 ms total)
+[  PASSED  ] 18 tests.
+PASS: unittest.sh
+=============
+1 test passed
+=============
+make[3]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest'
+make[2]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+make  generate-coverage-html
+make[1]: Entering directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'
+Collecting coverage data with lcov
+lcov --gcov-tool gcov --directory . --capture --output-file coverage.info --no-checksum --compat-libtool --no-external
+Capturing coverage data from .
+Found gcov version: 4.8.2
+Scanning . for .gcda files ...
+Found 21 data files in .
+Processing libs/.libs/libsoil_la-json.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/encodings.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/en.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/error.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/pow10.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/stack.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strtod.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/istreamwrapper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/reader.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stringbuffer.h
+Processing libs/.libs/libsoil_la-file_system.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_stack.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/system_error
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/core/checked_delete.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/exception/exception.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/filesystem/fstream.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/filesystem/operations.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/filesystem/path.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/bad_weak_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/local_counted_base.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/shared_count.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/sp_counted_impl.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/shared_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/system/error_code.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/system/system_error.hpp
+Processing libs/.libs/libsoil_la-hexdump.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/ios_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iomanip
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+Processing libs/.libs/libsoil_la-pause_impl.gcda
+Processing libs/.libs/libsoil_la-demangle.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+Processing libs/.libs/libsoil_la-string.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_set.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/exception/exception.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/iterator/iterator_facade.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/token_functions.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/token_iterator.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/tokenizer.hpp
+Processing libs/.libs/libsoil_la-date_time.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/ios_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algo.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/string_conversions.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iomanip
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/stdexcept
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/core/checked_delete.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/exception/exception.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/pattern_except.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/basic_regex.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/cpp_regex_traits.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/match_flags.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/match_results.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher_common.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher_non_recursive.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/protected_call.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/regex_match.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/regex_traits_defaults.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/sub_match.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/bad_weak_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/local_counted_base.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/shared_count.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/scoped_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/shared_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/throw_exception.hpp
+Processing libs/.libs/libsoil_la-data_file.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/new
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/atomicops.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/readerwriterqueue.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing libs/.libs/libsoil_la-s_timer_impl.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/condition_variable
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+Processing libs/.libs/libsoil_la-log.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/functional_hash.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/hashtable.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/hashtable_policy.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algo.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unordered_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/initializer_list
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/stdexcept
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/core/checked_delete.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/exception/exception.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/pattern_except.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/basic_regex.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/cpp_regex_traits.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/match_flags.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/match_results.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher_common.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/perl_matcher_non_recursive.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/protected_call.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/regex_match.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/regex_traits_defaults.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/regex/v4/sub_match.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/bad_weak_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/local_counted_base.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/shared_count.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/scoped_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/smart_ptr/shared_ptr.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/boost/include/boost/throw_exception.hpp
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/encodings.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strfunc.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/pointer.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stream.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/registry.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/spdlog_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-hexdump_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algo.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-demangle_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+Processing utest/unittest-string_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_set.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+Processing utest/unittest-date_time_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/ostream.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-macro_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+Processing utest/unittest-data_file_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/error.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/stack.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-s_timer_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+Processing utest/unittest-log_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_ios.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/ostream.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/error.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/stack.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-ring_queue_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/condition_variable
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/claim_strategy.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/exceptions.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/interface.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/sequence.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/sequence_barrier.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/disruptor/include/disruptor/wait_strategy.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-reader_writer_queue_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/string_conversions.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/new
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/atomicops.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/readerwriterqueue.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Processing utest/unittest-json_test.gcda
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/array
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/atomic
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/alloc_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/atomic_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/basic_string.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/char_traits.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/locale_facets.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/move.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/shared_ptr_base.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_algobase.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_bvector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_construct.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_function.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_map.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_pair.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_tree.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_uninitialized.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/stl_vector.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/unique_ptr.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/bits/vector.tcc
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/chrono
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/cmath
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/exception
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/atomicity.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/concurrence.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ext/new_allocator.h
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/functional
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/iostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/mutex
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/ostream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/sstream
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/streambuf
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/thread
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/tuple
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/typeinfo
+  ignoring data for external file /opt/rh/devtoolset-2/root/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+  ignoring data for external file /usr/include/sys/stat.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/fmt/include/fmt/format.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/encodings.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/error.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/itoa.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/pow10.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/stack.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strfunc.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strtod.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/pointer.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/prettywriter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/reader.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stream.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stringbuffer.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/writer.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h
+  ignoring data for external file /var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h
+Finished .info-file creation
+lcov --remove coverage.info "/usr*" -o coverage.info
+Reading tracefile coverage.info
+Deleted 0 files
+Writing data to coverage.info
+Summary coverage rate:
+  lines......: 85.7% (551 of 643 lines)
+  functions..: 74.7% (133 of 178 functions)
+  branches...: no data found
+lcov --remove coverage.info "/opt*" -o coverage.info
+Reading tracefile coverage.info
+Deleted 0 files
+Writing data to coverage.info
+Summary coverage rate:
+  lines......: 85.7% (551 of 643 lines)
+  functions..: 74.7% (133 of 178 functions)
+  branches...: no data found
+LANG=C++ genhtml --prefix . --output-directory coveragereport --title "Code Coverage" --legend --show-details coverage.info
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LANG = "C++"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Reading data file coverage.info
+Found 27 entries.
+Using user-specified filename prefix "."
+Writing .css and .png files.
+Generating output.
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/pause_impl.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/log.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/file_system.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/s_timer_impl.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/hexdump.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/json.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/date_time.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/data_file.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/string.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/demangle.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/libs/pause_impl.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil/s_timer.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil/pause.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil/json.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil/reader_writer_queue.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/soil/data_file.h
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/s_timer_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/macro_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/data_file_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/log_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/demangle_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/string_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/json_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/date_time_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/hexdump_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/ring_queue_test.cc
+Processing file /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ/utest/reader_writer_queue_test.cc
+Writing directory view page.
+Overall coverage rate:
+  lines......: 85.7% (551 of 643 lines)
+  functions..: 74.7% (133 of 178 functions)
+make[1]: Leaving directory `/var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ'

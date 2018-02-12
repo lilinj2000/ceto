@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: johannes
+Build-Jdk: 1.8.0_91
+Extension-Name: valgrind
+Implementation-Title: valgrind
+Implementation-Version: 0.27
+Group-Id: org.jenkins-ci.plugins
+Short-Name: valgrind
+Long-Name: Jenkins Valgrind Plug-in
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Valgrind+Plugin
+Plugin-Version: 0.27
+Hudson-Version: 1.642
+Jenkins-Version: 1.642
+Plugin-Developers: Johannes Ohlemacher:eXistence:johannes.ohlemacher@g
+ ooglemail.com
+

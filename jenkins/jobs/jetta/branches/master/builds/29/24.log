@@ -1,0 +1,15 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ cpplint --output=vs7 --recursive .
+Done processing src/hello.cc
++ cppcheck --enable=all --inconclusive --xml --xml-version=2 .
+Checking src/hello.cc ...
++ cppcheck-htmlreport --title=jetta/master --file=cppcheck.xml --report-dir=./cppcheck-report
+Parsing xml report.
+Creating ./cppcheck-report directory
+Processing errors
+Creating index.html
+Creating style.css file
+Creating stats.html (statistics)
+
+
+Open './cppcheck-report/index.html' to see the results.
