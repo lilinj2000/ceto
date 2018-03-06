@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cppcheck - HTML report - soil/master</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    <script language="javascript">
+      function getStyle(el,styleProp) {
+        if (el.currentStyle)
+          var y = el.currentStyle[styleProp];
+        else if (window.getComputedStyle)
+          var y = document.defaultView.getComputedStyle(el,null).getPropertyValue(styleProp);
+        return y;
+      }
+      function toggle() {
+        var el = this.expandable_content;
+        var mark = this.expandable_marker;
+        if (el.style.display == "block") {
+          el.style.display = "none";
+          mark.innerHTML = "[+]";
+        } else {
+          el.style.display = "block";
+          mark.innerHTML = "[-]";
+        }
+      }
+      function init_expandables() {
+        var elts = document.getElementsByClassName("expandable");
+        for (var i = 0; i < elts.length; i++) {
+          var el = elts[i];
+          var clickable = el.getElementsByTagName("span")[0];
+          var marker = clickable.getElementsByClassName("marker")[0];
+          var content = el.getElementsByClassName("content")[0];
+          var width = clickable.clientWidth - parseInt(getStyle(content, "padding-left")) - parseInt(getStyle(content, "padding-right"));
+          content.style.width = width + "px";
+          clickable.expandable_content = content;
+          clickable.expandable_marker = marker;
+          clickable.onclick = toggle;
+        }
+      }
+      function set_class_display(c, st) {
+        var elements = document.querySelectorAll('.' + c),
+            len = elements.length;
+        for (i = 0; i < len; i++) {
+            elements[i].style.display = st;
+        }
+      }
+      function toggle_class_visibility(id) {
+        var box = document.getElementById(id);
+        set_class_display(id, box.checked ? '' : 'none');
+      }
+    </script>
+  </head>
+  <body onload="init_expandables()">
+      <div id="header">
+        <h1>Cppcheck report - soil/master:  </h1>
+      </div>
+      <div id="menu_index">
+       <p id="filename"><a href="index.html">Defect summary;</a> </p>
+       <table>           <tr><th>Show</th><th>#</th><th>Defect ID</th></tr>            <tr><td><input type='checkbox' onclick='toggle_class_visibility(this.id)' id='syntaxError' name='syntaxError' checked></td><td>10</td><td>syntaxError</td></tr>            <tr><td><input type='checkbox' onclick='toggle_class_visibility(this.id)' id='unusedFunction' name='unusedFunction' checked></td><td>9</td><td>unusedFunction</td></tr>            <tr><td><input type='checkbox' onclick='toggle_class_visibility(this.id)' id='missingInclude' name='missingInclude' checked></td><td>1</td><td>missingInclude</td></tr>           <tr><td></td><td>20</td><td>total</td></tr>       </table>       <a href="stats.html">Statistics</a></p>
+      </div>
+      <div id="content_index">
+       <table>
+       <tr><th>Line</th><th>Id</th><th>CWE</th><th>Severity</th><th>Message</th></tr>
+       <tr><td colspan='4'><a href='16.html'></a></td></tr>
+         <tr class="missingInclude"><td></td><td>missingInclude</td><td></td><td>information</td><td>Cppcheck cannot find all the include files (use --check-config for details)</td></tr>
+       <tr><td colspan='4'><a href='14.html'>libs/date_time.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="14.html#line-170">170</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'operator<<' is never used.</td></tr>
+       <tr><td colspan='4'><a href='11.html'>libs/demangle.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="11.html#line-48">48</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'demangle' is never used.</td></tr>
+       <tr><td colspan='4'><a href='10.html'>libs/file_system.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="10.html#line-36">36</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'checkPath' is never used.</td></tr>
+       <tr><td colspan='4'><a href='12.html'>libs/json.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="12.html#line-50">50</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'load_from_file' is never used.</td></tr>
+       <tr class="unusedFunction"><td><a href="12.html#line-61">61</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'escape_string' is never used.</td></tr>
+       <tr><td colspan='4'><a href='13.html'>libs/log.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="13.html#line-225">225</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'init' is never used.</td></tr>
+       <tr><td colspan='4'><a href='15.html'>libs/string.cc</a></td></tr>
+       <tr class="unusedFunction"><td><a href="15.html#line-34">34</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'splitString' is never used.</td></tr>
+       <tr class="unusedFunction"><td><a href="15.html#line-50">50</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'toUpper' is never used.</td></tr>
+       <tr class="unusedFunction"><td><a href="15.html#line-56">56</a></td><td>unusedFunction</td><td><a href='https://cwe.mitre.org/data/definitions/561.html'>561</a></td><td>style</td><td >The function 'toLower' is never used.</td></tr>
+       <tr><td colspan='4'><a href='0.html'>utest/data_file_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="0.html#line-58">58</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='1.html'>utest/date_time_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="1.html#line-42">42</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='2.html'>utest/demangle_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="2.html#line-40">40</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='3.html'>utest/json_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="3.html#line-44">44</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='4.html'>utest/log_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="4.html#line-47">47</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='5.html'>utest/macro_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="5.html#line-41">41</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='6.html'>utest/reader_writer_queue_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="6.html#line-54">54</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='7.html'>utest/ring_queue_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="7.html#line-60">60</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='8.html'>utest/s_timer_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="8.html#line-59">59</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       <tr><td colspan='4'><a href='9.html'>utest/string_test.cc</a></td></tr>
+       <tr class="syntaxError"><td><a href="9.html#line-60">60</a></td><td>syntaxError</td><td></td><td>error</td><td class="error">syntax error</td></tr>
+       </table>
+      </div>
+      <div id="footer">
+        <p>
+         Cppcheck 1.82 dev - a tool for static C/C++ code analysis</br>
+         </br>
+         Internet: <a href="http://cppcheck.net">http://cppcheck.net</a></br>
+         IRC: <a href="irc://irc.freenode.net/cppcheck">irc://irc.freenode.net/cppcheck</a></br>
+        <p>
+      </div>
+  </body>
+</html>

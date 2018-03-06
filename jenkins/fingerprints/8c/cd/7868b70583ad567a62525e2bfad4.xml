@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-02-14 06:08:59.94 UTC</timestamp>
+  <original>
+    <name>soil/master</name>
+    <number>15</number>
+  </original>
+  <md5sum>8ccd7868b70583ad567a62525e2bfad4</md5sum>
+  <fileName>Docker image sha256:8ccd7868b70583ad567a62525e2bfad4ef2a635196c60ec7b00d7a7d7767698b</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.11">
+      <timestamp>1518588539313</timestamp>
+      <imageId>sha256:8ccd7868b70583ad567a62525e2bfad4ef2a635196c60ec7b00d7a7d7767698b</imageId>
+      <usages>
+        <entry>
+          <string>soil/master</string>
+          <ranges>15</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f5f4c3aa72c7</host>
+          <containerId>f5f4c3aa72c7131e7682dbf80a0e67412e259bd31c11fe7528cdb6cc6268c766</containerId>
+          <containerName>/stoic_austin</containerName>
+          <created>1518559726000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>
