@@ -1,0 +1,222 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.20"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
+      <sourceId>63da3fa6-8e70-4e28-b483-78eace6b22ed</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
+          <name>master</name>
+        </head>
+        <hash>d031dcf9946d22c995190db0c32a82cb87a4af72</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
+      <stagesUUID>7bb55c19-44e0-429f-9804-b0255f32c08f</stagesUUID>
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>install</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">
+home_spdlog=${home_3rd}/spdlog
+mkdir -p ${home_spdlog}
+cp -avr include ${home_spdlog}
+   	</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+          <uuid>7bb55c19-44e0-429f-9804-b0255f32c08f</uuid>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
+      <buildsByBranchName>
+        <entry>
+          <string>master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.2">
+              <sha1>d031dcf9946d22c995190db0c32a82cb87a4af72</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/lilinj2000/spdlog.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.6">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/lilinj2000/spdlog.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
+      <imageIDs>
+        <string>sha256:04866319be4aa1e0a9d93926a0283a4a912644b5fb44456671ed27a6e584f167</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
+      <names class="sorted-set">
+        <string>lilinj2000/dev:centos6.gcc</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
+  </actions>
+  <queueId>47</queueId>
+  <timestamp>1526870535853</timestamp>
+  <startTime>1526870535880</startTime>
+  <result>SUCCESS</result>
+  <duration>96294</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>pipeline {
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6.gcc&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
+  stages {
+    stage(&apos;install&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+home_spdlog=${home_3rd}/spdlog
+mkdir -p ${home_spdlog}
+cp -avr include ${home_spdlog}
+   	&apos;&apos;&apos;
+      }
+    }
+  }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>691598000</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>316105400</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>4782451200</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>48743800</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>360534200</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>30</iota>
+    <head>1:30</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+            <url>https://github.com/lilinj2000/spdlog.git</url>
+            <credentialsId>github</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>master</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.GithubWeb">
+          <url>https://github.com/lilinj2000/spdlog</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/spdlog/branches/master/builds/2/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

@@ -1,0 +1,113 @@
+Branch indexing
+[8mha:////4MfrCUQnWIjlOkcilwhDdD0ssO08eyo7CS8noJTUNYEXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw+QSMQAjlzJSjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from d031dcf9946d22c995190db0c32a82cb87a4af72
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/spdlog.git
+ > git init /var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/spdlog.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/spdlog.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/spdlog.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/spdlog.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/spdlog.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/spdlog.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision d031dcf9946d22c995190db0c32a82cb87a4af72 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d031dcf9946d22c995190db0c32a82cb87a4af72
+Commit message: "update images for Jenkinsfile"
+ > git rev-list --no-walk 73d4ab4b2dc36d1dd3f8c8d959f05c922e25805f # timeout=10
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6.gcc
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ --volumes-from e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6.gcc cat
+$ docker top 73815d631bd189a22d8bad8660db0b8db884771fa89e794b2346407978040e30 -eo pid,comm
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[spdlog_master-JA6K4SBU2PPLDBGMPO7AD5NYMJ4EZLUX7OU7WOHEWORAZITBQGMQ] Running shell script
++ home_spdlog=/var/jenkins_home/dist_pkg/3rd/centos6/spdlog
++ mkdir -p /var/jenkins_home/dist_pkg/3rd/centos6/spdlog
++ cp -avr include /var/jenkins_home/dist_pkg/3rd/centos6/spdlog
+`include' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include'
+`include/spdlog' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog'
+`include/spdlog/async_logger.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/async_logger.h'
+`include/spdlog/common.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/common.h'
+`include/spdlog/details' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details'
+`include/spdlog/details/async_logger_impl.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_logger_impl.h'
+`include/spdlog/details/async_log_helper.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/async_log_helper.h'
+`include/spdlog/details/file_helper.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/file_helper.h'
+`include/spdlog/details/logger_impl.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/logger_impl.h'
+`include/spdlog/details/log_msg.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/log_msg.h'
+`include/spdlog/details/mpmc_bounded_q.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/mpmc_bounded_q.h'
+`include/spdlog/details/null_mutex.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/null_mutex.h'
+`include/spdlog/details/os.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/os.h'
+`include/spdlog/details/pattern_formatter_impl.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/pattern_formatter_impl.h'
+`include/spdlog/details/registry.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/registry.h'
+`include/spdlog/details/spdlog_impl.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/details/spdlog_impl.h'
+`include/spdlog/fmt' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt'
+`include/spdlog/fmt/bundled' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled'
+`include/spdlog/fmt/bundled/format.cc' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/format.cc'
+`include/spdlog/fmt/bundled/format.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/format.h'
+`include/spdlog/fmt/bundled/ostream.cc' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/ostream.cc'
+`include/spdlog/fmt/bundled/ostream.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/ostream.h'
+`include/spdlog/fmt/bundled/posix.cc' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/posix.cc'
+`include/spdlog/fmt/bundled/posix.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/posix.h'
+`include/spdlog/fmt/bundled/time.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/bundled/time.h'
+`include/spdlog/fmt/fmt.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/fmt.h'
+`include/spdlog/fmt/ostr.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/fmt/ostr.h'
+`include/spdlog/formatter.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/formatter.h'
+`include/spdlog/logger.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/logger.h'
+`include/spdlog/sinks' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks'
+`include/spdlog/sinks/android_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/android_sink.h'
+`include/spdlog/sinks/ansicolor_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ansicolor_sink.h'
+`include/spdlog/sinks/base_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/base_sink.h'
+`include/spdlog/sinks/dist_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/dist_sink.h'
+`include/spdlog/sinks/file_sinks.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/file_sinks.h'
+`include/spdlog/sinks/msvc_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/msvc_sink.h'
+`include/spdlog/sinks/null_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/null_sink.h'
+`include/spdlog/sinks/ostream_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/ostream_sink.h'
+`include/spdlog/sinks/sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/sink.h'
+`include/spdlog/sinks/stdout_sinks.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/stdout_sinks.h'
+`include/spdlog/sinks/syslog_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/syslog_sink.h'
+`include/spdlog/sinks/wincolor_sink.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/sinks/wincolor_sink.h'
+`include/spdlog/spdlog.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/spdlog.h'
+`include/spdlog/tweakme.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/spdlog/include/spdlog/tweakme.h'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 73815d631bd189a22d8bad8660db0b8db884771fa89e794b2346407978040e30
+$ docker rm -f 73815d631bd189a22d8bad8660db0b8db884771fa89e794b2346407978040e30
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

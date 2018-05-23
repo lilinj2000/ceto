@@ -1,16 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepStartNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>18</string>
     </parentIds>
     <id>19</id>
-    <descriptorId>org.jenkinsci.plugins.docker.workflow.WithContainerStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514545032294</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526870883638</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+cpplint --output=vs7 --recursive .
+cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
+cppcheck-htmlreport --title=&quot;$JOB_NAME&quot; --file=cppcheck.xml  --report-dir=./cppcheck-report
+	</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>

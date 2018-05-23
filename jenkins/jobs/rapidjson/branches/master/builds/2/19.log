@@ -1,0 +1,86 @@
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ mkdir -p build
++ cd build
++ cmake -DINCLUDE_INSTALL_DIR=/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include ..
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working CXX compiler: /opt/rh/devtoolset-2/root/usr/bin/c++
+-- Check for working CXX compiler: /opt/rh/devtoolset-2/root/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+-- No Doxygen found. Documentation won't be built
+-- Could NOT find GTestSrc (missing:  GTEST_SOURCE_DIR GTEST_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ/build
++ make
+Scanning dependencies of target capitalize
+[  5%] Building CXX object example/CMakeFiles/capitalize.dir/capitalize/capitalize.cpp.o
+Linking CXX executable ../bin/capitalize
+[  5%] Built target capitalize
+Scanning dependencies of target condense
+[ 11%] Building CXX object example/CMakeFiles/condense.dir/condense/condense.cpp.o
+Linking CXX executable ../bin/condense
+[ 11%] Built target condense
+Scanning dependencies of target tutorial
+[ 17%] Building CXX object example/CMakeFiles/tutorial.dir/tutorial/tutorial.cpp.o
+Linking CXX executable ../bin/tutorial
+[ 17%] Built target tutorial
+Scanning dependencies of target filterkeydom
+[ 23%] Building CXX object example/CMakeFiles/filterkeydom.dir/filterkeydom/filterkeydom.cpp.o
+Linking CXX executable ../bin/filterkeydom
+[ 23%] Built target filterkeydom
+Scanning dependencies of target jsonx
+[ 29%] Building CXX object example/CMakeFiles/jsonx.dir/jsonx/jsonx.cpp.o
+Linking CXX executable ../bin/jsonx
+[ 29%] Built target jsonx
+Scanning dependencies of target filterkey
+[ 35%] Building CXX object example/CMakeFiles/filterkey.dir/filterkey/filterkey.cpp.o
+Linking CXX executable ../bin/filterkey
+[ 35%] Built target filterkey
+Scanning dependencies of target lookaheadparser
+[ 41%] Building CXX object example/CMakeFiles/lookaheadparser.dir/lookaheadparser/lookaheadparser.cpp.o
+Linking CXX executable ../bin/lookaheadparser
+[ 41%] Built target lookaheadparser
+Scanning dependencies of target messagereader
+[ 47%] Building CXX object example/CMakeFiles/messagereader.dir/messagereader/messagereader.cpp.o
+Linking CXX executable ../bin/messagereader
+[ 47%] Built target messagereader
+Scanning dependencies of target parsebyparts
+[ 52%] Building CXX object example/CMakeFiles/parsebyparts.dir/parsebyparts/parsebyparts.cpp.o
+Linking CXX executable ../bin/parsebyparts
+[ 52%] Built target parsebyparts
+Scanning dependencies of target pretty
+[ 58%] Building CXX object example/CMakeFiles/pretty.dir/pretty/pretty.cpp.o
+Linking CXX executable ../bin/pretty
+[ 58%] Built target pretty
+Scanning dependencies of target prettyauto
+[ 64%] Building CXX object example/CMakeFiles/prettyauto.dir/prettyauto/prettyauto.cpp.o
+Linking CXX executable ../bin/prettyauto
+[ 64%] Built target prettyauto
+Scanning dependencies of target schemavalidator
+[ 70%] Building CXX object example/CMakeFiles/schemavalidator.dir/schemavalidator/schemavalidator.cpp.o
+Linking CXX executable ../bin/schemavalidator
+[ 70%] Built target schemavalidator
+Scanning dependencies of target serialize
+[ 76%] Building CXX object example/CMakeFiles/serialize.dir/serialize/serialize.cpp.o
+Linking CXX executable ../bin/serialize
+[ 76%] Built target serialize
+Scanning dependencies of target simpledom
+[ 82%] Building CXX object example/CMakeFiles/simpledom.dir/simpledom/simpledom.cpp.o
+Linking CXX executable ../bin/simpledom
+[ 82%] Built target simpledom
+Scanning dependencies of target simplereader
+[ 88%] Building CXX object example/CMakeFiles/simplereader.dir/simplereader/simplereader.cpp.o
+Linking CXX executable ../bin/simplereader
+[ 88%] Built target simplereader
+Scanning dependencies of target simplepullreader
+[ 94%] Building CXX object example/CMakeFiles/simplepullreader.dir/simplepullreader/simplepullreader.cpp.o
+Linking CXX executable ../bin/simplepullreader
+[ 94%] Built target simplepullreader
+Scanning dependencies of target simplewriter
+[100%] Building CXX object example/CMakeFiles/simplewriter.dir/simplewriter/simplewriter.cpp.o
+Linking CXX executable ../bin/simplewriter
+[100%] Built target simplewriter
+Scanning dependencies of target examples
+[100%] Built target examples

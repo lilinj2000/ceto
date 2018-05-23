@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.16">
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.0.20">
   <sourceActions>
     <entry>
-      <string>461b4720-d805-4f84-83a4-dbb76d7c301d</string>
+      <string>d9697ca7-e71f-4d30-856a-11f6850321ab</string>
       <list>
-        <org.jenkinsci.plugins.github__branch__source.GitHubRepoMetadataAction plugin="github-branch-source@2.3.2"/>
-        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.6">
+        <org.jenkinsci.plugins.github__branch__source.GitHubRepoMetadataAction plugin="github-branch-source@2.3.4"/>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.2.7">
           <objectDescription>A fast JSON parser/generator for C++ with both SAX/DOM style API</objectDescription>
           <objectUrl>http://rapidjson.org/</objectUrl>
         </jenkins.scm.api.metadata.ObjectMetadataAction>
-        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.3.2">
+        <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.3.4">
           <iconClassName>icon-github-repo</iconClassName>
           <url>https://github.com/lilinj2000/rapidjson</url>
         </org.jenkinsci.plugins.github__branch__source.GitHubLink>
-        <org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch plugin="github-branch-source@2.3.2">
+        <org.jenkinsci.plugins.github__branch__source.GitHubDefaultBranch plugin="github-branch-source@2.3.4">
           <repoOwner>lilinj2000</repoOwner>
           <repository>rapidjson</repository>
           <defaultBranch>master</defaultBranch>

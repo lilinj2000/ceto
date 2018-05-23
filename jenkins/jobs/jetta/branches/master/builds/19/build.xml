@@ -1,23 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.16">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.16"/>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.20"/>
           <int>1</int>
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
+    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.5.0">
       <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
         <mappedUrl>blue/organizations/jenkins/jetta/detail/master/19</mappedUrl>
-        <modelObject class="flow-build" reference="../../../.."/>
       </blueOceanUrlObject>
     </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
-    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
-      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
-        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
           <name>master</name>
         </head>
         <hash>1d95f8aa2c83c9de2028a1ee918ab14799bf5d46</hash>
@@ -26,25 +25,16 @@
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
       <stagesUUID>568afa40-3d40-479e-9033-871cfaf2c4db</stagesUUID>
       <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
           <stages>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <name>build</name>
               <agent>
                 <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTClosureMap">
-                  <variables class="linked-hash-map">
-                    <entry>
-                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                        <key>image</key>
-                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                        <value class="string">lilinj2000/dev:centos6</value>
-                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                    </entry>
-                  </variables>
+                  <variables class="linked-hash-map"/>
                 </variables>
                 <agentType>
                   <key>docker</key>
@@ -57,59 +47,19 @@
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-	./configure
-	make
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
                 </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
               </branches>
               <environment>
-                <variables class="linked-hash-map">
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_3rd</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/3rd/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_libs</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/libs/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_app</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/app/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                </variables>
+                <variables class="linked-hash-map"/>
               </environment>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <name>SonarQube analysis</name>
               <agent>
-                <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$1">
-                  <value class="string">master</value>
-                </variables>
                 <agentType>
                   <key>label</key>
                 </agentType>
@@ -121,54 +71,23 @@
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
                       <name>script</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>scriptBlock</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">scannerHome = tool &apos;SonarQube Scanner&apos;</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
                       <name>withSonarQubeEnv</name>
-                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
-                        <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$1">
-                          <value class="string">SonarQube</value>
-                        </value>
-                      </args>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument"/>
                       <children>
                         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                           <name>sh</name>
                           <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                            <arguments class="linked-hash-map">
-                              <entry>
-                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                                  <key>script</key>
-                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                                  <value class="string">env</value>
-                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              </entry>
-                            </arguments>
+                            <arguments class="linked-hash-map"/>
                           </args>
                         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                         <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                           <name>sh</name>
                           <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                            <arguments class="linked-hash-map">
-                              <entry>
-                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                                  <key>script</key>
-                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
-                                  <value class="string">&quot;${scannerHome}/bin/sonar-scanner&quot;</value>
-                                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-2>
-                              </entry>
-                            </arguments>
+                            <arguments class="linked-hash-map"/>
                           </args>
                         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       </children>
@@ -182,12 +101,12 @@
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
       <buildsByBranchName>
         <entry>
           <string>origin/master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
+            <marked plugin="git-client@2.7.2">
               <sha1>ef1d626372e322420bc7932cb8fff85af18247df</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
@@ -196,7 +115,7 @@
                 </hudson.plugins.git.Branch>
               </branches>
             </marked>
-            <revision plugin="git-client@2.7.0">
+            <revision plugin="git-client@2.7.2">
               <sha1 reference="../../marked/sha1"/>
               <branches class="list">
                 <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
@@ -208,7 +127,7 @@
         <entry>
           <string>master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
+            <marked plugin="git-client@2.7.2">
               <sha1>1d95f8aa2c83c9de2028a1ee918ab14799bf5d46</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
@@ -227,7 +146,7 @@
         <string>https://github.com/lilinj2000/jetta.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
       <tags class="hudson.util.CopyOnWriteMap$Tree">
         <entry>
           <string>master</string>
@@ -244,34 +163,33 @@
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
       <imageIDs>
         <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
       <names class="sorted-set">
         <string>lilinj2000/dev:centos6</string>
       </names>
     </org.jenkinsci.plugins.docker.workflow.ImageAction>
-    <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.6.1"/>
-    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.6.1">
+    <hudson.plugins.sonar.action.SonarMarkerAction plugin="sonar@2.7.1"/>
+    <hudson.plugins.sonar.action.SonarAnalysisAction plugin="sonar@2.7.1">
       <installationName>SonarQube</installationName>
       <ceTaskId>AWC2TtxNTq9Fv1e38sKA</ceTaskId>
       <url>http://sonarqube:9000/dashboard/index/jetta</url>
       <isNew>true</isNew>
       <isSkipped>false</isSkipped>
     </hudson.plugins.sonar.action.SonarAnalysisAction>
-    <hudson.plugins.sonar.action.SonarCacheAction plugin="sonar@2.6.1">
+    <hudson.plugins.sonar.action.SonarCacheAction plugin="sonar@2.7.1">
       <infoByTaskId>
         <entry>
           <string>AWC2TtxNTq9Fv1e38sKA</string>
           <hudson.plugins.sonar.client.ProjectInformation>
             <created>1514887111900</created>
-            <key>jetta</key>
             <name>jetta</name>
             <url>http://sonarqube:9000/dashboard/index/jetta</url>
             <status>NONE</status>
@@ -280,7 +198,6 @@
           </hudson.plugins.sonar.client.ProjectInformation>
         </entry>
       </infoByTaskId>
-      <infoByUrl/>
       <lastRequest>1514887112805</lastRequest>
       <lastProjInfo>
         <hudson.plugins.sonar.client.ProjectInformation reference="../../infoByTaskId/entry/hudson.plugins.sonar.client.ProjectInformation"/>
@@ -338,10 +255,11 @@
   }
 }</script>
     <loadedScripts class="map"/>
+    <persistedClean>true</persistedClean>
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>238197752</long>
+        <long>257488652</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -363,10 +281,13 @@
     <sandbox>true</sandbox>
     <iota>50</iota>
     <head>1:50</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
   </execution>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>
@@ -403,7 +324,7 @@
       <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
     </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>
@@ -429,7 +350,7 @@
           </jenkins.plugins.git.GitSCMSourceDefaults>
           <hudson.plugins.git.extensions.impl.BuildChooserSetting>
             <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
-              <revision plugin="git-client@2.7.0">
+              <revision plugin="git-client@2.7.2">
                 <sha1>1d95f8aa2c83c9de2028a1ee918ab14799bf5d46</sha1>
                 <branches class="singleton-set">
                   <hudson.plugins.git.Branch>

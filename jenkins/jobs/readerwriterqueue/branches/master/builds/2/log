@@ -1,0 +1,119 @@
+Branch indexing
+[8mha:////4CRFd9b01t5UK50E9CH7zVRZa4tyCPprpA4adGlq5fWSAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw7TS+wCdHlqvjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+ERROR: Could not do lightweight checkout, falling back to heavyweight
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:120)
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:450)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:399)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:236)
+	at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+	at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:25)
+	at org.kohsuke.github.Requester.asStream(Requester.java:327)
+	at org.kohsuke.github.GHContent.read(GHContent.java:117)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMFile.content(GitHubSCMFile.java:183)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:338)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:104)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:298)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Checking out git https://github.com/lilinj2000/readerwriterqueue.git into /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A@script to read Jenkinsfile
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/readerwriterqueue.git
+ > git init /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A@script # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 20a5dfd641601bd7a96ee35619d9218836e3f9ea (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 20a5dfd641601bd7a96ee35619d9218836e3f9ea
+Commit message: "update Jenkinsfile for image changed."
+ > git rev-list --no-walk c4b636a27845c393c652a9851972d41371659d44 # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/readerwriterqueue.git
+ > git init /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 20a5dfd641601bd7a96ee35619d9218836e3f9ea (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 20a5dfd641601bd7a96ee35619d9218836e3f9ea
+Commit message: "update Jenkinsfile for image changed."
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6.gcc
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A --volumes-from e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6.gcc cat
+$ docker top 2bf48c19023f455250f4e6a94ada24b43c98df60969f68cf141bd76ed1b6250f -eo pid,comm
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
++ readerwriterqueue_install_path=/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
++ mkdir -p /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
++ cp -av atomicops.h readerwriterqueue.h /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
+`atomicops.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/atomicops.h'
+`readerwriterqueue.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/readerwriterqueue.h'
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 2bf48c19023f455250f4e6a94ada24b43c98df60969f68cf141bd76ed1b6250f
+$ docker rm -f 2bf48c19023f455250f4e6a94ada24b43c98df60969f68cf141bd76ed1b6250f
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

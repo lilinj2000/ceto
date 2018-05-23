@@ -1,4 +1,0 @@
-[soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ] Running shell script
-+ cpplint --output=vs7 --recursive .
-+ cppcheck --enable=all --inconclusive --xml --xml-version=2 .
-cppcheck: error: could not find or open any of the paths given.

@@ -1,19 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepStartNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>27</string>
     </parentIds>
     <id>28</id>
-    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+    <descriptorId>hudson.tasks.junit.pipeline.JUnitResultsStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
-    <org.jenkinsci.plugins.workflow.actions.LabelAction plugin="workflow-api@2.24">
-      <displayName>utest</displayName>
-    </org.jenkinsci.plugins.workflow.actions.LabelAction>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514545096167</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526871004571</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
+        <entry>
+          <string>testResults</string>
+          <string>utest/test_detail.xml</string>
+        </entry>
+        <entry>
+          <string>allowEmptyResults</string>
+          <boolean>false</boolean>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>

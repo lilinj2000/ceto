@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.17">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.18"/>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.20"/>
           <int>1</int>
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
       <sourceId>00cce8a7-f6fb-498d-9765-03ecc67b3350</sourceId>
-      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
-        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
           <name>master</name>
         </head>
         <hash>4cd8a937ca442c954b52dbe9f37c9df8316db9a0</hash>
@@ -21,10 +21,10 @@
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.7">
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
       <stagesUUID>c5aeb4f7-dab7-4650-9a79-9e4d74749c8f</stagesUUID>
       <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.7">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
           <stages>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <name>code check</name>
@@ -35,19 +35,7 @@
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-cpplint --output=vs7 --recursive .
-cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -63,20 +51,7 @@ cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-home_cata=${home_libs}/cata
-./configure --prefix=${home_cata}
-make
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -92,16 +67,7 @@ make
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">make install</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -113,12 +79,12 @@ make
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
       <buildsByBranchName>
         <entry>
           <string>master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.1">
+            <marked plugin="git-client@2.7.2">
               <sha1>4cd8a937ca442c954b52dbe9f37c9df8316db9a0</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
@@ -137,7 +103,7 @@ make
         <string>https://github.com/lilinj2000/cata.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
       <tags class="hudson.util.CopyOnWriteMap$Tree">
         <entry>
           <string>master</string>
@@ -154,15 +120,15 @@ make
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.44">
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.11">
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
       <imageIDs>
         <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.15">
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
       <names class="sorted-set">
         <string>lilinj2000/dev:centos6</string>
       </names>
@@ -224,11 +190,12 @@ make
   }
 }</script>
     <loadedScripts class="map"/>
+    <persistedClean>true</persistedClean>
     <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>275958287</long>
+        <long>288247587</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -250,11 +217,13 @@ make
     <sandbox>true</sandbox>
     <iota>45</iota>
     <head>1:45</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>

@@ -1,0 +1,108 @@
+Branch indexing
+[8mha:////4C0sBmXU1RGFrZUuUU1ZRejHJ7UqhIUpMi9tQyRv2Ct6AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyQ89PPgA+DQnYjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+ERROR: Could not do lightweight checkout, falling back to heavyweight
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:120)
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:450)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:399)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:236)
+	at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+	at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:25)
+	at org.kohsuke.github.Requester.asStream(Requester.java:327)
+	at org.kohsuke.github.GHContent.read(GHContent.java:117)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMFile.content(GitHubSCMFile.java:183)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:338)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:104)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:298)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Checking out git https://github.com/lilinj2000/fmt.git into /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA@script to read Jenkinsfile
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/fmt.git
+ > git init /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA@script # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/fmt.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/fmt.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/fmt.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/fmt.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 8e808d2024a1455339d708d44b4a5d071df14fc1 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8e808d2024a1455339d708d44b4a5d071df14fc1
+Commit message: "upate Jenkinsfile."
+ > git rev-list --no-walk 8e808d2024a1455339d708d44b4a5d071df14fc1 # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/fmt.git
+ > git init /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/fmt.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/fmt.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/fmt.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/fmt.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/fmt.git +refs/heads/master:refs/remotes/origin/master
+Aborted by [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
+Checking out Revision 8e808d2024a1455339d708d44b4a5d071df14fc1 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8e808d2024a1455339d708d44b4a5d071df14fc1
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)
+	at hudson.Proc$LocalProc.join(Proc.java:324)
+	at hudson.Proc.joinWithTimeout(Proc.java:170)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1998)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$800(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:2301)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1236)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:113)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)
+	at org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)
+	at hudson.security.ACL.impersonate(ACL.java:290)
+	at org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Finished: ABORTED

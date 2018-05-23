@@ -1,0 +1,14 @@
+commit 22dde3cc13cb080accbfc9b5d16719cb5007fc1b
+tree 9d85354cfde32ce94a1e558831f474f90e18b932
+parent b83a687b6dcd81d892c86fa0aca3033554fe4bbe
+author lilinj2000 <lilinj2000@gmail.com> 2018-03-14 13:19:46 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-03-14 13:19:46 +0800
+
+    fixed, multiple definition issue.
+
+
+
+:100644 100755 2d67ffb92dc7a2ffa3d154fbe8c28b620c2ab730 84cf0af118210f59955fb097eae7cdc98bac8ebe M	Jenkinsfile
+:100644 100755 23c127d1600b63792219e504597eaaf1a3f336d4 70385131af0f503809c832f32f9b36408ccfba53 M	disruptor/claim_strategy.h
+:100644 100755 fbca91eb22bc141e533f9236ea3ebaade8db1ef6 72e28b4dc5833fb24d25680f8880a1de5d8da33f M	disruptor/sequence.h
+:100644 100755 f9b42c392f8af6327ddc72300d3eedd375783bb5 fb11e927422867c4968e657b007b0908be46f874 M	disruptor/wait_strategy.h

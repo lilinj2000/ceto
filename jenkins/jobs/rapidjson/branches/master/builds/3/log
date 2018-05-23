@@ -1,0 +1,201 @@
+Branch indexing
+[8mha:////4EKMaxWZ6u8xeCYeWGSyOuKYlRyy1PygVKUQG7eN59CIAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw8JuJgDSjyP8jgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from e47a32fa2ba15164a84fa12b6601a29d260dc23e
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/rapidjson.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/rapidjson.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/rapidjson.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision e47a32fa2ba15164a84fa12b6601a29d260dc23e (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e47a32fa2ba15164a84fa12b6601a29d260dc23e
+Commit message: "add post for Jenkinsfile"
+ > git rev-list --no-walk 5b8984c2023907c664898d70914578a777285324 # timeout=10
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6.gcc
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ --volumes-from e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6.gcc cat
+$ docker top 4da16bc1616fa432743db363cd5e296783609ae52a4e992662d9fb21375ac259 -eo pid,comm
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ mkdir -p build
++ cd build
++ cmake -DINCLUDE_INSTALL_DIR=/var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include ..
+-- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
+-- No Doxygen found. Documentation won't be built
+-- Could NOT find GTestSrc (missing:  GTEST_SOURCE_DIR GTEST_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ/build
++ make
+[  5%] Built target capitalize
+[ 11%] Built target condense
+[ 17%] Built target tutorial
+[ 23%] Built target filterkeydom
+[ 29%] Built target jsonx
+[ 35%] Built target filterkey
+[ 41%] Built target lookaheadparser
+[ 47%] Built target messagereader
+[ 52%] Built target parsebyparts
+[ 58%] Built target pretty
+[ 64%] Built target prettyauto
+[ 70%] Built target schemavalidator
+[ 76%] Built target serialize
+[ 82%] Built target simpledom
+[ 88%] Built target simplereader
+[ 94%] Built target simplepullreader
+[100%] Built target simplewriter
+[100%] Built target examples
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ] Running shell script
++ cd build
++ make install
+[  5%] Built target capitalize
+[ 11%] Built target condense
+[ 17%] Built target tutorial
+[ 23%] Built target filterkeydom
+[ 29%] Built target jsonx
+[ 35%] Built target filterkey
+[ 41%] Built target lookaheadparser
+[ 47%] Built target messagereader
+[ 52%] Built target parsebyparts
+[ 58%] Built target pretty
+[ 64%] Built target prettyauto
+[ 70%] Built target schemavalidator
+[ 76%] Built target serialize
+[ 82%] Built target simpledom
+[ 88%] Built target simplereader
+[ 94%] Built target simplepullreader
+[100%] Built target simplewriter
+[100%] Built target examples
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /usr/local/lib/pkgconfig/RapidJSON.pc
+-- Installing: /usr/local/share/doc/RapidJSON/readme.md
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/allocators.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/document.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/encodedstream.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/encodings.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/en.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/error/error.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/filereadstream.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/filewritestream.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/fwd.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/biginteger.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/diyfp.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/dtoa.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/ieee754.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/itoa.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/meta.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/pow10.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/regex.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/stack.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strfunc.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/strtod.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/internal/swap.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/istreamwrapper.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/memorybuffer.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/memorystream.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/msinttypes
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/msinttypes/inttypes.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/msinttypes/stdint.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/ostreamwrapper.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/pointer.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/prettywriter.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/rapidjson.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/reader.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/schema.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stream.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/stringbuffer.h
+-- Up-to-date: /var/jenkins_home/dist_pkg/3rd/centos6/rapidjson/include/rapidjson/writer.h
+-- Installing: /usr/local/share/doc/RapidJSON/examples
+-- Installing: /usr/local/share/doc/RapidJSON/examples/capitalize
+-- Installing: /usr/local/share/doc/RapidJSON/examples/capitalize/capitalize.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/CMakeLists.txt
+-- Installing: /usr/local/share/doc/RapidJSON/examples/condense
+-- Installing: /usr/local/share/doc/RapidJSON/examples/condense/condense.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkey
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkey/filterkey.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkeydom
+-- Installing: /usr/local/share/doc/RapidJSON/examples/filterkeydom/filterkeydom.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/jsonx
+-- Installing: /usr/local/share/doc/RapidJSON/examples/jsonx/jsonx.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/lookaheadparser
+-- Installing: /usr/local/share/doc/RapidJSON/examples/lookaheadparser/lookaheadparser.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/messagereader
+-- Installing: /usr/local/share/doc/RapidJSON/examples/messagereader/messagereader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/parsebyparts
+-- Installing: /usr/local/share/doc/RapidJSON/examples/parsebyparts/parsebyparts.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/pretty
+-- Installing: /usr/local/share/doc/RapidJSON/examples/pretty/pretty.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/prettyauto
+-- Installing: /usr/local/share/doc/RapidJSON/examples/prettyauto/prettyauto.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/schemavalidator
+-- Installing: /usr/local/share/doc/RapidJSON/examples/schemavalidator/schemavalidator.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/serialize
+-- Installing: /usr/local/share/doc/RapidJSON/examples/serialize/serialize.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simpledom
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simpledom/simpledom.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplepullreader
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplepullreader/simplepullreader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplereader
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplereader/simplereader.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplewriter
+-- Installing: /usr/local/share/doc/RapidJSON/examples/simplewriter/simplewriter.cpp
+-- Installing: /usr/local/share/doc/RapidJSON/examples/tutorial
+-- Installing: /usr/local/share/doc/RapidJSON/examples/tutorial/tutorial.cpp
+-- Installing: /usr/local/lib/cmake/RapidJSON/RapidJSONConfig.cmake
+-- Up-to-date: /usr/local/lib/cmake/RapidJSON/RapidJSONConfig.cmake
+-- Installing: /usr/local/lib/cmake/RapidJSON/RapidJSONConfigVersion.cmake
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 4da16bc1616fa432743db363cd5e296783609ae52a4e992662d9fb21375ac259
+$ docker rm -f 4da16bc1616fa432743db363cd5e296783609ae52a4e992662d9fb21375ac259
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

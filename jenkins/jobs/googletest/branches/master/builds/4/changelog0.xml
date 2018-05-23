@@ -1,0 +1,11 @@
+commit 406f15cc5c92aabec2ccadead220d76642cf3baa
+tree 09a019ab664fc42f710bb6985ea90315e04852a5
+parent e8a31497db7ff88b4ee2a114420c233d46b2aeaf
+author lilinj2000 <lilinj2000@gmail.com> 2018-05-21 10:56:12 +0800
+committer GitHub <noreply@github.com> 2018-05-21 10:56:12 +0800
+
+    add post for Jenkinsfile
+
+
+
+:100644 100644 b123b118329123cd760e4ee7112a7566227a628f bab71d1e0fd4e1e6fb72c8cd6ae7786a6ad8e146 M	Jenkinsfile

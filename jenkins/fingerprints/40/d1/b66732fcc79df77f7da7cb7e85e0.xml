@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-05-18 07:51:57.627 UTC</timestamp>
+  <md5sum>40d1b66732fcc79df77f7da7cb7e85e0</md5sum>
+  <fileName>Credential id=github name=llj/****** (GitHub Access Token)</fileName>
+  <usages>
+    <entry>
+      <string>boost_1_66_0/master</string>
+      <ranges>1-3,5-6,8</ranges>
+    </entry>
+    <entry>
+      <string>soil/master</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>spdlog/master</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>disruptor--/master</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>rapidjson/master</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>jetta/master</string>
+      <ranges>30-33</ranges>
+    </entry>
+    <entry>
+      <string>fmt/master</string>
+      <ranges>2-4</ranges>
+    </entry>
+    <entry>
+      <string>readerwriterqueue/master</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>googletest/master</string>
+      <ranges>2-4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

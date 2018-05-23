@@ -1,0 +1,137 @@
+Branch indexing
+[8mha:////4OmJYiSCsH52pfaak63ywu88E2g9rm0sRMv9neCjdUdFAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyQ4/AKwD6Y9LwjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+ERROR: Could not do lightweight checkout, falling back to heavyweight
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.squareup.okhttp.internal.Platform.connectSocket(Platform.java:120)
+	at com.squareup.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:141)
+	at com.squareup.okhttp.internal.io.RealConnection.connect(RealConnection.java:112)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+	at com.squareup.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+	at com.squareup.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+	at com.squareup.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+	at com.squareup.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:450)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:399)
+	at com.squareup.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:236)
+	at com.squareup.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:210)
+	at com.squareup.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:25)
+	at org.kohsuke.github.Requester.asStream(Requester.java:327)
+	at org.kohsuke.github.GHContent.read(GHContent.java:117)
+	at org.jenkinsci.plugins.github_branch_source.GitHubSCMFile.content(GitHubSCMFile.java:183)
+	at jenkins.scm.api.SCMFile.contentAsString(SCMFile.java:338)
+	at org.jenkinsci.plugins.workflow.multibranch.SCMBinder.create(SCMBinder.java:104)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:298)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Checking out git https://github.com/lilinj2000/googletest.git into /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ@script to read Jenkinsfile
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/googletest.git
+ > git init /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ@script # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/googletest.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/googletest.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/googletest.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/googletest.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/googletest.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/googletest.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision e6b015dbe7726f12a80016e61012e8ad12484e28 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6b015dbe7726f12a80016e61012e8ad12484e28
+Commit message: "update Jenkinsfile."
+ > git rev-list --no-walk e6b015dbe7726f12a80016e61012e8ad12484e28 # timeout=10
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/googletest.git
+ > git init /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/googletest.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/googletest.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/googletest.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/googletest.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/googletest.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/googletest.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision e6b015dbe7726f12a80016e61012e8ad12484e28 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6b015dbe7726f12a80016e61012e8ad12484e28
+Commit message: "update Jenkinsfile."
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6
+
+Error: No such object: lilinj2000/dev:centos6
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+e09ea867b784: Already exists
+7ce92e8463bc: Pulling fs layer
+3aa8a64430cc: Pulling fs layer
+4424aea09f4f: Pulling fs layer
+f76f8e368b2e: Pulling fs layer
+dcda8cf1a190: Pulling fs layer
+d7d72f102232: Pulling fs layer
+867e4cc6028e: Pulling fs layer
+f76f8e368b2e: Waiting
+dcda8cf1a190: Waiting
+d7d72f102232: Waiting
+867e4cc6028e: Waiting
+d3aa467a1c64: Pulling fs layer
+21a01a4310ff: Pulling fs layer
+717986f199b7: Pulling fs layer
+8b3d52d49a99: Pulling fs layer
+8ce1616119c7: Pulling fs layer
+4e2e857a96cb: Pulling fs layer
+b8b9684fb00b: Pulling fs layer
+3bee973b796d: Pulling fs layer
+91007487f3e2: Pulling fs layer
+d3aa467a1c64: Waiting
+21a01a4310ff: Waiting
+717986f199b7: Waiting
+8b3d52d49a99: Waiting
+8ce1616119c7: Waiting
+4e2e857a96cb: Waiting
+b8b9684fb00b: Waiting
+3bee973b796d: Waiting
+91007487f3e2: Waiting
+3aa8a64430cc: Download complete
+7ce92e8463bc: Download complete
+7ce92e8463bc: Pull complete
+3aa8a64430cc: Pull complete
+Sending interrupt signal to process
+Terminated
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 143
+Finished: ABORTED

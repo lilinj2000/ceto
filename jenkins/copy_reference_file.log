@@ -342,3 +342,220 @@ SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgr
 SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
 SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
 SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+--- Copying files at Fri May 18 06:02:42 GMT 2018
+UPGRADED plugins/scm-api.jpi : Image version (2.2.7) is newer than installed version (2.2.6)
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/pipeline-stage-tags-metadata.jpi : Image version (1.2.9) is newer than installed version (1.2.7)
+UPGRADED plugins/structs.jpi : Image version (1.14) is newer than installed version (1.13)
+UPGRADED plugins/durable-task.jpi : Image version (1.22) is newer than installed version (1.17)
+UPGRADED plugins/git.jpi : Image version (3.9.0) is newer than installed version (3.7.0)
+UPGRADED plugins/docker-commons.jpi : Image version (1.12) is newer than installed version (1.11)
+UPGRADED plugins/pipeline-model-extensions.jpi : Image version (1.2.9) is newer than installed version (1.2.7)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/jira.jpi : Image version (2.5.2) is newer than installed version (2.5)
+UPGRADED plugins/token-macro.jpi : Image version (2.5) is newer than installed version (2.3)
+UPGRADED plugins/workflow-durable-task-step.jpi : Image version (2.19) is newer than installed version (2.18)
+UPGRADED plugins/workflow-api.jpi : Image version (2.27) is newer than installed version (2.25)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/jsch.jpi : Image version (0.1.54.2) is newer than installed version (0.1.54.1)
+UPGRADED plugins/apache-httpcomponents-client-4-api.jpi : Image version (4.5.5-2.0) is newer than installed version (4.5.3-2.1)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/pipeline-model-definition.jpi : Image version (1.2.9) is newer than installed version (1.2.7)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/credentials-binding.jpi : Image version (1.16) is newer than installed version (1.15)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+UPGRADED plugins/git-client.jpi : Image version (2.7.2) is newer than installed version (2.7.1)
+UPGRADED plugins/htmlpublisher.jpi : Image version (1.16) is newer than installed version (1.14)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/workflow-job.jpi : Image version (2.21) is newer than installed version (2.17)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/mercurial.jpi : Image version (2.3) is newer than installed version (2.2)
+UPGRADED plugins/mailer.jpi : Image version (1.21) is newer than installed version (1.20)
+UPGRADED plugins/workflow-cps.jpi : Image version (2.53) is newer than installed version (2.44)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/cloudbees-folder.jpi : Image version (6.4) is newer than installed version (6.3)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+UPGRADED plugins/workflow-multibranch.jpi : Image version (2.18) is newer than installed version (2.17)
+UPGRADED plugins/branch-api.jpi : Image version (2.0.20) is newer than installed version (2.0.18)
+UPGRADED plugins/matrix-project.jpi : Image version (1.13) is newer than installed version (1.12)
+UPGRADED plugins/blueocean-autofavorite.jpi : Image version (1.2.2) is newer than installed version (1.2.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/pipeline-model-api.jpi : Image version (1.2.9) is newer than installed version (1.2.7)
+UPGRADED plugins/github-branch-source.jpi : Image version (2.3.4) is newer than installed version (2.3.2)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/docker-workflow.jpi : Image version (1.16) is newer than installed version (1.15)
+UPGRADED plugins/workflow-basic-steps.jpi : Image version (2.7) is newer than installed version (2.6)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+UPGRADED plugins/cloudbees-bitbucket-branch-source.jpi : Image version (2.2.11) is newer than installed version (2.2.9)
+--- Copying files at Fri May 18 06:40:24 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Fri May 18 06:43:53 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Fri May 18 06:52:29 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Fri May 18 06:54:12 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Fri May 18 07:06:22 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.41) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.1) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.4.1) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Mon May 21 02:29:25 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.44) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.2) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/workflow-multibranch.jpi : Installed version (2.19) has been manually upgraded from initial version (2.18)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+--- Copying files at Mon May 21 02:30:16 GMT 2018
+SKIPPED plugins/blueocean-rest.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-scm-api.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jenkins-design-language.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-rest-impl.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-events.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-core-js.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-i18n.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-commons.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-web.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-github-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-git-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/script-security.jpi : Installed version (1.44) has been manually upgraded from initial version (1.40)
+SKIPPED plugins/blueocean-dashboard.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jwt.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-config.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-jira.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-pipeline-api-impl.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/jackson2-api.jpi : Installed version (2.8.11.2) has been manually upgraded from initial version (2.8.10.1)
+SKIPPED plugins/workflow-multibranch.jpi : Installed version (2.19) has been manually upgraded from initial version (2.18)
+SKIPPED plugins/blueocean-pipeline-editor.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-personalization.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)
+SKIPPED plugins/blueocean-bitbucket-pipeline.jpi : Installed version (1.5.0) has been manually upgraded from initial version (1.4.0)

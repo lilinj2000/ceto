@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/rapidjson.git
+ > git init /var/jenkins_home/workspace/rapidjson_master-BUK4L3NNB25EBRF3LUA6JFYEEBZW6J33RWF6PV3JGUXWM6N24OCQ # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/rapidjson.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/rapidjson.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/rapidjson.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/rapidjson.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/rapidjson.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/rapidjson.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 5b8984c2023907c664898d70914578a777285324 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5b8984c2023907c664898d70914578a777285324
+Commit message: "update Jenkinsfile for images change."
+ > git rev-list --no-walk 66bf66cc0b78fbc00e100a5a9e951077475767e4 # timeout=10

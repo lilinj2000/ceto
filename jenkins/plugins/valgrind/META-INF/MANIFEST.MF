@@ -2,17 +2,20 @@ Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
 Built-By: johannes
-Build-Jdk: 1.8.0_91
+Build-Jdk: 1.8.0_151
 Extension-Name: valgrind
+Specification-Title: The Jenkins Plugins Parent POM Project
 Implementation-Title: valgrind
-Implementation-Version: 0.27
+Implementation-Version: 0.28
 Group-Id: org.jenkins-ci.plugins
 Short-Name: valgrind
 Long-Name: Jenkins Valgrind Plug-in
 Url: http://wiki.jenkins-ci.org/display/JENKINS/Valgrind+Plugin
-Plugin-Version: 0.27
-Hudson-Version: 1.642
-Jenkins-Version: 1.642
+Plugin-Version: 0.28
+Hudson-Version: 2.44
+Jenkins-Version: 2.44
+Plugin-Dependencies: workflow-job:1.14,workflow-step-api:1.15,workflow
+ -scm-step:2.3,jquery-detached:1.2,workflow-cps:1.14
 Plugin-Developers: Johannes Ohlemacher:eXistence:johannes.ohlemacher@g
  ooglemail.com
 

@@ -1,7 +1,7 @@
 Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
-[Mon Feb 12 14:59:24 CST 2018] Starting branch indexing...
-[8mha:////4AUOFzwZ/23epF33KWHfX7CMOsB4cMBs4pkLc7VQB3I2AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRix/mlKwE7YR1LjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
-[8mha:////4JyAHXheROdJDYuk4DeiXJdXo9/lg8LbNTcQmeNRPs6UAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRix/kVTwBbIt72jgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[Mon May 21 10:58:18 CST 2018] Starting branch indexing...
+[8mha:////4MMnFN8RtNGwrJ/fViJe2dkPulHU+l5ZR+59iy71nO24AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRywyLFPACbSInujgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4MeXQQME1gX5ypdVYTOX0VlMeCHbhfIl5rHcr6L8ns3SAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRywyLVGwAmm+eojgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
 Examining [8mha:////4KoFbPGWwlNt9uav4l/BgZ1tPPdeVB6QNbIH8w6haUT7AAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGFQzigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoJ+VWlKSCADUPZENqAAAAA==[0mlilinj2000/jetta
 
   Checking branches...
@@ -12,12 +12,12 @@ Examining [8mha:////4KoFbPGWwlNt9uav4l/BgZ1tPPdeVB6QNbIH8w6haUT7AAAAoh+LCAAAAAA
       ‘Jenkinsfile’ found
     Met criteria
 Takeover for [8mha:////4DEO46Chzzv7ifVEACOVDoUwo5pBPNsWQpqa/+sO3kJNAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYx/az8JP2s1JKSRDArN7G4JLVIHwBVcBroywAAAA==[0mjetta » master by source #1 from source that no longer exists
-Branch reopened: master (599ea4e9d3a60fad52861666dc7a6adebef7b286)
+Branch reopened: master (d38f7c0089f26060f88a766e02252f6b187bdb98)
 Scheduled build for branch: master
 
   1 branches were processed
 
 Finished examining lilinj2000/jetta
 
-[Mon Feb 12 14:59:26 CST 2018] Finished branch indexing. Indexing took 2.4 sec
+[Mon May 21 10:58:21 CST 2018] Finished branch indexing. Indexing took 2.6 sec
 Finished: SUCCESS

@@ -1,0 +1,33 @@
+commit d38f7c0089f26060f88a766e02252f6b187bdb98
+tree e159cef04e8ad81dbd0c3796658fb4118485be97
+parent 682d5536ac6d23eccbd7f03e512451fe943a5336
+author lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:59:48 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:59:48 +0800
+
+    rollback the Jenkinsfile.
+
+
+
+:100755 100755 56aa624675ff2ccb742945d9ce3b570dff8eab24 52bff3352346b54a97ebac9d61a73dc1bdb8e5b3 M	Jenkinsfile
+commit 682d5536ac6d23eccbd7f03e512451fe943a5336
+tree 05ed2697c6fce2fc0dce8b68369cc5974ec2bfc8
+parent 97f485ce789bbad01f35cac8098a744bf71661f2
+author lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:48:52 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:48:52 +0800
+
+    debug ...'
+
+
+
+:100755 100755 bead6e05c0456c0b0d84ae60ced80c338d1bf7e2 56aa624675ff2ccb742945d9ce3b570dff8eab24 M	Jenkinsfile
+commit 97f485ce789bbad01f35cac8098a744bf71661f2
+tree b5b9acd2e788c052e673e2a652d634fae55f7046
+parent 476e45c760e661d2e3bca6ccfeaf8754176c9e36
+author lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:46:56 +0800
+committer lilinj2000 <lilinj2000@gmail.com> 2018-03-12 13:46:56 +0800
+
+    test
+
+
+
+:100644 100755 16ab96b013de6897a691ac47185a35d2ce0f32fa bead6e05c0456c0b0d84ae60ced80c338d1bf7e2 M	Jenkinsfile

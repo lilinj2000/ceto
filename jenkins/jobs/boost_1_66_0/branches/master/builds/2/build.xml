@@ -1,0 +1,171 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.20"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
+      <sourceId>blueocean</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
+          <name>master</name>
+        </head>
+        <hash>90c602a4b4effc0756dc0682207c9e37de124dea</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
+      <stagesUUID>044e42e5-9aad-40e5-82a9-9125ca65b91c</stagesUUID>
+      <stagesList>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
+          <stages>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>build</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">
+	./bootstrap.sh --prefix=${home_3rd}/boost
+	./b2 cxxflags=&quot;-std=c++11&quot;
+	</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <name>install</name>
+              <branches>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">./b2 install</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+              </branches>
+            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+          </stages>
+          <uuid>044e42e5-9aad-40e5-82a9-9125ca65b91c</uuid>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
+      </stagesList>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>llj</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>25</queueId>
+  <timestamp>1526638483476</timestamp>
+  <startTime>1526638483504</startTime>
+  <result>ABORTED</result>
+  <duration>37761</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>pipeline {
+  agent {
+    docker {
+      image &apos;lilinj2000/dev:centos6.gcc&apos;
+    }
+  }
+
+  environment {
+    home_3rd = &apos;/var/jenkins_home/dist_pkg/3rd/centos6&apos;
+    home_libs = &apos;/var/jenkins_home/dist_pkg/libs/centos6&apos;
+    home_app = &apos;/var/jenkins_home/dist_pkg/app/centos6&apos;
+  }
+
+  stages {
+    stage(&apos;build&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+	./bootstrap.sh --prefix=${home_3rd}/boost
+	./b2 cxxflags=&quot;-std=c++11&quot;
+	&apos;&apos;&apos;
+      }
+    }
+    stage(&apos;install&apos;) {
+      steps {
+        sh &apos;./b2 install&apos;
+      }
+    }
+  }
+	
+post { 
+   always { 
+     cleanWs()
+     }
+  }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>565195200</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>554054900</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1434406000</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>72642100</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>178089200</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

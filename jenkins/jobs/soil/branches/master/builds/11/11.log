@@ -1,5 +1,0 @@
-Jenkins seems to be running inside container 832dbae84b27e612f6918335ddfe2964fc6903c3bcb86637fd311b9d075e4b42
-$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/soil_master-334BU6HP7ZUDNTUBIASDDTBNNUA6574M64EMF5MPSIEEUZV6SRLQ --volumes-from 832dbae84b27e612f6918335ddfe2964fc6903c3bcb86637fd311b9d075e4b42 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6 cat
-$ docker top 09b2103b655fdf27eacd7343f764da5c6a3ff4b92a08f937b4f2f528089b7f3f
-ERROR: The container started but didn't run the expected command. Please double check your ENTRYPOINT does execute the command passed as docker run argument. See https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#entrypoint for entrypoint best practices.
-[8mha:////4D/J2gpHDz5MqCwjw3jtVzVzUDUBX913/pMQHv9bjoYyAAAAVx+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0mV3NWzufebKBsTA0NFEYMUmgZnCA1SyAABjCCFBQC2xNaiYAAAAA==[0m

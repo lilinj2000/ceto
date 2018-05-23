@@ -1,5 +1,0 @@
-[boost_1_66_0_master-OFIYRAACKBC5HUMCQWTLXA264DUPYVW5HCJ3FMF7UPCUQ2LE2RAQ] Running shell script
-+ docker pull lilinj2000/dev:centos6
-centos6: Pulling from lilinj2000/dev
-Digest: sha256:33a4b73218f11603fdb45733195d249aa12d55ad3e3dcc6e72d4784193632287
-Status: Image is up to date for lilinj2000/dev:centos6

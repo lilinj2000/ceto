@@ -1,3 +1,0 @@
-[boost_1_66_0_master-OFIYRAACKBC5HUMCQWTLXA264DUPYVW5HCJ3FMF7UPCUQ2LE2RAQ] Running shell script
-+ docker inspect -f . lilinj2000/dev:centos6
-.

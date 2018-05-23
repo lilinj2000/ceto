@@ -1,0 +1,70 @@
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ cd build
++ make install
+[ 28%] Built target gmock
+[ 71%] Built target gmock_main
+[ 85%] Built target gtest
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: ""
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgmock.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgmock_main.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-cardinalities.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-actions.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-function-mockers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-function-mockers.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-matchers.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-nice-strict.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-nice-strict.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-more-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-more-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-spec-builders.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-generated-internal-utils.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-generated-internal-utils.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-death-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-param-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-param-test.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-spi.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-typed-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest_pred_impl.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest_prod.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-filepath.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-linked_ptr.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util-generated.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util-generated.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port-arch.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-string.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-tuple.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-tuple.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-type-util.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-type-util.h.pump

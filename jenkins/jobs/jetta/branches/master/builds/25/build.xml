@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.17">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
@@ -11,12 +11,12 @@
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
       <buildsByBranchName>
         <entry>
           <string>origin/master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.1">
+            <marked plugin="git-client@2.7.2">
               <sha1>3ae9829bf21da14abf8cf44c0b7545906a15a56e</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
@@ -32,7 +32,7 @@
         <entry>
           <string>master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.1">
+            <marked plugin="git-client@2.7.2">
               <sha1>3759694cf1124722fb69922bb545c8f49f90c441</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
@@ -41,7 +41,7 @@
                 </hudson.plugins.git.Branch>
               </branches>
             </marked>
-            <revision plugin="git-client@2.7.1">
+            <revision plugin="git-client@2.7.2">
               <sha1 reference="../../marked/sha1"/>
               <branches class="list">
                 <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
@@ -56,7 +56,7 @@
         <string>https://github.com/lilinj2000/jetta.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
       <tags class="hudson.util.CopyOnWriteMap$Tree">
         <entry>
           <string>origin/master</string>
@@ -76,25 +76,16 @@
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.7">
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
       <stagesUUID>627969cb-9a8e-437f-afde-4151d77b77ea</stagesUUID>
       <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.7">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
           <stages>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <name>build</name>
               <agent>
                 <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTClosureMap">
-                  <variables class="linked-hash-map">
-                    <entry>
-                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                        <key>image</key>
-                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                        <value class="string">lilinj2000/dev:centos6</value>
-                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                    </entry>
-                  </variables>
+                  <variables class="linked-hash-map"/>
                 </variables>
                 <agentType>
                   <key>docker</key>
@@ -107,132 +98,26 @@
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-	cpplint --output=vs7 --recursive .
-	cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
-	cppcheck-htmlreport --title=&quot;jetta&quot; --file=cppcheck.xml  --report-dir=./cppcheck-report
-	./configure
-	make
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>archiveArtifacts</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>artifacts</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck.xml cppcheck-report/*</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>publishHTML</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>allowMissing</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>alwaysLinkToLastBuild</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>keepAll</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportDir</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck-report</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportFiles</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">index.html</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportName</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck Report</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportTitles</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string"></value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
                 </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
               </branches>
               <environment>
-                <variables class="linked-hash-map">
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_3rd</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/3rd/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_libs</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/libs/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                  <entry>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                      <key>home_app</key>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                      <value class="string">/var/jenkins_home/dist_pkg/app/centos6</value>
-                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                  </entry>
-                </variables>
+                <variables class="linked-hash-map"/>
               </environment>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
@@ -240,20 +125,20 @@
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.44">
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.11">
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
       <imageIDs>
         <string>sha256:236152e0b33c2961f00935410e4806c713f18464dc304ae5949bb9a9fedb1f5a</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.15">
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
       <names class="sorted-set">
         <string>lilinj2000/dev:centos6</string>
       </names>
     </org.jenkinsci.plugins.docker.workflow.ImageAction>
-    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.14">
+    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.16">
       <actualHtmlPublisherTarget>
         <reportName>cppcheck Report</reportName>
         <reportDir>cppcheck-report</reportDir>
@@ -262,6 +147,7 @@
         <reportTitles></reportTitles>
         <keepAll>false</keepAll>
         <allowMissing>false</allowMissing>
+        <includes>**/*</includes>
       </actualHtmlPublisherTarget>
     </htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction>
   </actions>
@@ -330,11 +216,12 @@
   }
 }</script>
     <loadedScripts class="map"/>
+    <persistedClean>true</persistedClean>
     <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>66039013</long>
+        <long>72189113</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -356,11 +243,13 @@
     <sandbox>true</sandbox>
     <iota>23</iota>
     <head>1:23</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>

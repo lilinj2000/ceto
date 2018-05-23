@@ -1,0 +1,19 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/readerwriterqueue.git
+ > git init /var/jenkins_home/workspace/readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/readerwriterqueue.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/readerwriterqueue.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/readerwriterqueue.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 20a5dfd641601bd7a96ee35619d9218836e3f9ea (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 20a5dfd641601bd7a96ee35619d9218836e3f9ea
+Commit message: "update Jenkinsfile for image changed."

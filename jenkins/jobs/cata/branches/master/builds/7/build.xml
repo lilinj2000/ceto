@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.17">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.18"/>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.20"/>
           <int>1</int>
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
       <sourceId>e5b81bb7-16d9-4da4-8fa4-c9b4a78e9e10</sourceId>
-      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
-        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
           <name>master</name>
         </head>
         <hash>5c539160b00f2909a16a1a6649e2181a7b43e1b3</hash>
@@ -25,5 +25,6 @@
   <result>FAILURE</result>
   <duration>3036</duration>
   <keepLog>false</keepLog>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>

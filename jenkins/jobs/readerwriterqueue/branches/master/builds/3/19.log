@@ -1,0 +1,6 @@
+[readerwriterqueue_master-C3KPNNQ2MBRU6SBA5EZSA2WRIISEMUV42ZBNK26MTDU2VGHTYI4A] Running shell script
++ readerwriterqueue_install_path=/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
++ mkdir -p /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
++ cp -av atomicops.h readerwriterqueue.h /var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include
+`atomicops.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/atomicops.h'
+`readerwriterqueue.h' -> `/var/jenkins_home/dist_pkg/3rd/centos6/readerwriterqueue/include/readerwriterqueue.h'

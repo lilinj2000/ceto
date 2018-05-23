@@ -1,0 +1,166 @@
+Branch indexing
+[8mha:////4Cvcj1muPWbD4dM38C1nC2cwyZ9bXD0j2TFiFXoJviheAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw8LMQADyHglijgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+Obtained Jenkinsfile from 406f15cc5c92aabec2ccadead220d76642cf3baa
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4FZJdaPbtH/6LebYmPMINBxsihdZIUQlJAZPaj8exifAAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/lilinj2000/googletest.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/googletest.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/googletest.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision 406f15cc5c92aabec2ccadead220d76642cf3baa (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 406f15cc5c92aabec2ccadead220d76642cf3baa
+Commit message: "add post for Jenkinsfile"
+ > git rev-list --no-walk e8a31497db7ff88b4ee2a114420c233d46b2aeaf # timeout=10
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6.gcc
+.
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ --volumes-from e6027f2d6fd7befda6651acd9f5c38b7b0879fc26c1a42174c2bb2b245fe03f9 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** lilinj2000/dev:centos6.gcc cat
+$ docker top f63419ae05fd24385bd16f7eef0ddf79294b885d7387bc7784937f90613422de -eo pid,comm
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (build)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ mkdir -p build
++ cd build
++ cmake -DCMAKE_INSTALL_PREFIX=/var/jenkins_home/dist_pkg/3rd/centos6/googletest ..
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/jenkins_home/workspace/googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ/build
++ make
+Scanning dependencies of target gmock
+[ 14%] Building CXX object googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o
+[ 28%] Building CXX object googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+Linking CXX static library libgmock.a
+[ 28%] Built target gmock
+Scanning dependencies of target gmock_main
+[ 42%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o
+[ 57%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.o
+[ 71%] Building CXX object googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+Linking CXX static library libgmock_main.a
+[ 71%] Built target gmock_main
+Scanning dependencies of target gtest
+[ 85%] Building CXX object googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+Linking CXX static library libgtest.a
+[ 85%] Built target gtest
+Scanning dependencies of target gtest_main
+[100%] Building CXX object googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+Linking CXX static library libgtest_main.a
+[100%] Built target gtest_main
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (install)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ cd build
++ make install
+[ 28%] Built target gmock
+[ 71%] Built target gmock_main
+[ 85%] Built target gtest
+[100%] Built target gtest_main
+Install the project...
+-- Install configuration: ""
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgmock.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgmock_main.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-cardinalities.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-actions.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-function-mockers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-function-mockers.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-matchers.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-nice-strict.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-generated-nice-strict.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-more-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-more-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock-spec-builders.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/gmock.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-generated-actions.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-generated-actions.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-matchers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/custom/gmock-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-generated-internal-utils.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-generated-internal-utils.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-internal-utils.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gmock/internal/gmock-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/lib/libgtest_main.a
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-death-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-message.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-param-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-param-test.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-printers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-spi.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-test-part.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest-typed-test.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest_pred_impl.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/gtest_prod.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/custom/gtest.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-filepath.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-internal.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-linked_ptr.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util-generated.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util-generated.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-param-util.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port-arch.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-port.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-string.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-tuple.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-tuple.h.pump
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-type-util.h
+-- Installing: /var/jenkins_home/dist_pkg/3rd/centos6/googletest/include/gtest/internal/gtest-type-util.h.pump
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+$ docker stop --time=1 f63419ae05fd24385bd16f7eef0ddf79294b885d7387bc7784937f90613422de
+$ docker rm -f f63419ae05fd24385bd16f7eef0ddf79294b885d7387bc7784937f90613422de
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4C22f7dfhtNtE/gzBfjBfA/JL9lGz2UDxrOWuTKgC/NOAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

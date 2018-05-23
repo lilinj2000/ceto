@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/lilinj2000/jetta.git
+ > git init /var/jenkins_home/workspace/jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A # timeout=10
+Fetching upstream changes from https://github.com/lilinj2000/jetta.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config remote.origin.url https://github.com/lilinj2000/jetta.git # timeout=10
+Fetching without tags
+Fetching upstream changes from https://github.com/lilinj2000/jetta.git
+using GIT_ASKPASS to set credentials GitHub Access Token
+ > git fetch --no-tags --progress https://github.com/lilinj2000/jetta.git +refs/heads/master:refs/remotes/origin/master
+Checking out Revision d38f7c0089f26060f88a766e02252f6b187bdb98 (master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d38f7c0089f26060f88a766e02252f6b187bdb98
+Commit message: "rollback the Jenkinsfile."
+ > git rev-list --no-walk 476e45c760e661d2e3bca6ccfeaf8754176c9e36 # timeout=10

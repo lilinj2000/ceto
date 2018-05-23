@@ -1,0 +1,3 @@
+[jetta_master-TVDQF527N7RVLUAO5AATZ75HAZA24WSTLSE4ZF2XJ2CAPBCDGS2A] Running shell script
++ docker inspect -f . lilinj2000/dev:centos6.gcc
+.

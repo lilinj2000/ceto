@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>6</string>
     </parentIds>
@@ -8,14 +8,17 @@
     <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526637281038</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
       <charset>UTF-8</charset>
-    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
-      <arguments class="linked-hash-map">
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
         <entry>
           <string>scm</string>
-          <hudson.plugins.git.GitSCM plugin="git@3.7.0">
+          <hudson.plugins.git.GitSCM plugin="git@3.9.0">
             <configVersion>2</configVersion>
             <userRemoteConfigs>
               <hudson.plugins.git.UserRemoteConfig>
@@ -36,26 +39,31 @@
             </browser>
             <submoduleCfg class="empty-list"/>
             <extensions>
+              <hudson.plugins.git.extensions.impl.CleanBeforeCheckout/>
+              <hudson.plugins.git.extensions.impl.CleanCheckout/>
+              <hudson.plugins.git.extensions.impl.LocalBranch>
+                <localBranch>**</localBranch>
+              </hudson.plugins.git.extensions.impl.LocalBranch>
               <jenkins.plugins.git.GitSCMSourceDefaults>
                 <includeTags>false</includeTags>
               </jenkins.plugins.git.GitSCMSourceDefaults>
               <hudson.plugins.git.extensions.impl.BuildChooserSetting>
                 <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
-                  <revision plugin="git-client@2.7.0">
+                  <revision plugin="git-client@2.7.2">
                     <sha1 serialization="custom">
                       <unserializable-parents>
-                        <w1>327193756</w1>
-                        <w2>1827016237</w2>
-                        <w3>365660911</w3>
-                        <w4>-1053247840</w4>
-                        <w5>390280791</w5>
+                        <w1>1143063903</w1>
+                        <w2>-504735996</w2>
+                        <w3>-1488666291</w3>
+                        <w4>-2102750253</w4>
+                        <w5>-42093284</w5>
                       </unserializable-parents>
                       <org.eclipse.jgit.lib.ObjectId>
-                        <int>327193756</int>
-                        <int>1827016237</int>
-                        <int>365660911</int>
-                        <int>-1053247840</int>
-                        <int>390280791</int>
+                        <int>1143063903</int>
+                        <int>-504735996</int>
+                        <int>-1488666291</int>
+                        <int>-2102750253</int>
+                        <int>-42093284</int>
                       </org.eclipse.jgit.lib.ObjectId>
                     </sha1>
                     <branches class="singleton-set">
@@ -72,9 +80,30 @@
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
-    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514541701651</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.ErrorAction plugin="workflow-api@2.27">
+      <error class="hudson.AbortException">
+        <detailMessage>Error cloning remote repo &apos;origin&apos;</detailMessage>
+        <stackTrace>
+          <trace>hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1149)</trace>
+          <trace>hudson.plugins.git.GitSCM.checkout(GitSCM.java:1186)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:113)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:290)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>

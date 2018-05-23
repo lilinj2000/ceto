@@ -1,0 +1,11 @@
+commit 20a5dfd641601bd7a96ee35619d9218836e3f9ea
+tree 430a5173e2d58448df7352faea3556ff45ae5ed9
+parent c4b636a27845c393c652a9851972d41371659d44
+author lilinj2000 <lilinj2000@gmail.com> 2018-05-21 10:43:21 +0800
+committer GitHub <noreply@github.com> 2018-05-21 10:43:21 +0800
+
+    update Jenkinsfile for image changed.
+
+
+
+:100644 100644 8cca84661280106f9920a42880f4e73434a7350a ce429fabd26759d9546102684d88490f1b5f6bdc M	Jenkinsfile

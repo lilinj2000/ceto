@@ -1,0 +1,39 @@
+[googletest_master-H3XK4NGNQMYVBPCV6PHLYLABBHGXAH5GYWUGQ72ZVHJ7B2IA4CXQ] Running shell script
++ docker pull lilinj2000/dev:centos6
+centos6: Pulling from lilinj2000/dev
+e09ea867b784: Already exists
+7ce92e8463bc: Pulling fs layer
+3aa8a64430cc: Pulling fs layer
+4424aea09f4f: Pulling fs layer
+f76f8e368b2e: Pulling fs layer
+dcda8cf1a190: Pulling fs layer
+d7d72f102232: Pulling fs layer
+867e4cc6028e: Pulling fs layer
+f76f8e368b2e: Waiting
+dcda8cf1a190: Waiting
+d7d72f102232: Waiting
+867e4cc6028e: Waiting
+d3aa467a1c64: Pulling fs layer
+21a01a4310ff: Pulling fs layer
+717986f199b7: Pulling fs layer
+8b3d52d49a99: Pulling fs layer
+8ce1616119c7: Pulling fs layer
+4e2e857a96cb: Pulling fs layer
+b8b9684fb00b: Pulling fs layer
+3bee973b796d: Pulling fs layer
+91007487f3e2: Pulling fs layer
+d3aa467a1c64: Waiting
+21a01a4310ff: Waiting
+717986f199b7: Waiting
+8b3d52d49a99: Waiting
+8ce1616119c7: Waiting
+4e2e857a96cb: Waiting
+b8b9684fb00b: Waiting
+3bee973b796d: Waiting
+91007487f3e2: Waiting
+3aa8a64430cc: Download complete
+7ce92e8463bc: Download complete
+7ce92e8463bc: Pull complete
+3aa8a64430cc: Pull complete
+Sending interrupt signal to process
+Terminated

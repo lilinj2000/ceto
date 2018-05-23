@@ -1,0 +1,31 @@
+[fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA] Running shell script
++ mkdir -p build
++ cd build
++ cmake -DCMAKE_INSTALL_PREFIX=/var/jenkins_home/dist_pkg/3rd/centos6/fmt -DBUILD_SHARED_LIBS=TRUE ..
+-- CMake version: 2.8.12.2
+-- Version: 4.0.1
+-- Build type: Release
+-- Target 'doc' disabled (requires doxygen)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/jenkins_home/workspace/fmt_master-XTBSYUAIIXSHVVV5ZA73O4ZWW7274XNZLZTOFGWNUYRNE75UCXDA/build
++ make
+[ 12%] Built target fmt
+[ 16%] Built target gmock
+[ 25%] Built target test-main
+[ 29%] Built target assert-test
+[ 32%] Built target container-test
+[ 35%] Built target custom-formatter-test
+[ 38%] Built target format-impl-test
+[ 41%] Built target format-test
+[ 45%] Built target gtest-extra-test
+[ 54%] Built target header-only-test
+[ 58%] Built target macro-test
+[ 61%] Built target noexception-test
+[ 64%] Built target ostream-test
+[ 83%] Built target posix-mock-test
+[ 87%] Built target posix-test
+[ 90%] Built target printf-test
+[ 93%] Built target string-test
+[ 96%] Built target time-test
+[100%] Built target util-test

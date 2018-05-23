@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepStartNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>9</string>
     </parentIds>
@@ -8,25 +8,25 @@
     <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526870881863</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
       <charset>UTF-8</charset>
-    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
-      <arguments class="linked-hash-map">
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
         <entry>
           <string>overrides</string>
           <list>
             <string>GIT_BRANCH=master</string>
-            <string>GIT_COMMIT=e65c6642208e8ed8bd6b4e500495e11850a35be2</string>
-            <string>GIT_PREVIOUS_COMMIT=e65c6642208e8ed8bd6b4e500495e11850a35be2</string>
+            <string>GIT_COMMIT=587fbfcbba31c0dc280de2e95f98260c14a15544</string>
+            <string>GIT_LOCAL_BRANCH=master</string>
             <string>GIT_URL=https://github.com/lilinj2000/soil.git</string>
           </list>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
-    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514545014852</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    </cps.a.ArgumentsActionImpl>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>

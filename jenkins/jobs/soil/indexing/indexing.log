@@ -1,7 +1,7 @@
 Started by user [8mha:////4NTAXxzDt9vvRP8JC+uK4zTJ0PochUY28rlesuP+btu9AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZO/dLi1CL9nJwsAPHZlDK+AAAA[0mlilinjiang
-[Wed Feb 14 14:07:40 CST 2018] Starting branch indexing...
-[8mha:////4FclKuQSbAX8EEN2r2LtHjlDx8yLhkE4Nea4F73Q2in1AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTipLecYgC2GRwWjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
-[8mha:////4LpMRMnB9NTKaf+qOfAqyGbrJ1Xer93LpPNbhvv22LakAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTipLe8sgA6BaLljgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[Mon May 21 10:46:36 CST 2018] Starting branch indexing...
+[8mha:////4M88PEQhdozeSkvUkMhKahN7UtKVHy0WhBGDcdcasB28AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw/TscABnQLqZjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
+[8mha:////4HJomWad0WYNM05GfcgKTMQvq2AAcqNoatT+GCvluWhoAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRyw/T8mQDUagqBjgAAAA==[0mConnecting to https://api.github.com using llj/****** (GitHub Access Token)
 Examining [8mha:////4H6eJ02xQ/wDMZnFyo9dNcrs5hqcpRy2ycVIVkCKZDYcAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQyigpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+cn5kDAFsQruSnAAAA[0mlilinj2000/soil
 
   Checking branches...
@@ -11,13 +11,17 @@ Examining [8mha:////4H6eJ02xQ/wDMZnFyo9dNcrs5hqcpRy2ycVIVkCKZDYcAAAAoR+LCAAAAAA
     Checking branch [8mha:////4Mwixe9tYoESv5xEUH0sGdPG9KHXRx4yCLjAKMYsvZTtAAAArR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgK2HQyygpKSi20tdPzyzJKE0C6srVz8kE2p5lZGBgoF+cn5mjX1KUmqqfm1hckloEAMq4gkizAAAA[0mmaster
       ‘Jenkinsfile’ found
     Met criteria
-Takeover for [8mha:////4ORVNSkJsPVDMsR1oyTUzAwuWz9KO1cIb/L+GZ6nq8GfAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZR/az8JP3i/MwcMCM3sbgktUgfAA9r6zfKAAAA[0msoil » master by source #1 from source that no longer exists
-Branch reopened: master (d8a0e2e8472a5eb6393ddca54392c4c369feceac)
-Scheduled build for branch: master
+No changes detected: master (still at 587fbfcbba31c0dc280de2e95f98260c14a15544)
 
   1 branches were processed
 
+  Checking pull-requests...
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
 Finished examining lilinj2000/soil
 
-[Wed Feb 14 14:07:45 CST 2018] Finished branch indexing. Indexing took 5.3 sec
+[Mon May 21 10:46:39 CST 2018] Finished branch indexing. Indexing took 3 sec
 Finished: SUCCESS

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.17">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
@@ -11,12 +11,12 @@
         </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
       <buildsByBranchName>
         <entry>
           <string>origin/master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.1">
+            <marked plugin="git-client@2.7.2">
               <sha1>14c7653d0d423d8dd68b7041434b234b8d739c80</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
@@ -32,7 +32,7 @@
         <entry>
           <string>master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.1">
+            <marked plugin="git-client@2.7.2">
               <sha1>4cd8a937ca442c954b52dbe9f37c9df8316db9a0</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
@@ -41,7 +41,7 @@
                 </hudson.plugins.git.Branch>
               </branches>
             </marked>
-            <revision plugin="git-client@2.7.1">
+            <revision plugin="git-client@2.7.2">
               <sha1 reference="../../marked/sha1"/>
               <branches class="list">
                 <hudson.plugins.git.Branch reference="../../../marked/branches/hudson.plugins.git.Branch"/>
@@ -56,7 +56,7 @@
         <string>https://github.com/lilinj2000/cata.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
       <tags class="hudson.util.CopyOnWriteMap$Tree">
         <entry>
           <string>origin/master</string>
@@ -76,10 +76,10 @@
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.7">
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
       <stagesUUID>14ecef0c-7e43-4940-b429-2cc6e8fa7280</stagesUUID>
       <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.7">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
           <stages>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
               <name>code check</name>
@@ -90,113 +90,25 @@
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-cpplint --output=vs7 --recursive .
-cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
-cppcheck-htmlreport --title=&quot;$JOB_NAME&quot; --file=cppcheck.xml  --report-dir=./cppcheck-report
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>archiveArtifacts</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>artifacts</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck.xml</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>archiveArtifacts</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>artifacts</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck-report/*</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>publishHTML</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>allowMissing</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>alwaysLinkToLastBuild</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>keepAll</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">false</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportDir</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck-report</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportFiles</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">index.html</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportName</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">cppcheck Report</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>reportTitles</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string"></value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -212,20 +124,7 @@ cppcheck-htmlreport --title=&quot;$JOB_NAME&quot; --file=cppcheck.xml  --report-
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">
-home_cata=${home_libs}/cata
-./configure --prefix=${home_cata}
-make
-	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -241,16 +140,7 @@ make
                     <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                       <name>sh</name>
                       <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
-                        <arguments class="linked-hash-map">
-                          <entry>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                              <key>script</key>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">make install</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                          </entry>
-                        </arguments>
+                        <arguments class="linked-hash-map"/>
                       </args>
                     </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
                   </steps>
@@ -262,20 +152,20 @@ make
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.44">
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.11">
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
       <imageIDs>
         <string>sha256:236152e0b33c2961f00935410e4806c713f18464dc304ae5949bb9a9fedb1f5a</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.15">
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
       <names class="sorted-set">
         <string>lilinj2000/dev:centos6</string>
       </names>
     </org.jenkinsci.plugins.docker.workflow.ImageAction>
-    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.14">
+    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.16">
       <actualHtmlPublisherTarget>
         <reportName>cppcheck Report</reportName>
         <reportDir>cppcheck-report</reportDir>
@@ -284,6 +174,7 @@ make
         <reportTitles></reportTitles>
         <keepAll>false</keepAll>
         <allowMissing>false</allowMissing>
+        <includes>**/*</includes>
       </actualHtmlPublisherTarget>
     </htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction>
   </actions>
@@ -355,11 +246,12 @@ make
   }
 }</script>
     <loadedScripts class="map"/>
+    <persistedClean>true</persistedClean>
     <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>201870198</long>
+        <long>208208098</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -381,11 +273,13 @@ make
     <sandbox>true</sandbox>
     <iota>39</iota>
     <head>1:39</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>

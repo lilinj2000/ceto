@@ -1,16 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>41</string>
     </parentIds>
     <id>42</id>
-    <startId>11</startId>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.CoreStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.24"/>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514545154274</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526871053594</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
+        <entry>
+          <string>delegate</string>
+          <org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable plugin="structs@1.14">
+            <symbol>cleanWs</symbol>
+            <arguments class="tree-map"/>
+          </org.jenkinsci.plugins.structs.describable.UninstantiatedDescribable>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>

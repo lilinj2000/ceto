@@ -1,0 +1,121 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
+    <parentIds>
+      <string>6</string>
+    </parentIds>
+    <id>7</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.scm.GenericSCMStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526638487724</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
+        <entry>
+          <string>scm</string>
+          <hudson.plugins.git.GitSCM plugin="git@3.9.0">
+            <configVersion>2</configVersion>
+            <userRemoteConfigs>
+              <hudson.plugins.git.UserRemoteConfig>
+                <name>origin</name>
+                <refspec>+refs/heads/master:refs/remotes/origin/master</refspec>
+                <url>https://github.com/lilinj2000/boost_1_66_0.git</url>
+                <credentialsId>github</credentialsId>
+              </hudson.plugins.git.UserRemoteConfig>
+            </userRemoteConfigs>
+            <branches class="singleton-list">
+              <hudson.plugins.git.BranchSpec>
+                <name>master</name>
+              </hudson.plugins.git.BranchSpec>
+            </branches>
+            <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+            <browser class="hudson.plugins.git.browser.GithubWeb">
+              <url>https://github.com/lilinj2000/boost_1_66_0</url>
+            </browser>
+            <submoduleCfg class="empty-list"/>
+            <extensions>
+              <hudson.plugins.git.extensions.impl.CheckoutOption>
+                <timeout>30</timeout>
+              </hudson.plugins.git.extensions.impl.CheckoutOption>
+              <hudson.plugins.git.extensions.impl.CleanBeforeCheckout/>
+              <hudson.plugins.git.extensions.impl.CleanCheckout/>
+              <hudson.plugins.git.extensions.impl.LocalBranch>
+                <localBranch>**</localBranch>
+              </hudson.plugins.git.extensions.impl.LocalBranch>
+              <jenkins.plugins.git.GitSCMSourceDefaults>
+                <includeTags>false</includeTags>
+              </jenkins.plugins.git.GitSCMSourceDefaults>
+              <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+                <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+                  <revision plugin="git-client@2.7.2">
+                    <sha1 serialization="custom">
+                      <unserializable-parents>
+                        <w1>-1866071388</w1>
+                        <w2>-1259340793</w2>
+                        <w3>1457260162</w3>
+                        <w4>545037879</w4>
+                        <w5>-569225750</w5>
+                      </unserializable-parents>
+                      <org.eclipse.jgit.lib.ObjectId>
+                        <int>-1866071388</int>
+                        <int>-1259340793</int>
+                        <int>1457260162</int>
+                        <int>545037879</int>
+                        <int>-569225750</int>
+                      </org.eclipse.jgit.lib.ObjectId>
+                    </sha1>
+                    <branches class="singleton-set">
+                      <hudson.plugins.git.Branch>
+                        <sha1 reference="../../../sha1"/>
+                        <name>master</name>
+                      </hudson.plugins.git.Branch>
+                    </branches>
+                  </revision>
+                </buildChooser>
+              </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            </extensions>
+          </hudson.plugins.git.GitSCM>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.ErrorAction plugin="workflow-api@2.27">
+      <error class="java.lang.InterruptedException">
+        <stackTrace>
+          <trace>java.lang.Object.wait(Native Method)</trace>
+          <trace>java.lang.Object.wait(Object.java:502)</trace>
+          <trace>java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)</trace>
+          <trace>hudson.Proc$LocalProc.join(Proc.java:324)</trace>
+          <trace>hudson.Proc.joinWithTimeout(Proc.java:170)</trace>
+          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1998)</trace>
+          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1721)</trace>
+          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)</trace>
+          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:405)</trace>
+          <trace>hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:886)</trace>
+          <trace>hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1155)</trace>
+          <trace>hudson.plugins.git.GitSCM.checkout(GitSCM.java:1186)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:113)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:85)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:75)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>hudson.security.ACL.impersonate(ACL.java:290)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
+          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+          <trace>java.lang.Thread.run(Thread.java:748)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

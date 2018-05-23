@@ -1,9 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<flow-build plugin="workflow-job@2.16">
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.21">
   <actions>
-    <org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction plugin="workflow-cps@2.42">
-      <replacementLoadedScripts/>
-    </org.jenkinsci.plugins.workflow.cps.replay.ReplayFlowFactoryAction>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
@@ -12,44 +9,27 @@
           </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
-        <entry>
-          <org.jenkinsci.plugins.workflow.cps.replay.ReplayCause plugin="workflow-cps@2.42">
-            <originalNumber>1</originalNumber>
-          </org.jenkinsci.plugins.workflow.cps.replay.ReplayCause>
-          <int>1</int>
-        </entry>
       </causeBag>
     </hudson.model.CauseAction>
-    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
-      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
-        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.2">
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.7">
+      <sourceId>blueocean</sourceId>
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.9.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.3.4">
           <name>master</name>
         </head>
-        <hash>e65c6642208e8ed8bd6b4e500495e11850a35be2</hash>
-      </revision>
-    </jenkins.scm.api.SCMRevisionAction>
-    <io.jenkins.blueocean.service.embedded.BlueOceanUrlAction plugin="blueocean-rest-impl@1.3.5">
-      <blueOceanUrlObject class="io.jenkins.blueocean.service.embedded.BlueOceanUrlObjectImpl">
-        <mappedUrl>blue/organizations/jenkins/soil/detail/master/2</mappedUrl>
-        <modelObject class="flow-build" reference="../../../.."/>
-      </blueOceanUrlObject>
-    </io.jenkins.blueocean.service.embedded.BlueOceanUrlAction>
-    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.2.6">
-      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.7.0">
-        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" reference="../../../jenkins.scm.api.SCMRevisionAction/revision/head"/>
-        <hash>e65c6642208e8ed8bd6b4e500495e11850a35be2</hash>
+        <hash>587fbfcbba31c0dc280de2e95f98260c14a15544</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.9">
       <libraries/>
     </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
-    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.5">
-      <stagesUUID>f6d570a0-2ecb-4ce9-80da-702e12cfeb17</stagesUUID>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@1.2.9">
+      <stagesUUID>17faa7ab-37a0-4e8d-8bde-ce70638fa3d2</stagesUUID>
       <stagesList>
-        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.5">
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages plugin="pipeline-model-api@1.2.9">
           <stages>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
-              <name>build</name>
+              <name>code static check</name>
               <branches>
                 <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
                   <name>default</name>
@@ -62,13 +42,106 @@
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                               <value class="string">
-home_soil=${home_libs}/soil
-./configure --prefix=${home_soil}
-make
+cpplint --output=vs7 --recursive .
+cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
+cppcheck-htmlreport --title=&quot;$JOB_NAME&quot; --file=cppcheck.xml  --report-dir=./cppcheck-report
 	</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>archiveArtifacts</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>artifacts</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">cppcheck.xml</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>archiveArtifacts</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>artifacts</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">cppcheck-report/*</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>publishHTML</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>allowMissing</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>alwaysLinkToLastBuild</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>keepAll</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportDir</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">cppcheck-report</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportFiles</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">index.html</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportName</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">cppcheck report</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportTitles</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string"></value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                           </entry>
                         </arguments>
                       </args>
@@ -78,7 +151,7 @@ make
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
-              <name>utest</name>
+              <name>utest &amp;&amp; code coverage check</name>
               <branches>
                 <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
                   <name>default</name>
@@ -91,9 +164,12 @@ make
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">make check</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">
+./configure --enable-gcov
+make coverage-html
+	</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                           </entry>
                         </arguments>
                       </args>
@@ -106,17 +182,125 @@ make
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <key>testResults</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                               <value class="string">utest/test_detail.xml</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                           </entry>
                           <entry>
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <key>allowEmptyResults</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="boolean">true</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>archiveArtifacts</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>artifacts</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">coverage.info</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>archiveArtifacts</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>artifacts</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">coveragereport/*</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>publishHTML</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>allowMissing</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>alwaysLinkToLastBuild</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>keepAll</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">false</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportDir</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">coveragereport</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportFiles</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">index.html</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportName</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">coverage report</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>reportTitles</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string"></value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>sh</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>script</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">make distclean</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                           </entry>
                         </arguments>
                       </args>
@@ -126,7 +310,7 @@ make
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
-              <name>install</name>
+              <name>build &amp;&amp; install</name>
               <branches>
                 <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
                   <name>default</name>
@@ -139,9 +323,13 @@ make
                             <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
                               <key>script</key>
                             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
-                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
-                              <value class="string">make install</value>
-                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-1>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">
+home_soil=${home_libs}/soil
+./configure --prefix=${home_soil}
+make install
+	</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
                           </entry>
                         </arguments>
                       </args>
@@ -151,17 +339,17 @@ make
               </branches>
             </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
           </stages>
-          <uuid>f6d570a0-2ecb-4ce9-80da-702e12cfeb17</uuid>
+          <uuid>17faa7ab-37a0-4e8d-8bde-ce70638fa3d2</uuid>
         </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStages>
       </stagesList>
     </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
-    <hudson.plugins.git.util.BuildData plugin="git@3.7.0">
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.0">
       <buildsByBranchName>
         <entry>
           <string>master</string>
           <hudson.plugins.git.util.Build>
-            <marked plugin="git-client@2.7.0">
-              <sha1>e65c6642208e8ed8bd6b4e500495e11850a35be2</sha1>
+            <marked plugin="git-client@2.7.2">
+              <sha1>587fbfcbba31c0dc280de2e95f98260c14a15544</sha1>
               <branches class="singleton-set">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -179,7 +367,7 @@ make
         <string>https://github.com/lilinj2000/soil.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
-    <hudson.plugins.git.GitTagAction plugin="git@3.7.0">
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.0">
       <tags class="hudson.util.CopyOnWriteMap$Tree">
         <entry>
           <string>master</string>
@@ -196,40 +384,62 @@ make
         </entry>
       </revisionStates>
     </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
-    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.42">
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.53">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.10">
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.12">
       <imageIDs>
-        <string>sha256:a377acd8e29d94c25aa30348da0bbd8d41fcddb59741b663c84271b2520f39cb</string>
+        <string>sha256:04866319be4aa1e0a9d93926a0283a4a912644b5fb44456671ed27a6e584f167</string>
       </imageIDs>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
-    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.14">
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.16">
       <names class="sorted-set">
-        <string>lilinj2000/dev:centos6</string>
+        <string>lilinj2000/dev:centos6.gcc</string>
       </names>
     </org.jenkinsci.plugins.docker.workflow.ImageAction>
-    <hudson.tasks.junit.TestResultAction plugin="junit@1.23">
+    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.16">
+      <actualHtmlPublisherTarget>
+        <reportName>cppcheck report</reportName>
+        <reportDir>cppcheck-report</reportDir>
+        <reportFiles>index.html</reportFiles>
+        <alwaysLinkToLastBuild>false</alwaysLinkToLastBuild>
+        <reportTitles></reportTitles>
+        <keepAll>false</keepAll>
+        <allowMissing>false</allowMissing>
+      </actualHtmlPublisherTarget>
+    </htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction>
+    <hudson.tasks.junit.TestResultAction plugin="junit@1.24">
       <descriptions class="concurrent-hash-map"/>
       <failCount>0</failCount>
       <skipCount>0</skipCount>
-      <totalCount>17</totalCount>
+      <totalCount>18</totalCount>
       <healthScaleFactor>1.0</healthScaleFactor>
       <testData/>
     </hudson.tasks.junit.TestResultAction>
+    <htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction plugin="htmlpublisher@1.16">
+      <actualHtmlPublisherTarget>
+        <reportName>coverage report</reportName>
+        <reportDir>coveragereport</reportDir>
+        <reportFiles>index.html</reportFiles>
+        <alwaysLinkToLastBuild>false</alwaysLinkToLastBuild>
+        <reportTitles></reportTitles>
+        <keepAll>false</keepAll>
+        <allowMissing>false</allowMissing>
+      </actualHtmlPublisherTarget>
+    </htmlpublisher.HtmlPublisherTarget_-HTMLPublishedForProjectMarkerAction>
   </actions>
-  <queueId>53</queueId>
-  <timestamp>1514545006126</timestamp>
-  <startTime>1514545006128</startTime>
+  <queueId>60</queueId>
+  <timestamp>1526870835244</timestamp>
+  <startTime>1526870835287</startTime>
   <result>SUCCESS</result>
-  <duration>148200</duration>
+  <duration>220783</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
     <result>SUCCESS</result>
     <script>pipeline {
   agent {
     docker {
-      image &apos;lilinj2000/dev:centos6&apos;
+      image &apos;lilinj2000/dev:centos6.gcc&apos;
     }
   }
 
@@ -240,58 +450,99 @@ make
   }
 
   stages {
-    stage(&apos;build&apos;) {
+    stage(&apos;code static check&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+cpplint --output=vs7 --recursive .
+cppcheck --enable=all --inconclusive --xml --xml-version=2 . 2&gt; cppcheck.xml
+cppcheck-htmlreport --title=&quot;$JOB_NAME&quot; --file=cppcheck.xml  --report-dir=./cppcheck-report
+	&apos;&apos;&apos;
+	archiveArtifacts &apos;cppcheck.xml&apos;
+	archiveArtifacts &apos;cppcheck-report/*&apos;
+
+	publishHTML([allowMissing: false,
+	 alwaysLinkToLastBuild: false,
+	 keepAll: false,
+	 reportDir: &apos;cppcheck-report&apos;,
+	 reportFiles: &apos;index.html&apos;,
+	 reportName: &apos;cppcheck report&apos;,
+	 reportTitles: &apos;&apos;])
+
+      }
+    }
+
+    stage(&apos;utest &amp;&amp; code coverage check&apos;) {
+      steps {
+        sh &apos;&apos;&apos;
+./configure --enable-gcov
+make coverage-html
+	&apos;&apos;&apos;
+        junit(testResults: &apos;utest/test_detail.xml&apos;, allowEmptyResults: false)
+	archiveArtifacts &apos;coverage.info&apos;
+	archiveArtifacts &apos;coveragereport/*&apos;
+
+	publishHTML([allowMissing: false,
+	 alwaysLinkToLastBuild: false,
+	 keepAll: false,
+	 reportDir: &apos;coveragereport&apos;,
+	 reportFiles: &apos;index.html&apos;,
+	 reportName: &apos;coverage report&apos;,
+	 reportTitles: &apos;&apos;])
+        sh &apos;make distclean&apos;
+      }
+    }
+
+    stage(&apos;build &amp;&amp; install&apos;) {
       steps {
         sh &apos;&apos;&apos;
 home_soil=${home_libs}/soil
 ./configure --prefix=${home_soil}
-make
+make install
 	&apos;&apos;&apos;
       }
     }
-    stage(&apos;utest&apos;) {
-      steps {
-        sh &apos;make check&apos;
-        junit(testResults: &apos;utest/test_detail.xml&apos;, allowEmptyResults: true)
-      }
-    }
-    stage(&apos;install&apos;) {
-      steps {
-        sh &apos;make install&apos;
-      }
-    }
+  }
+
+  post { 
+    always { 
+      cleanWs()
+     }
   }
 }</script>
     <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>299765239</long>
+        <long>1365800400</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>481242181</long>
+        <long>1154800400</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>6046052210</long>
+        <long>11189883100</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>99787022</long>
+        <long>80914100</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>778923453</long>
+        <long>3665443800</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>46</iota>
-    <head>1:46</head>
+    <iota>53</iota>
+    <head>1:53</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
   </execution>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList">
     <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
-      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.7.0">
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.0">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>
@@ -312,6 +563,11 @@ make
         </browser>
         <submoduleCfg class="empty-list"/>
         <extensions>
+          <hudson.plugins.git.extensions.impl.CleanBeforeCheckout/>
+          <hudson.plugins.git.extensions.impl.CleanCheckout/>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>**</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
           <jenkins.plugins.git.GitSCMSourceDefaults>
             <includeTags>false</includeTags>
           </jenkins.plugins.git.GitSCMSourceDefaults>

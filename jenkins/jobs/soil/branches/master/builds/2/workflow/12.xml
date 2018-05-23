@@ -1,27 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.16">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepStartNode" plugin="workflow-cps@2.42">
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.53">
     <parentIds>
       <string>11</string>
     </parentIds>
     <id>12</id>
-    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1526870882203</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
       <charset>UTF-8</charset>
-    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
-    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.42">
-      <arguments class="linked-hash-map">
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
         <entry>
-          <string>name</string>
-          <string>Declarative: Agent Setup</string>
+          <string>returnStatus</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>script</string>
+          <string>docker inspect -f . lilinj2000/dev:centos6.gcc</string>
         </entry>
       </arguments>
       <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
-    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
-    <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.24">
-      <startTime>1514545014877</startTime>
-    </org.jenkinsci.plugins.workflow.actions.TimingAction>
+    </cps.a.ArgumentsActionImpl>
   </actions>
-</org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>
+</Tag>
